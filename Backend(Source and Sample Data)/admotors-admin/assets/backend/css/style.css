@@ -1,0 +1,169 @@
+/*start sidebar color*/
+aside > .sidebar {
+  background-color: #343a40;
+}
+
+aside > .brand-link {
+  background-color: #343a40;
+}
+
+ul > li > .nav-link > .fa-caret-right {
+	padding-left: 20px;
+}
+/*end sidebar color*/
+
+/*start login background image*/
+body#main {
+    background: url('../../img/login_background.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+ /*end background image*/
+
+div > .container-fluid > .content-wrapper {
+	background-color: #ffff;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav.border-bottom  {
+	/*background-color: #757b82;*/
+}
+
+nav > .navbar-nav > .nav-link {
+	font-size: 20px;
+	/*font-style: italic;*/
+	font-weight: bold;
+}
+
+.crop {
+    width: 100px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 10%;
+}
+
+.crop img {
+    width: 400px;
+    height: 300px;
+    margin: -75px 0 0 -100px;
+}
+
+.wrapper, body, html {
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.brand-text {
+    font-size: 20px;
+}
+
+.navbar-nav>.user-menu .user-image {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.error {
+    color: red;
+}
+
+/*.th-title {
+    font-weight: bold;
+    font-size: 14px;
+}*/
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; }
+.gallery .pics {
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease; }
+.gallery .animation {
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1); }
+
+@media (max-width: 450px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+@media (max-width: 400px) {
+    .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    }
+}
+
+
+.lightbox
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 999;
+    opacity: 0;
+    pointer-events: none;
+}
+.lightbox img
+{
+    max-width: 90%;
+    max-height: 80%;
+    position: relative;
+    top: -50%;
+    /* Transition */
+    transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.lightbox:target
+{
+    outline: none;
+    top: 0;
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 1.2s ease;
+    -moz-transition: all 1.2s ease;
+    -ms-transition: all 1.2s ease;
+    -o-transition: all 1.2s ease;
+    -webkit-transition: all 1.2s ease;
+}
+.lightbox:target img
+{
+    top: 0;
+    top: 20%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
