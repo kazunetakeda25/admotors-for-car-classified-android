@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="history__title">História</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">Favoritos</string>
+
+
+    <string name="gallery__title">Galeria</string>
+    <string name="gallery_img__desc">Descrição da imagem</string>
+
+
+    <string name="image_default__image">Imagem padrão</string>
+
+
+    <string name="app__ok">Está bem</string>
+    <string name="app__cancel">Cancelar</string>
+    <string name="app__drawer_open">Gaveta aberta</string>
+    <string name="app__drawer_close">Gaveta Fechar</string>
+
+
+    <string name="register__user_name">Nome de Usuário</string>
+    <string name="register__email">O email</string>
+    <string name="register__password">Senha</string>
+    <string name="register__back_to_login">Já é membro? Entrar</string>
+    <string name="register__register">registo</string>
+    <string name="register__check_option">Você concorda com esta privacidade e política?</string>
+
+
+    <string name="forgot_password__title">Esqueceu a senha</string>
+    <string name="forgot_password__email">O email</string>
+    <string name="forgot_password__back_to_login">Já é membro? Entrar</string>
+    <string name="forgot_password__save">Salve </string>
+    <string name="forgot_password__send">Mandar</string>
+
+
+    <string name="password_change__password">Senha</string>
+    <string name="password_change__save">Salve </string>
+    <string name="password_change__confirm_password">Confirme a Senha</string>
+    <string name="password_change__password_change">Mudança de senha</string>
+
+
+    <string name="login__email">O email</string>
+    <string name="login__password">Senha</string>
+    <string name="login__not_a_member_join_now">Novo aqui? Inscrever-se</string>
+    <string name="login__forgot_your_password">Esqueceu a senha ?</string>
+    <string name="login__login">Assinar em</string>
+    <string name="login__choice_text">OU</string>
+    <string name="login__with_phone">SignIn com telefone</string>
+    <string name="login__with_google">Faça login no Google</string>
+
+
+    <string name="contact_us__name">Nome de contato</string>
+    <string name="contact_us__email">email de contato</string>
+    <string name="contact_us__message">Mensagem de Contato</string>
+    <string name="contact_us__phone">telefone de contato</string>
+    <string name="contact_us__submit">Enviar</string>
+
+
+    <string name="notification_setting__on_off">Configuração de notificação (On / Off)</string>
+    <string name="notification_setting__latest_message_from_system">Mensagem mais recente do sistema</string>
+    <string name="notification__notification">Notificação!</string>
+    <string name="notification__title">Notificação</string>
+    <string name="notification_setting__title">Configuração de notificação</string>
+    <string name="notification_detail__title">Detalhe da notificação</string>
+    <string name="notification__alert">Alerta</string>
+
+
+    <string name="language__language_change">Tem certeza de que deseja alterar para %1$s?</string>
+    <string name="language__title">Língua</string>
+
+
+    <string name="rating__list">Lista de classificação</string>
+    <string name="rating__write_review">Escrever análise</string>
+    <string name="rating__total_count">%1$sComentários de Clientes</string>
+    <string name="rating__total_value">%1$s de 5 estrelas</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">Título</string>
+    <string name="rating__message">mensagem</string>
+    <string name="rating__user_rating">Entrada de Classificação do Usuário!</string>
+    <string name="rating__your_rating">Sua avaliação</string>
+    <string name="rating__five_star">5 estrelas</string>
+    <string name="rating__four_star">4 estrelas</string>
+    <string name="rating__three_star">3 estrelas</string>
+    <string name="rating__two_star">2 estrelas</string>
+    <string name="rating__one_star">1 estrela</string>
+
+
+    <string name="dialog__title_m_mun">Classificação</string>
+    <string name="popular__m_mun">Popular</string>
+    <string name="recent__m_mun">Mais recentes</string>
+    <string name="char_asc__m_mun">A -&gt; Z</string>
+    <string name="char_desc__m_mun">Z -&gt; A</string>
+
+
+    <string name="edit_setting__notification_setting">Configuração de notificação</string>
+    <string name="edit_setting__logout">Sair</string>
+    <string name="edit_setting__logout_question">Você tem certeza de sair?</string>
+    <string name="edit_setting__terms_and_conditions">Termos e Condições</string>
+    <string name="edit_setting__app_info">Informações do aplicativo</string>
+    <string name="edit_setting__title">Configuração</string>
+
+
+    <string name="message__loading">Carregando…</string>
+    <string name="message__please_wait">Por favor, espere…</string>
+    <string name="message__welcome">Formulário de boas-vindas PS Market Place</string>
+    <string name="message__want_to_quit">Você realmente quer sair?</string>
+    <string name="message__ok_close">Está bem</string>
+    <string name="message__cancel_close">Cancelar</string>
+    <string name="message__seller">De Vendedores</string>
+    <string name="message__buyer">De compradores</string>
+
+
+    <string name="search__notSet">Não configurado</string>
+    <string name="search__by_price">Faixa de preço</string>
+    <string name="search__lowest_price">Mínimo</string>
+    <string name="search__highest_price">Máximo</string>
+
+
+    <string name="sf__manufacturer">Fabricante</string>
+    <string name="sf__model">Modelo</string>
+    <string name="sf__transmission">Transmissão</string>
+    <string name="sf__color">Cor</string>
+    <string name="sf__fuelType">Tipo de combustível</string>
+    <string name="sf__buildType">Tipo de construção</string>
+    <string name="sf__sellerType">Tipo de Vendedor</string>
+    <string name="sf__notSet">Não configurado</string>
+    <string name="sf__ByItemType">Título da listagem</string>
+    <string name="sf__Filter_Button">Filtro</string>
+    <string name="sf__Search_Button">Procurar</string>
+    <string name="sf__price_type">Tipo de preço</string>
+    <string name="sf__item_condition">Condição do item</string>
+    <string name="sf__type">Tipo</string>
+
+
+    <string name="error_message__login_first">Faça o login primeiro!</string>
+    <string name="error_message__rating">Por favor, preencha completamente para classificação.</string>
+    <string name="error_message__blank_email">Por favor insira Email.</string>
+    <string name="error_message__choose_manufacturer">Escolha Fabricante Primeira</string>
+    <string name="error_message__blank_contact_message">Insira a mensagem de contato.</string>
+    <string name="error_message__blank_password">Por favor insira a senha.</string>
+    <string name="error_message__blank_name">Por favor insira o nome.</string>
+    <string name="error_message__blank_phone_no">Por favor, insira o número de telefone.</string>
+    <string name="error_message__password_not_equal">Senha não é igual!</string>
+    <string name="error_message__image_cannot_upload">A imagem não pode ser carregada</string>
+    <string name="error_message__item_cannot_upload">O item não pode ser carregado</string>
+    <string name="error_message__already_accept">Seu item já foi vendido</string>
+    <string name="error_message__to_check_agreement">Você precisa verificar um acordo de privacidade e política.</string>
+
+
+    <string name="Feature_UI_Type__Button">Fabricante</string>
+    <string name="Feature_UI_Tune__Button">Filtrar e classificar</string>
+    <string name="Feature_UI_Sort__Button">Filtrar com Mapa</string>
+    <string name="Feature_UI__item_list_no_item_title">Sem dados</string>
+    <string name="Feature_UI__item_list_no_item_desc">Não há resultado! Por favor, tente ajustar o filtro.</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">Escolha Fabricante</string>
+    <string name="Feature_UI__search_alert_model_title">Escolha Modelo</string>
+    <string name="Feature_UI__search_alert_type_title">Escolha o tipo de item</string>
+    <string name="Feature_UI__search_alert_price_type_title">Escolha o tipo de preço do item</string>
+    <string name="Feature_UI__search_alert_condition_title">Escolha a condição do item</string>
+    <string name="Feature_UI__search_alert_location_title">Escolha a opção de localização do item</string>
+    <string name="Feature_UI__search_alert_currency_title">Escolha a opção de moeda do item</string>
+    <string name="Feature_UI__search_alert_deal_option_title">Escolha a opção de oferta do item</string>
+    <string name="Feature_UI__search_alert_transmission">Escolha Transmission</string>
+    <string name="Feature_UI__search_alert_color">Escolha a cor</string>
+    <string name="Feature_UI__search_fuel_type">Escolha Combustível</string>
+    <string name="Feature_UI__search_build_type">Escolha Construir Tipo</string>
+    <string name="Feature_UI__search_seller_type">Escolha Tipo de Vendedor</string>
+
+    <string name="about_us__phone">telefone</string>
+    <string name="about_us__facebook">Facebook</string>
+    <string name="about_us__gplus">Google Plus</string>
+    <string name="about_us__instagram">Instagram</string>
+    <string name="about_us__youtube">Youtube</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">Twitter</string>
+    <string name="about_us__visit_website">Visite o nosso site</string>
+    <string name="about_us__title">Informações do aplicativo</string>
+
+
+    <string name="profile__title">Perfil</string>
+    <string name="profile__edit">Editar</string>
+    <string name="profile__favourites">Favoritos</string>
+    <string name="profile__setting">Configuração</string>
+    <string name="profile__joined_on">Registrado em</string>
+    <string name="profile__see_all">Ver tudo</string>
+    <string name="profile__verified">Verificado</string>]
+    <string name="profile__followers">Seguidores</string>
+    <string name="profile__following">Segue</string>
+    <string name="profile__listing">Listagem</string>
+    <string name="profile__follow">Segue</string>
+    <string name="profile__unfollow">Deixar de seguir</string>
+    <string name="profile__joined">Ingressou -</string>
+    <string name="profile__deactivate">Desativar conta</string>
+    <string name="profile__confirm_deactivate">Tem certeza de que deseja desativar esta conta?</string>
+
+
+    <string name="edit_profile__title">Editar Perfil</string>
+    <string name="edit_profile__user_name">Nome de Usuário</string>
+    <string name="edit_profile__about_me">Sobre mim</string>
+    <string name="edit_profile__email">O email</string>
+    <string name="edit_profile__password_change">Mudança de senha</string>
+    <string name="edit_profile__save">Salve </string>
+    <string name="edit_profile__phone">telefone</string>
+    <string name="edit_profile__address">Endereço</string>
+    <string name="edit_profile__city">Cidade</string>
+    <string name="verify_email">verificar email</string>
+    <string name="verify_phone_code">Digite o Código OTP</string>
+
+
+    <string name="menu__home">Casa</string>
+    <string name="menu__profile">Perfil</string>
+    <string name="menu__favourite_items">Favorito</string>
+    <string name="menu__user_history">Histórico do Usuário</string>
+    <string name="menu__logout">Sair</string>
+    <string name="menu__about_app">Sobre nós</string>
+    <string name="menu__contact_us">Contate-Nos</string>
+    <string name="menu__language">Língua</string>
+    <string name="menu__setting">Configuração</string>
+    <string name="menu__interest">Interesse</string>
+    <string name="menu__app_setting">Aplicativo</string>
+    <string name="menu__user_info">informação de usuário</string>
+    <string name="menu__search">Procurar</string>
+    <string name="menu__filter">Filtro</string>
+    <string name="menu__latest_item">Últimos itens</string>
+    <string name="menu__discount">Itens da promoção</string>
+    <string name="menu__category">Categoria</string>
+    <string name="menu__featured_item">Melhores coisas Itens</string>
+    <string name="menu__trending_item">Itens populares</string>
+    <string name="menu__home_category_view_All_un">Ver tudo</string>
+    <string name="menu__collections">Colecções</string>
+    <string name="menu__map_filter_apply">APLIQUE</string>
+    <string name="menu__map_filter_reset">RESTABELECER</string>
+    <string name="menu__rate">Avalie este aplicativo</string>
+    <string name="menu__message">mensagem</string>
+    <string name="menu__report_item">Item de relatorio</string>
+    <string name="menu__share">Compartilhar</string>
+    <string name="menu__privacy_policy">Termos e Condições</string>
+    <string name="menu__manufacturer">Fabricante</string>
+
+
+    <string name="item_detail__rating">Sem avaliação.</string>
+    <string name="item_detail__view_count">%1$svisualizações</string>
+    <string name="item_detail__fav_count">%1$sFavorito</string>
+    <string name="item_detail__read_more">consulte Mais informação</string>
+    <string name="item_detail__call">Ligar</string>
+    <string name="item_detail__statistic">Estatística</string>
+    <string name="item_detail__meet_seller">Conheça o vendedor</string>
+    <string name="item_detail__chat">Bate-papo</string>
+    <string name="item_detail__edit">Editar</string>
+    <string name="item_detail__sold">Vendido</string>
+    <string name="item_detail__photo">foto</string>
+    <string name="item_detail__photos">Fotos</string>
+    <string name="item_detail__mark_sold">Marque como vendido</string>
+    <string name="item_detail__delete">Excluir</string>
+    <string name="item_detail__confirm_delete">Tem certeza de que deseja excluir este item?</string>
+    <string name="item_detail__confirm_sold_out">Tem certeza de que esgotou este item?</string>
+    <string name="item_detail__safety_tip">Dicas de segurança</string>
+    <string name="item_detail__item_location">Localização do item</string>
+    <string name="item_detail__view_on_map">Veja no mapa</string>
+    <string name="item_detail__manufacturers">fabricantes</string>
+    <string name="item_detail__model">Modelo</string>
+    <string name="item_detail__color">Cor</string>
+    <string name="item_detail__fuel_type">Tipo de combustível</string>
+    <string name="item_detail__steering_position">Posição de direção</string>
+    <string name="item_detail__numbers_of_owners">Número de proprietários</string>
+    <string name="item_detail__trim_name">Nome guarnição</string>
+    <string name="item_detail__vehicle_id">ID veículo</string>
+    <string name="item_detail__build_type">construir Tipo</string>
+    <string name="item_detail__licence_status">status da licença</string>
+    <string name="item_detail__max_passengers">passageiros Max</string>
+    <string name="item_detail__no_of_doors">Nenhum de portas</string>
+    <string name="item_detail__seller_type">Tipo de Vendedor</string>
+    <string name="item_detail__plate_number">placa Não</string>
+    <string name="item_detail__engine_power">Poder do motor</string>
+    <string name="item_detail__transmission">Transmissão</string>
+    <string name="item_detail__mileage">Quilometragem</string>
+    <string name="item_detail__license_expiration">expiração da licença</string>
+    <string name="item_detail__year">Ano</string>
+
+
+    <string name="item_entry_detail__description">Descrição</string>
+    <string name="item_entry_detail__price">Preço</string>
+    <string name="item_entry_detail__title">O que você está listando hoje?</string>
+    <string name="item_entry_detail__desc">Escolha a foto do arroz para mostrar sua coisa.</string>
+    <string name="item_entry_detail__shop_setting">Configuração da loja</string>
+    <string name="item_entry_detail__is_shop">É Shop?</string>
+    <string name="item_entry_detail__is_shop_desc">(Se o usuário do show puder pedir mais de um)</string>
+    <string name="item_entry_detail__highlight">Realçar informações</string>
+    <string name="item_entry_detail__latitude">Latitude</string>
+    <string name="item_entry_detail__longitude">Longitude</string>
+    <string name="item_entry_detail__location">Localização</string>
+    <string name="item_entry_detail__address">Endereço</string>
+    <string name="item_entry_detail__submit">Enviar</string>
+    <string name="item_entry_toolbar">Entrada de listagem</string>
+    <string name="item_entry_sold">VENDIDO</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">Selecione pelo menos uma imagem</string>
+    <string name="item_entry_need_manufacturer">Escolha fabricante</string>
+    <string name="item_entry_need_modle">Escolha o modelo</string>
+    <string name="item_entry_need_type">Escolha o tipo</string>
+    <string name="item_entry_need_list_title">Preencha o título do item</string>
+    <string name="item_entry_need_item_condition">Escolha a condição do item</string>
+    <string name="item_entry_need_item_plate_number">Preencha o seu número da placa artigo</string>
+    <string name="item_entry_need_item_engine_power">Encha sua potência do motor artigo</string>
+    <string name="item_entry_need_item_year">Encha seu item ano</string>
+    <string name="item_entry_need_item_transmission">Escolha Transmission</string>
+    <string name="item_entry_need_description">Escreva uma descrição para o seu item</string>
+    <string name="item_entry_need_price">Escreva o seu preço</string>
+    <string name="item_entry_need_currency_symbol">Escolha seu símbolo de moeda</string>
+    <string name="item_entry_offer_not_zero">O preço da sua oferta não pode ser zero</string>
+    <string name="item_entry_accept_confirm">Deseja mesmo aceitar este preço?</string>
+    <string name="item_entry_reject_confirm">Deseja realmente rejeitar este preço?</string>
+    <string name="item_entry_user_not_exit">Este usuário não sai</string>
+    <string name="item_entry_pin_shop">localização loja Pin</string>
+    <string name="item_entry_camera">Câmera</string>
+    <string name="item_entry_gallery">Galeria</string>
+    <string name="item_entry__manufacturer">Fabricante</string>
+    <string name="item_entry__model">Modelo</string>
+    <string name="item_entry__color">Cor</string>
+    <string name="item_entry__fuel_type">Tipo de combustível</string>
+    <string name="item_entry__build_type">construir Tipo</string>
+    <string name="item_entry__seller_type">Tipo de Vendedor</string>
+    <string name="item_entry__transmission">Transmissão</string>
+    <string name="item_entry__plate_number">Número da placa</string>
+    <string name="item_entry__engine_power">Poder do motor</string>
+    <string name="item_entry__steering_position">Posição de direção</string>
+    <string name="item_entry__no_of_owner">Número de proprietário</string>
+    <string name="item_entry__trim_name">Nome guarnição</string>
+    <string name="item_entry__vehicle_id">ID veículo</string>
+    <string name="item_entry__price_unit">Preço unitário</string>
+    <string name="item_entry__year">Ano</string>
+    <string name="item_entry__licence_status">status da licença</string>
+    <string name="item_entry__max_passengers">passageiros máximas</string>
+    <string name="item_entry__no_of_door">Número de Porta</string>
+    <string name="item_entry__mileage">Quilometragem</string>
+    <string name="item_entry__license_expiration_date">Licença Data de Validade</string>
+    <string name="item_entry__is_licence">É licença?</string>
+
+    <string name="item_from_follower_toolbar">Listas de itens do seguidor</string>
+
+
+    <string name="item_condition__type">(%1$s)</string>
+
+
+    <string name="map_filter__map_title">Filtro de mapa</string>
+    <string name="map_filter__browsing">Navegando ao redor</string>
+    <string name="map_filter__all">Todos</string>
+
+    <string name="map__pick_location">escolher Localização</string>
+
+    <string name="no_internet_error">Sem conexão à internet.</string>
+
+
+    <string name="message_sent">Sua mensagem foi enviada.</string>
+
+
+    <string name="update_noti">Por favor, espere! Ainda atualizando a configuração da notificação.</string>
+
+    <string name="success">SUCESSO</string>
+    <string name="confirm">CONFIRME</string>
+    <string name="info">INFO</string>
+    <string name="error">ERRO</string>
+    <string name="warning">AVISO</string>
+    <string name="version_update">Atualização de versão</string>
+    <string name="update">Atualizar</string>
+
+
+    <string name="category__list_title">Qual é o seu interesse ?</string>
+
+
+    <string name="blog_list__title">Lista de blogs</string>
+
+
+    <string name="blog_detail__error_message">O blog com esse ID não existe</string>
+    <string name="blog_detail__title">Detalhe do blog</string>
+
+
+    <string name="city_menu__title">Menu Cidade</string>
+
+
+    <string name="city__sure_to_exit">Deseja sair desta cidade?</string>
+
+
+    <string name="item_list_title">Item da lista</string>
+
+
+    <string name="force_update__button_update"> Atualizar</string>
+
+
+    <string name="dashboard_keyword">Palavra-chave</string>
+    <string name="dashboard_blog">Blog</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">Conecte-se com a nossa comunidade</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+
+    <string name="selected_city_manufactures">fabricantes</string>
+    <string name="selected_city_recent">Recentes enviados Cars</string>
+    <string name="selected_city_popular_item">Carros populares</string>
+    <string name="selected_city_item_follower">Carros de seus seguidores</string>
+    <string name="selected_city_add"> ENVIE UM ANÚNCIO GRATUITO</string>
+
+
+    <string name="location_title">Sua localização</string>
+    <string name="location_change_later">Você pode mudar mais tarde!</string>
+    <string name="location_select">Por favor selecione a cidade.</string>
+
+    <string name="setting__clear_cache_confirm">Você tem certeza de limpar o cache de imagens?</string>
+    <string name="setting__clear_image_cache">Limpar cache de imagem</string>
+    <string name="setting__image_cache_size">Tamanho do cache de imagem</string>
+    <string name="setting__camera">Câmera</string>
+    <string name="setting__default_camera">Câmera padrão</string>
+    <string name="setting__custom_camera">Câmera personalizado</string>
+    <string name="setting__change_gdpr">Alterar configuração do GDPR</string>
+    <string name="setting__version_no">Version No : </string>
+
+    <string name="chat__mark_as_sold">Marque como vendido</string>
+    <string name="chat__accept">Aceitar</string>
+    <string name="chat__reject">Rejeitar</string>
+    <string name="chat__make_offer_title">Faça uma oferta para este item</string>
+    <string name="chat__offer">Tornar \ nOferecer</string>
+    <string name="chat__make_offer_sender">Faça oferta</string>
+    <string name="chat__make_offer_receiver">Oferta Recebida</string>
+    <string name="chat__accept_text">Oferta aceita</string>
+    <string name="chat__reject_text">Oferta rejeitada</string>
+    <string name="chat__sold">Vendido</string>
+    <string name="chat__give_review">Dar revisão</string>
+    <string name="chat__item_is_sold">O item foi vendido</string>
+    <string name="chat__item_space_error">Seu preço não pode ficar em branco</string>
+
+
+    <string name="verify_email__informateion">Você acabou de receber um email com o código de verificação em</string>
+    <string name="verify_email__enter_code">Digite o código de verificação</string>
+    <string name="verify_email__change_email">Mude o e-mail</string>
+    <string name="verify_email__resent_code">Código de Reenvio</string>
+    <string name="verify_email__submit">Enviar</string>
+    <string name="verify_email__title">verificação de e-mail</string>
+
+
+    <string name="verify_phone__informateion">Você acaba de receber a mensagem de telefone que contém Código OTP em</string>
+    <string name="verify_phone__back_login">VOLTE AO LOGIN ?</string>
+    <string name="verify_phone__title">Confirmação de telefone</string>
+
+
+    <string name="user_follower_list_toolbar_name">Lista de usuários seguidores</string>
+    <string name="user_following_list_toolbar_name">A seguir lista de usuários</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

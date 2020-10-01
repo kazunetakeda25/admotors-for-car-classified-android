@@ -1,0 +1,472 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.theodhor.runtimepermissions.MainActivity">
+
+    <data>
+        <variable
+            name="aboutUs"
+            type="com.panaceasoft.admotors.viewobject.AboutUs" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <ImageView
+                android:id="@+id/aboutImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:contentDescription="@string/menu__about_app"
+                android:scaleType="centerCrop"
+                app:imageUrl="@{aboutUs.defaultPhoto.imgPath}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/placeholder_image" />
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="center"
+                android:textColor="?attr/colorPrimaryDark"
+                android:textSize="@dimen/font_title_size"
+                android:textStyle="bold"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/aboutImageView"
+                app:textSize='@{"font_title_size"}'
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/descTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textSize="@dimen/font_body_size"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+                tools:text="Description" />
+
+            <ImageView
+                android:id="@+id/webImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descTextView"
+                app:srcCompat="@drawable/web" />
+
+            <TextView
+                android:id="@+id/websiteTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__visit_website"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="@+id/webImage"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/webImage"
+                app:layout_constraintTop_toTopOf="@+id/webImage"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Visit Our Website" />
+
+            <TextView
+                android:id="@+id/WebsiteTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/websiteTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="http://www.panacea-soft.com" />
+
+
+            <ImageView
+                android:id="@+id/facebookImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/facebookTitleTextView"
+                app:srcCompat="@drawable/facebook" />
+
+            <TextView
+                android:id="@+id/facebookTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__facebook"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/facebookImage"
+                app:layout_constraintTop_toBottomOf="@+id/phoneTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Facebook" />
+
+            <TextView
+                android:id="@+id/facebookTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/facebookTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="FB1" />
+
+            <ImageView
+                android:id="@+id/gplusImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/gplusTitleTextView"
+                app:srcCompat="@drawable/gplus" />
+
+            <TextView
+                android:id="@+id/gplusTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__gplus"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/gplusImage"
+                app:layout_constraintTop_toBottomOf="@+id/facebookTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Google Plus" />
+
+            <TextView
+                android:id="@+id/gplusTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gplusTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="GP1" />
+
+
+            <ImageView
+                android:id="@+id/twitterImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/twitterTitleTextView"
+                app:srcCompat="@drawable/twitter" />
+
+            <TextView
+                android:id="@+id/twitterTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__twitter"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/twitterImage"
+                app:layout_constraintTop_toBottomOf="@+id/gplusTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Twitter" />
+
+            <TextView
+                android:id="@+id/twitterTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/twitterTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="T1" />
+
+
+            <ImageView
+                android:id="@+id/instagramImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/instaTitleTextView"
+                app:srcCompat="@drawable/instagram" />
+
+            <TextView
+                android:id="@+id/instaTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__instagram"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/instagramImage"
+                app:layout_constraintTop_toBottomOf="@+id/twitterTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Instagram" />
+
+            <TextView
+                android:id="@+id/instaTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instaTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Ins1" />
+
+            <ImageView
+                android:id="@+id/youtubeImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/youTubeTitleTextView"
+                app:srcCompat="@drawable/youtube" />
+
+            <TextView
+                android:id="@+id/youTubeTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__youtube"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/youtubeImage"
+                app:layout_constraintTop_toBottomOf="@+id/instaTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="YouTube" />
+
+            <TextView
+                android:id="@+id/youtubeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/youTubeTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Y1" />
+
+            <ImageView
+                android:id="@+id/pinterestImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="@dimen/space_16"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/pinterestTitleTextView"
+                app:srcCompat="@drawable/pinterest" />
+
+            <TextView
+                android:id="@+id/pinterestTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:gravity="start"
+                android:text="@string/about_us__pinterest"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/pinterestImage"
+                app:layout_constraintTop_toBottomOf="@+id/youtubeTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="Pinterest" />
+
+            <TextView
+                android:id="@+id/pinterestTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/space_16"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="@dimen/space_16"
+                android:layout_marginBottom="8dp"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pinterestTitleTextView"
+                app:textSize='@{"font_body_size"}'
+                tools:text="P1" />
+
+            <!--imageUrl="@{aboutUs.defaultIcon.imgPath}"-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/phone2TextView"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="16dp"-->
+                <!--android:layout_marginTop="4dp"-->
+                <!--android:layout_marginEnd="16dp"-->
+                <!--android:textAlignment="viewStart"-->
+                <!--android:textSize="@dimen/font_body_size"-->
+                <!--app:font='@{"normal"}'-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/gplusImage" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/phone3TextView"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginStart="16dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:layout_marginEnd="16dp"-->
+                <!--android:textSize="@dimen/font_body_size"-->
+                <!--app:font='@{"normal"}'-->
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/phone2TextView" />-->
+
+            <ImageView
+                android:id="@+id/phoneImage"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:src="@drawable/phone"
+                android:contentDescription="@string/image_default__image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/phoneTitleTextView" />
+
+            <TextView
+                android:id="@+id/phoneTitleTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="start"
+                android:text="@string/about_us__phone"
+                android:textAlignment="viewStart"
+                app:font='@{"normal"}'
+                app:textSize='@{"font_body_size"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/phoneImage"
+                app:layout_constraintTop_toBottomOf="@+id/WebsiteTextView" />
+
+            <TextView
+                android:id="@+id/phoneTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="16dp"
+                android:gravity="start"
+                android:textAlignment="viewStart"
+                app:textSize='@{"font_body_size"}'
+                tools:text="PhNo"
+                android:textColor="@android:color/holo_blue_dark"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/phoneTitleTextView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>

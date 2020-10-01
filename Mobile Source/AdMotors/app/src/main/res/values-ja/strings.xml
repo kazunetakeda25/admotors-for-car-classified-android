@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="history__title">歴史</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">お気に入り</string>
+
+
+    <string name="gallery__title">ギャラリー</string>
+    <string name="gallery_img__desc">画像の説明</string>
+
+
+    <string name="image_default__image">デフォルト画像</string>
+
+
+    <string name="app__ok">OK</string>
+    <string name="app__cancel">キャンセル</string>
+    <string name="app__drawer_open">引き出しを開く</string>
+    <string name="app__drawer_close">引き出しを閉じる</string>
+
+
+    <string name="register__user_name">ユーザー名</string>
+    <string name="register__email">Eメール</string>
+    <string name="register__password">パスワード</string>
+    <string name="register__back_to_login">すでにメンバーですか？ログイン</string>
+    <string name="register__register">登録</string>
+    <string name="register__check_option">このプライバシーとポリシーに同意しますか？</string>
+
+
+    <string name="forgot_password__title">パスワードをお忘れですか</string>
+    <string name="forgot_password__email">Eメール</string>
+    <string name="forgot_password__back_to_login">すでにメンバーですか？ログイン</string>
+    <string name="forgot_password__save">保存する</string>
+    <string name="forgot_password__send">送る</string>
+
+
+    <string name="password_change__password">パスワード</string>
+    <string name="password_change__save">保存する</string>
+    <string name="password_change__confirm_password">パスワードを認証する</string>
+    <string name="password_change__password_change">パスワードの変更</string>
+
+
+    <string name="login__email">Eメール</string>
+    <string name="login__password">パスワード</string>
+    <string name="login__not_a_member_join_now">ここに新しい？サインアップ</string>
+    <string name="login__forgot_your_password">パスワードをお忘れですか ？</string>
+    <string name="login__login">サインイン</string>
+    <string name="login__choice_text">または</string>
+    <string name="login__with_phone">電話でサインイン</string>
+    <string name="login__with_google">Googleとのサインイン</string>
+
+
+    <string name="contact_us__name">連絡先</string>
+    <string name="contact_us__email">連絡先メールアドレス</string>
+    <string name="contact_us__message">連絡先</string>
+    <string name="contact_us__phone">電話番号</string>
+    <string name="contact_us__submit">提出する</string>
+
+
+    <string name="notification_setting__on_off">通知設定（オン/オフ）</string>
+    <string name="notification_setting__latest_message_from_system">システムからの最新のメッセージ</string>
+    <string name="notification__notification">お知らせ！</string>
+    <string name="notification__title">お知らせ</string>
+    <string name="notification_setting__title">通知設定</string>
+    <string name="notification_detail__title">通知の詳細</string>
+    <string name="notification__alert">アラート</string>
+
+
+    <string name="language__language_change">%1$s に変更してもよろしいですか？</string>
+    <string name="language__title">言語</string>
+
+
+    <string name="rating__list">評価リスト</string>
+    <string name="rating__write_review">レビューを書く</string>
+    <string name="rating__total_count">%1$sカスタマーレビュー</string>
+    <string name="rating__total_value">5つ星中%1$s</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">タイトル</string>
+    <string name="rating__message">メッセージ</string>
+    <string name="rating__user_rating">ユーザー評価エントリ！</string>
+    <string name="rating__your_rating">あなたの評価</string>
+    <string name="rating__five_star">5つ星</string>
+    <string name="rating__four_star">4つ星</string>
+    <string name="rating__three_star">3つ星</string>
+    <string name="rating__two_star">2つ星</string>
+    <string name="rating__one_star">1つ星</string>
+
+
+    <string name="dialog__title_m_mun">仕分け</string>
+    <string name="popular__m_mun">人気</string>
+    <string name="recent__m_mun">最新</string>
+    <string name="char_asc__m_mun">A-&gt; Z</string>
+    <string name="char_desc__m_mun">Z-&gt; A</string>
+
+
+    <string name="edit_setting__notification_setting">通知設定</string>
+    <string name="edit_setting__logout">ログアウト</string>
+    <string name="edit_setting__logout_question">ログアウトしますか？</string>
+    <string name="edit_setting__terms_and_conditions">規約と条件</string>
+    <string name="edit_setting__app_info">アプリ情報</string>
+    <string name="edit_setting__title">設定</string>
+
+
+    <string name="message__loading">読み込み中…</string>
+    <string name="message__please_wait">お待ちください…</string>
+    <string name="message__welcome">PSマーケットプレイスへようこそ</string>
+    <string name="message__want_to_quit">本当に辞めますか？</string>
+    <string name="message__ok_close">OK</string>
+    <string name="message__cancel_close">キャンセル</string>
+    <string name="message__seller">売り手から</string>
+    <string name="message__buyer">バイヤーから</string>
+
+
+    <string name="search__notSet">設定されていません</string>
+    <string name="search__by_price">価格帯</string>
+    <string name="search__lowest_price">最小</string>
+    <string name="search__highest_price">最大</string>
+
+
+    <string name="sf__manufacturer">メーカー</string>
+    <string name="sf__model">型</string>
+    <string name="sf__transmission">トランスミッション</string>
+    <string name="sf__color">色</string>
+    <string name="sf__fuelType">燃料タイプ</string>
+    <string name="sf__buildType">ビルドのタイプ</string>
+    <string name="sf__sellerType">出品者タイプ</string>
+    <string name="sf__notSet">設定されていません</string>
+    <string name="sf__ByItemType">リストのタイトル</string>
+    <string name="sf__Filter_Button">フィルタ</string>
+    <string name="sf__Search_Button">サーチ</string>
+    <string name="sf__price_type">価格タイプ</string>
+    <string name="sf__item_condition">アイテムの状態</string>
+    <string name="sf__type">タイプ</string>
+
+
+    <string name="error_message__login_first">最初にログインしてください！</string>
+    <string name="error_message__rating">評価のために完全に記入してください。</string>
+    <string name="error_message__blank_email">メールアドレスを入力してください。</string>
+    <string name="error_message__choose_manufacturer">メーカーファーストを選択します。</string>
+    <string name="error_message__blank_contact_message">連絡先メッセージを入力してください。</string>
+    <string name="error_message__blank_password">パスワードを入力してください。</string>
+    <string name="error_message__blank_name">名前を入力してください。</string>
+    <string name="error_message__blank_phone_no">入力に電話番号をしてください。</string>
+    <string name="error_message__password_not_equal">パスワードが等しくありません！</string>
+    <string name="error_message__image_cannot_upload">画像をアップロードできません</string>
+    <string name="error_message__item_cannot_upload">アイテムをアップロードできません</string>
+    <string name="error_message__already_accept">アイテムはすでに販売されています</string>
+    <string name="error_message__to_check_agreement">あなたはプライバシーとポリシーの同意を確認する必要があります。</string>
+
+
+    <string name="Feature_UI_Type__Button">メーカー</string>
+    <string name="Feature_UI_Tune__Button">フィルターと並べ替え</string>
+    <string name="Feature_UI_Sort__Button">マップでフィルター</string>
+    <string name="Feature_UI__item_list_no_item_title">データなし</string>
+    <string name="Feature_UI__item_list_no_item_desc">結果はありません！フィルターを調整してみてください。</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">メーカーを選択してください</string>
+    <string name="Feature_UI__search_alert_model_title">モデルを選択してください</string>
+    <string name="Feature_UI__search_alert_type_title">アイテムタイプを選択</string>
+    <string name="Feature_UI__search_alert_price_type_title">アイテムの価格タイプを選択</string>
+    <string name="Feature_UI__search_alert_condition_title">アイテム条件を選択</string>
+    <string name="Feature_UI__search_alert_location_title">アイテムの場所のオプションを選択</string>
+    <string name="Feature_UI__search_alert_currency_title">アイテム通貨オプションを選択</string>
+    <string name="Feature_UI__search_alert_deal_option_title">アイテム取引オプションを選択</string>
+    <string name="Feature_UI__search_alert_transmission">送信を選択します。</string>
+    <string name="Feature_UI__search_alert_color">色を選択します。</string>
+    <string name="Feature_UI__search_fuel_type">燃料の種類を選択します。</string>
+    <string name="Feature_UI__search_build_type">タイプのビルド]を選択します</string>
+    <string name="Feature_UI__search_seller_type">出品者の種類を選択します。</string>
+
+
+    <string name="about_us__phone">電話</string>
+    <string name="about_us__facebook">フェイスブック</string>
+    <string name="about_us__gplus">グーグルプラス</string>
+    <string name="about_us__instagram">インスタグラム</string>
+    <string name="about_us__youtube">Youtube</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">Twitter</string>
+    <string name="about_us__visit_website">当社のウェブサイトをご覧ください</string>
+    <string name="about_us__title">アプリ情報</string>
+
+
+    <string name="profile__title">プロフィール</string>
+    <string name="profile__edit">編集</string>
+    <string name="profile__favourites">お気に入り</string>
+    <string name="profile__setting">設定</string>
+    <string name="profile__joined_on">参加しました</string>
+    <string name="profile__see_all">すべて見る</string>
+    <string name="profile__verified">検証済み</string>]
+    <string name="profile__followers">フォロワー</string>
+    <string name="profile__following">以下</string>
+    <string name="profile__listing">リスティング</string>
+    <string name="profile__follow">フォロー</string>
+    <string name="profile__unfollow">フォロー解除</string>
+    <string name="profile__joined">参加しました-</string>
+    <string name="profile__deactivate">アカウントを無効化し</string>
+    <string name="profile__confirm_deactivate">このアカウントを無効にしますか？</string>
+
+
+    <string name="edit_profile__title">プロファイル編集</string>
+    <string name="edit_profile__user_name">ユーザー名</string>
+    <string name="edit_profile__about_me">私について</string>
+    <string name="edit_profile__email">Eメール</string>
+    <string name="edit_profile__password_change">パスワードの変更</string>
+    <string name="edit_profile__save">保存する</string>
+    <string name="edit_profile__phone">電話</string>
+    <string name="edit_profile__address">住所</string>
+    <string name="edit_profile__city">シティ</string>
+    <string name="verify_email">Eメールを確認します</string>
+    <string name="verify_phone_code">OTPコードを入力します。</string>
+
+
+    <string name="menu__home">ホーム</string>
+    <string name="menu__profile">プロフィール</string>
+    <string name="menu__favourite_items">お気に入り</string>
+    <string name="menu__user_history">ユーザー履歴</string>
+    <string name="menu__logout">ログアウト</string>
+    <string name="menu__about_app">私たちに関しては</string>
+    <string name="menu__contact_us">お問い合わせ</string>
+    <string name="menu__language">言語</string>
+    <string name="menu__setting">設定</string>
+    <string name="menu__interest">興味</string>
+    <string name="menu__app_setting">アプリ</string>
+    <string name="menu__user_info">ユーザー情報</string>
+    <string name="menu__search">サーチ</string>
+    <string name="menu__filter">フィルタ</string>
+    <string name="menu__latest_item">最新のアイテム</string>
+    <string name="menu__discount">プロモーションアイテム</string>
+    <string name="menu__category">カテゴリー</string>
+    <string name="menu__featured_item">最高のもの</string>
+    <string name="menu__trending_item">人気商品</string>
+    <string name="menu__home_category_view_All_un">すべて見る</string>
+    <string name="menu__collections">コレクション</string>
+    <string name="menu__map_filter_apply">適用する</string>
+    <string name="menu__map_filter_reset">リセット</string>
+    <string name="menu__rate">このアプリを評価する</string>
+    <string name="menu__message">メッセージ</string>
+    <string name="menu__report_item">レポートアイテム</string>
+    <string name="menu__share">シェア</string>
+    <string name="menu__privacy_policy">規約と条件</string>
+    <string name="menu__manufacturer">メーカー</string>
+
+    <string name="item_detail__rating">評価なし。</string>
+    <string name="item_detail__view_count">%1$sビュー</string>
+    <string name="item_detail__fav_count">%1$sお気に入り</string>
+    <string name="item_detail__read_more">続きを読む</string>
+    <string name="item_detail__call">コール</string>
+    <string name="item_detail__statistic">統計的</string>
+    <string name="item_detail__meet_seller">売り手に会う</string>
+    <string name="item_detail__chat">チャット</string>
+    <string name="item_detail__edit">編集</string>
+    <string name="item_detail__sold">販売済み</string>
+    <string name="item_detail__photo">写真</string>
+    <string name="item_detail__photos">写真</string>
+    <string name="item_detail__mark_sold">販売済みとしてマーク</string>
+    <string name="item_detail__delete">削除する</string>
+    <string name="item_detail__confirm_delete">このアイテムを削除してもよろしいですか？</string>
+    <string name="item_detail__confirm_sold_out">このアイテムは完売しますか？</string>
+    <string name="item_detail__safety_tip">安全のためのヒント</string>
+    <string name="item_detail__item_location">アイテムの場所</string>
+    <string name="item_detail__view_on_map">地図上に表示します</string>
+    <string name="item_detail__manufacturers">メーカー</string>
+    <string name="item_detail__model">型</string>
+    <string name="item_detail__color">色</string>
+    <string name="item_detail__fuel_type">燃料タイプ</string>
+    <string name="item_detail__steering_position">操舵位置</string>
+    <string name="item_detail__numbers_of_owners">所有者の数</string>
+    <string name="item_detail__trim_name">トリム名前</string>
+    <string name="item_detail__vehicle_id">車両ID</string>
+    <string name="item_detail__build_type">タイプを構築</string>
+    <string name="item_detail__licence_status">ライセンスの状態</string>
+    <string name="item_detail__max_passengers">最大の乗客</string>
+    <string name="item_detail__no_of_doors">ドアなし</string>
+    <string name="item_detail__seller_type">出品者タイプ</string>
+    <string name="item_detail__plate_number">プレートなし</string>
+    <string name="item_detail__engine_power">エンジンパワー</string>
+    <string name="item_detail__transmission">トランスミッション</string>
+    <string name="item_detail__mileage">マイレージ</string>
+    <string name="item_detail__license_expiration">ライセンスの有効期限</string>
+    <string name="item_detail__year">年</string>
+
+
+
+    <string name="item_entry_detail__description">説明</string>
+    <string name="item_entry_detail__price">価格</string>
+    <string name="item_entry_detail__title">今日は何をリストしていますか？</string>
+    <string name="item_entry_detail__desc">ライスフォトを選択して、あなたのものを紹介します。</string>
+    <string name="item_entry_detail__shop_setting">ショップ設定</string>
+    <string name="item_entry_detail__is_shop">ショップですか？</string>
+    <string name="item_entry_detail__is_shop_desc">（showユーザーが複数注文できる場合）</string>
+    <string name="item_entry_detail__highlight">ハイライト情報</string>
+    <string name="item_entry_detail__latitude">緯度</string>
+    <string name="item_entry_detail__longitude">経度</string>
+    <string name="item_entry_detail__location">ロケーション</string>
+    <string name="item_entry_detail__address">住所</string>
+    <string name="item_entry_detail__submit">提出する</string>
+    <string name="item_entry_toolbar">リスティングエントリ</string>
+    <string name="item_entry_sold">売り切れ</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">少なくとも1つの画像を選択してください</string>
+    <string name="item_entry_need_manufacturer">メーカーを選択してください</string>
+    <string name="item_entry_need_modle">モデルを選択してください</string>
+    <string name="item_entry_need_type">タイプを選択</string>
+    <string name="item_entry_need_list_title">アイテムのタイトルを記入してください</string>
+    <string name="item_entry_need_item_condition">アイテム条件を選択</string>
+    <string name="item_entry_need_item_plate_number">あなたの項目プレートの番号を記入</string>
+    <string name="item_entry_need_item_engine_power">あなたの項目のエンジンパワーを記入</string>
+    <string name="item_entry_need_item_year">あなたの項目の年を記入</string>
+    <string name="item_entry_need_item_transmission">送信を選択します。</string>
+    <string name="item_entry_need_description">商品の説明を書く</string>
+    <string name="item_entry_need_price">価格を書く</string>
+    <string name="item_entry_need_currency_symbol">通貨記号を選択してください</string>
+    <string name="item_entry_offer_not_zero">オファー価格をゼロにすることはできません</string>
+    <string name="item_entry_accept_confirm">この価格を本当に受け入れますか？</string>
+    <string name="item_entry_reject_confirm">この価格を本当に拒否しますか？</string>
+    <string name="item_entry_user_not_exit">このユーザーは終了しません</string>
+    <string name="item_entry_pin_shop">ピン店舗位置</string>
+    <string name="item_entry_camera">カメラ</string>
+    <string name="item_entry_gallery">ギャラリー</string>
+    <string name="item_entry__manufacturer">メーカー</string>
+    <string name="item_entry__model">型</string>
+    <string name="item_entry__color">色</string>
+    <string name="item_entry__fuel_type">燃料タイプ</string>
+    <string name="item_entry__build_type">タイプを構築</string>
+    <string name="item_entry__seller_type">出品者タイプ</string>
+    <string name="item_entry__transmission">トランスミッション</string>
+    <string name="item_entry__plate_number">プレートナンバー</string>
+    <string name="item_entry__engine_power">エンジンパワー</string>
+    <string name="item_entry__steering_position">操舵位置</string>
+    <string name="item_entry__no_of_owner">所有者の数</string>
+    <string name="item_entry__trim_name">トリム名前</string>
+    <string name="item_entry__vehicle_id">車両ID</string>
+    <string name="item_entry__price_unit">価格単位</string>
+    <string name="item_entry__year">年</string>
+    <string name="item_entry__licence_status">ライセンスの状態</string>
+    <string name="item_entry__max_passengers">最大乗客</string>
+    <string name="item_entry__no_of_door">ドアの数</string>
+    <string name="item_entry__mileage">マイレージ</string>
+    <string name="item_entry__license_expiration_date">ライセンスの有効期限</string>
+    <string name="item_entry__is_licence">ライセンスはありますか？</string>
+
+    <string name="item_from_follower_toolbar">フォロワーからのアイテムリスト</string>
+
+
+    <string name="item_condition__type">（%1$s）</string>
+
+
+    <string name="map_filter__map_title">マップフィルター</string>
+    <string name="map_filter__browsing">ブラウジング</string>
+    <string name="map_filter__all">すべて</string>
+
+    <string name="map__pick_location">場所を選択</string>
+
+    <string name="no_internet_error">インターネットに接続していません。</string>
+
+
+    <string name="message_sent">メッセージが送信されました。</string>
+
+
+    <string name="update_noti">お待ちください！まだ通知設定を更新しています。</string>
+
+    <string name="success">成功</string>
+    <string name="confirm">確認する</string>
+    <string name="info">情報</string>
+    <string name="error">エラー</string>
+    <string name="warning">警告</string>
+    <string name="version_update">バージョンアップ</string>
+    <string name="update">更新</string>
+
+
+    <string name="category__list_title">あなたの興味は何ですか？</string>
+
+
+    <string name="blog_list__title">ブログリスト</string>
+
+
+    <string name="blog_detail__error_message">このIDのブログは存在しません</string>
+    <string name="blog_detail__title">ブログの詳細</string>
+
+
+    <string name="city_menu__title">シティメニュー</string>
+
+
+    <string name="city__sure_to_exit">この都市から退出しますか？</string>
+
+
+    <string name="item_list_title">アイテムリスト</string>
+
+
+    <string name="force_update__button_update"> 更新</string>
+
+
+    <string name="dashboard_keyword">キーワード</string>
+    <string name="dashboard_blog">ブログ</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">私たちのコミュニティとつながります</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+
+    <string name="selected_city_manufactures">メーカー</string>
+    <string name="selected_city_recent">最近アップロードされた車</string>
+    <string name="selected_city_popular_item">人気の車</string>
+    <string name="selected_city_item_follower">あなたのフォロワーから車</string>
+    <string name="selected_city_add"> 無料の広告を提出する</string>
+
+
+    <string name="location_title">あなたの場所</string>
+    <string name="location_change_later">後で変更できます！</string>
+    <string name="location_select">都市を選択してください。</string>
+
+    <string name="setting__clear_cache_confirm">画像キャッシュをクリアしてもよろしいですか？</string>
+    <string name="setting__clear_image_cache">画像キャッシュをクリア</string>
+    <string name="setting__image_cache_size">画像キャッシュサイズ</string>
+    <string name="setting__camera">カメラ</string>
+    <string name="setting__default_camera">デフォルトのカメラ</string>
+    <string name="setting__custom_camera">カスタムカメラ</string>
+    <string name="setting__change_gdpr">GDPR設定の変更</string>
+    <string name="setting__version_no">バージョン番号：</string>
+
+    <string name="chat__mark_as_sold">販売済みとしてマーク</string>
+    <string name="chat__accept">受け入れる</string>
+    <string name="chat__reject">拒否する</string>
+    <string name="chat__make_offer_title">このアイテムのオファーをする</string>
+    <string name="chat__offer">\ n提供する</string>
+    <string name="chat__make_offer_sender">申し出をする</string>
+    <string name="chat__make_offer_receiver">受け取ったオファー</string>
+    <string name="chat__accept_text">オファーが受け入れられました</string>
+    <string name="chat__reject_text">拒否されたオファー</string>
+    <string name="chat__sold">販売済み</string>
+    <string name="chat__give_review">レビューを与える</string>
+    <string name="chat__item_is_sold">アイテムが販売されました</string>
+    <string name="chat__item_space_error">価格を空白にすることはできません</string>
+
+
+    <string name="verify_email__informateion">確認コードを含むメールを受信しました</string>
+    <string name="verify_email__enter_code">認証コードを入力してください</string>
+    <string name="verify_email__change_email">メールを変更</string>
+    <string name="verify_email__resent_code">再送コード</string>
+    <string name="verify_email__submit">提出する</string>
+    <string name="verify_email__title">電子メールの確認</string>
+
+
+    <string name="verify_phone__informateion">あなただけでOTPコードを含む携帯電話のメッセージを受信しました</string>
+    <string name="verify_phone__back_login">ログインに戻る ？</string>
+    <string name="verify_phone__title">電話での検証</string>
+
+
+    <string name="user_follower_list_toolbar_name">フォロワーユーザーリスト</string>
+    <string name="user_following_list_toolbar_name">フォロー中のユーザーリスト</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

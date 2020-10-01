@@ -1,0 +1,125 @@
+<resources>
+
+    <style name="Base.PSTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorButtonNormal">@color/global__primary</item>
+        <item name="colorPrimary">@color/global__primary</item>
+        <item name="colorPrimaryDark">@color/global__primary_dark</item>
+        <item name="colorAccent">@color/global__accent</item>
+        <item name="android:windowBackground">@color/layout__primary_background</item>
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggle</item>
+        <item name="colorControlNormal">@color/global__accent</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowActionBarOverlay">true</item>-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/global__primary</item>
+        <item name="colorPrimaryDark">@color/global__primary_dark</item>
+        <item name="colorAccent">@color/global__accent</item>
+        <item name="android:windowBackground">@null</item>
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowActionBarOverlay">true</item>-->
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+    </style>
+
+    <style name="CustomActionBar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+<!--        <item name="android:windowActionBarOverlay">true</item>-->
+<!--        &lt;!&ndash; Support library compatibility &ndash;&gt;-->
+<!--        <item name="windowActionBarOverlay">true</item>-->
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <!--<item name="background">@drawable/bg_action_bar</item>-->
+        <!--<item name="titleTextStyle">@style/MyActionBarTitleText</item>-->
+        <item name="actionMenuTextColor">@color/text__white</item>
+        <!--<item name="actionOverflowButtonStyle">@style/MyActionButtonOverFlow</item>-->
+    </style>
+
+    <!-- For main menu icon color -->
+    <style name="MyDrawerArrowToggle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/text__white</item>
+        <item name="actionMenuTextColor">@color/text__white</item>
+    </style>
+
+
+
+
+    <!-- Appbar and toolbar theme -->
+    <style name="Base.PSTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- For Toolbar Back Icon -->
+        <item name="colorControlNormal">@color/text__white</item>
+
+    </style>
+
+    <style name="Base.PSTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/global__accent</item>
+        <item name="actionMenuTextColor">@color/global__accent</item>
+    </style>
+
+
+    <!-- Toolbar Event -->
+    <style name="ToolBarStyle.Event" parent="ToolBarStyle">
+        <item name="titleTextAppearance">@style/TextAppearance.Widget.Event.Toolbar.Title</item>
+    </style>
+
+    <style name="ToolBarStyle.Base" parent="">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="ToolBarStyle.Base" />
+
+    <style name="TextAppearance.Widget.Event.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <!--Any text styling can be done here-->
+        <item name="android:color">@color/text__white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_h6_size</item>
+
+    </style>
+
+
+    <!-- SelectableItemTheme -->
+
+
+    <!-- Progress Bar -->
+
+    <!-- Seek Bar Theme -->
+
+    <style name="PSButton.Default.Borderless" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:textColor">@color/text__primary</item>
+    </style>
+
+    <!--Rating Bar Start Color-->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/md_grey_500</item>
+        <item name="colorControlActivated">@color/md_yellow_A700</item>
+    </style>
+
+    <!-- Switch -->
+
+    <!-- Button -->
+    <style name="PSButton.White.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@android:color/white</item>
+        <item name="android:textColor">@color/global__primary</item>
+    </style>
+
+    <style name="PSButton.Primary" parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/global__primary</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!--<stnews_titlename="Base.PSTheme.ActionBarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">-->
+
+    <!--<inews_titlename="colorControlNormal">@color/colorAccent</item>-->
+    <!--</style>-->
+
+
+</resources>

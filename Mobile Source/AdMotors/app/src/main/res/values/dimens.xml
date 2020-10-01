@@ -1,0 +1,39 @@
+<resources>
+
+
+    <!-- TextView -->
+
+    <!-- EditText -->
+    <dimen name="edit_text__size">@dimen/font_body_size</dimen>
+
+    <!-- Button -->
+    <dimen name="button__text_size">@dimen/font_body_size</dimen>
+
+    <!-- Base Fonts -->
+    <dimen name="font_h1_size">96sp</dimen>
+    <dimen name="font_h2_size">60sp</dimen>
+    <dimen name="font_h3_size">48sp</dimen>
+    <dimen name="font_h4_size">34sp</dimen>
+    <dimen name="font_h5_size">24sp</dimen>
+    <dimen name="font_h6_size">20sp</dimen>
+    <dimen name="font_h7_size">18sp</dimen>
+    <dimen name="font_title_size">16sp</dimen>
+    <dimen name="font_body_size">14sp</dimen>
+    <dimen name="font_body_s_size">12sp</dimen>
+    <dimen name="font_body_xs_size">10sp</dimen>
+
+    <!-- Utils -->
+    <dimen name="space_2">2dp</dimen>
+    <dimen name="space_4">4dp</dimen>
+    <dimen name="space_8">8dp</dimen>
+    <dimen name="space_12">12dp</dimen>
+    <dimen name="space_16">16dp</dimen>
+    <dimen name="space_20">20dp</dimen>
+    <dimen name="space_24">24dp</dimen>
+    <dimen name="space_32">32dp</dimen>
+    <dimen name="space_36">36dp</dimen>
+    <dimen name="space_40">40dp</dimen>
+    <dimen name="space_44">44dp</dimen>
+    <dimen name="space_72">72dp</dimen>
+
+</resources>

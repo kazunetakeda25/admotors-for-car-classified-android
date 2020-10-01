@@ -1,0 +1,459 @@
+<resources>
+
+
+    <string name="history__title">इतिहास</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">पसंदीदा</string>
+
+
+    <string name="gallery__title">गेलरी</string>
+    <string name="gallery_img__desc">चित्र का वर्णन</string>
+
+
+    <string name="image_default__image">डिफ़ॉल्ट छवि</string>
+
+
+    <string name="app__ok">ठीक</string>
+    <string name="app__cancel">रद्द करना</string>
+    <string name="app__drawer_open">दराज खुला</string>
+    <string name="app__drawer_close">दराज बंद</string>
+
+
+    <string name="register__user_name">उपयोगकर्ता नाम</string>
+    <string name="register__email">ईमेल</string>
+    <string name="register__password">पारण शब्द</string>
+    <string name="register__back_to_login">पहले से ही सदस्य हैं? लॉग इन करें</string>
+    <string name="register__register">रजिस्टर</string>
+    <string name="register__check_option">क्या आप इस गोपनीयता और नीति से समझौता कर रहे हैं?</string>
+
+
+    <string name="forgot_password__title">पासवर्ड भूल गए</string>
+    <string name="forgot_password__email">ईमेल</string>
+    <string name="forgot_password__back_to_login">पहले से ही सदस्य हैं? लॉग इन करें</string>
+    <string name="forgot_password__save">बचाना</string>
+    <string name="forgot_password__send">भेजना</string>
+
+
+    <string name="password_change__password">पारण शब्द</string>
+    <string name="password_change__save">बचाना</string>
+    <string name="password_change__confirm_password">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="password_change__password_change">पासवर्ड परिवर्तन</string>
+
+
+    <string name="login__email">ईमेल</string>
+    <string name="login__password">पारण शब्द</string>
+    <string name="login__not_a_member_join_now">यहाँ नये? साइन अप करें</string>
+    <string name="login__forgot_your_password">पासवर्ड भूल गए ?</string>
+    <string name="login__login">दाखिल करना</string>
+    <string name="login__choice_text">या</string>
+    <string name="login__with_phone">फोन के साथ लॉग इन करें</string>
+    <string name="login__with_google">Google के साथ साइन इन करें</string>
+
+
+    <string name="contact_us__name">संपर्क नाम</string>
+    <string name="contact_us__email">ई - मेल से संपर्क करे</string>
+    <string name="contact_us__message">संपर्क संदेश</string>
+    <string name="contact_us__phone">संपर्क दूरभाष</string>
+    <string name="contact_us__submit">जमा करें</string>
+
+
+    <string name="notification_setting__on_off">अधिसूचना सेटिंग (चालू / बंद)</string>
+    <string name="notification_setting__latest_message_from_system">सिस्टम से नवीनतम संदेश</string>
+    <string name="notification__notification">अधिसूचना!</string>
+    <string name="notification__title">अधिसूचना</string>
+    <string name="notification_setting__title">अधिसूचना सेटिंग</string>
+    <string name="notification_detail__title">अधिसूचना विस्तार से</string>
+    <string name="notification__alert">चेतावनी</string>
+
+
+    <string name="language__language_change">क्या आप वाकई %1$s में बदलना चाहते हैं?</string>
+    <string name="language__title">भाषा</string>
+
+
+    <string name="rating__list">रेटिंग सूची</string>
+    <string name="rating__write_review">समीक्षा लिखें</string>
+    <string name="rating__total_count">%1$s ग्राहक समीक्षा</string>
+    <string name="rating__total_value">5 सितारों में से%1$s</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">शीर्षक</string>
+    <string name="rating__message">संदेश</string>
+    <string name="rating__user_rating">उपयोगकर्ता रेटिंग प्रविष्टि!</string>
+    <string name="rating__your_rating">तुम्हारी रेटिंग</string>
+    <string name="rating__five_star">5 सितारा</string>
+    <string name="rating__four_star">4 स्टार</string>
+    <string name="rating__three_star">3 स्टार</string>
+    <string name="rating__two_star">2 स्टार</string>
+    <string name="rating__one_star">१ तारा</string>
+
+
+    <string name="dialog__title_m_mun">छंटाई</string>
+    <string name="popular__m_mun">लोकप्रिय</string>
+    <string name="recent__m_mun">नवीनतम</string>
+    <string name="char_asc__m_mun">ए -&gt; जेड</string>
+    <string name="char_desc__m_mun">जेड -&gt; ए</string>
+
+
+    <string name="edit_setting__notification_setting">अधिसूचना सेटिंग</string>
+    <string name="edit_setting__logout">लोग आउट</string>
+    <string name="edit_setting__logout_question">क्या आप लॉगआउट करना सुनिश्चित कर रहे हैं?</string>
+    <string name="edit_setting__terms_and_conditions">नियम और शर्तें</string>
+    <string name="edit_setting__app_info">अनुप्रयोग की जानकारी</string>
+    <string name="edit_setting__title">सेटिंग</string>
+
+
+    <string name="message__loading">लोड हो रहा है…</string>
+    <string name="message__please_wait">कृपया प्रतीक्षा करें…</string>
+    <string name="message__welcome">पीएस मार्केट प्लेस में आपका स्वागत है</string>
+    <string name="message__want_to_quit">क्या आप वास्तव में छोड़ना चाहते हैं?</string>
+    <string name="message__ok_close">ठीक</string>
+    <string name="message__cancel_close">रद्द करना</string>
+    <string name="message__seller">सेलर्स से</string>
+    <string name="message__buyer">खरीदारों से</string>
+
+
+    <string name="search__notSet">सेट नहीं</string>
+    <string name="search__by_price">मूल्य सीमा</string>
+    <string name="search__lowest_price">न्यूनतम</string>
+    <string name="search__highest_price">ज्यादा से ज्यादा</string>
+
+
+    <string name="sf__manufacturer">उत्पादक</string>
+    <string name="sf__model">आदर्श</string>
+    <string name="sf__transmission">हस्तांतरण</string>
+    <string name="sf__color">रंग</string>
+    <string name="sf__fuelType">ईंधन प्रकार</string>
+    <string name="sf__buildType">बिल्ड प्रकार</string>
+    <string name="sf__sellerType">विक्रेता का प्रकार</string>
+    <string name="sf__notSet">सेट नहीं</string>
+    <string name="sf__ByItemType">सूची शीर्षक</string>
+    <string name="sf__Filter_Button">फ़िल्टर</string>
+    <string name="sf__Search_Button">खोज</string>
+    <string name="sf__price_type">मूल्य प्रकार</string>
+    <string name="sf__item_condition">वस्तु की स्थिति</string>
+    <string name="sf__type">प्रकार</string>
+
+
+    <string name="error_message__login_first">पहले प्रवेश करें!</string>
+    <string name="error_message__rating">कृपया रेटिंग के लिए पूरी तरह से भरें।</string>
+    <string name="error_message__blank_email">कृपया ईमेल करें।</string>
+    <string name="error_message__choose_manufacturer">चुनें निर्माता पहले</string>
+    <string name="error_message__blank_contact_message">कृपया संपर्क संदेश भेजें।</string>
+    <string name="error_message__blank_password">कृपया पासवर्ड दर्ज करें।</string>
+    <string name="error_message__blank_name">कृपया इनपुट नाम</string>
+    <string name="error_message__blank_phone_no">इनपुट फोन नंबर कृपया।</string>
+    <string name="error_message__password_not_equal">पासवर्ड नहीं के बराबर हैं!</string>
+    <string name="error_message__image_cannot_upload">छवि अपलोड नहीं की जा सकती</string>
+    <string name="error_message__item_cannot_upload">आइटम अपलोड नहीं किया जा सकता है</string>
+    <string name="error_message__already_accept">आपका आइटम पहले ही बिक चुका है</string>
+    <string name="error_message__to_check_agreement">आप गोपनीयता और नीति के लिए एक समझौते पर जाँच करने के लिए की जरूरत है।</string>
+
+
+    <string name="Feature_UI_Type__Button">उत्पादक</string>
+    <string name="Feature_UI_Tune__Button">फ़िल्टर और सॉर्ट करें</string>
+    <string name="Feature_UI_Sort__Button">मानचित्र के साथ फ़िल्टर करें</string>
+    <string name="Feature_UI__item_list_no_item_title">कोई आकड़ा उपलब्ध नहीं है</string>
+    <string name="Feature_UI__item_list_no_item_desc">कोई परिणाम नहीं है! कृपया फ़िल्टर को समायोजित करने का प्रयास करें।</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">निर्माता चुनें</string>
+    <string name="Feature_UI__search_alert_model_title">मॉडल चुनें</string>
+    <string name="Feature_UI__search_alert_type_title">आइटम प्रकार चुनें</string>
+    <string name="Feature_UI__search_alert_price_type_title">आइटम मूल्य प्रकार चुनें</string>
+    <string name="Feature_UI__search_alert_condition_title">आइटम स्थिति चुनें</string>
+    <string name="Feature_UI__search_alert_location_title">आइटम स्थान विकल्प चुनें</string>
+    <string name="Feature_UI__search_alert_currency_title">आइटम मुद्रा विकल्प चुनें</string>
+    <string name="Feature_UI__search_alert_deal_option_title">आइटम डील विकल्प चुनें</string>
+    <string name="Feature_UI__search_alert_transmission">ट्रांसमिशन चुनें</string>
+    <string name="Feature_UI__search_alert_color">रंग पसंद करो</string>
+    <string name="Feature_UI__search_fuel_type">ईंधन के प्रकार चुनें</string>
+    <string name="Feature_UI__search_build_type">बिल्ड प्रकार चुनें</string>
+    <string name="Feature_UI__search_seller_type">विक्रेता का प्रकार चुनें</string>
+
+
+    <string name="about_us__phone">फ़ोन</string>
+    <string name="about_us__facebook">फेसबुक</string>
+    <string name="about_us__gplus">गूगल प्लस</string>
+    <string name="about_us__instagram">इंस्टाग्राम</string>
+    <string name="about_us__youtube">यूट्यूब</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">ट्विटर</string>
+    <string name="about_us__visit_website">हमारी वेबसाइट पर जाएँ</string>
+    <string name="about_us__title">अनुप्रयोग की जानकारी</string>
+
+
+    <string name="profile__title">प्रोफाइल</string>
+    <string name="profile__edit">संपादित करें</string>
+    <string name="profile__favourites">पसंदीदा</string>
+    <string name="profile__setting">सेटिंग</string>
+    <string name="profile__joined_on">पर शामिल हुए</string>
+    <string name="profile__see_all">सभी को देखें</string>
+    <string name="profile__verified">सत्यापित</string>]
+    <string name="profile__followers">समर्थक</string>
+    <string name="profile__following">निम्नलिखित</string>
+    <string name="profile__listing">लिस्टिंग</string>
+    <string name="profile__follow">का पालन करें</string>
+    <string name="profile__unfollow">करें</string>
+    <string name="profile__joined">में शामिल हो गए -</string>
+    <string name="profile__deactivate">खाता निष्क्रिय करें</string>
+    <string name="profile__confirm_deactivate">क्या आप इस खाते को निष्क्रिय करना सुनिश्चित करते हैं?</string>
+
+
+    <string name="edit_profile__title">प्रोफाइल एडिट करें</string>
+    <string name="edit_profile__user_name">उपयोगकर्ता नाम</string>
+    <string name="edit_profile__about_me">मेरे बारे में</string>
+    <string name="edit_profile__email">ईमेल</string>
+    <string name="edit_profile__password_change">पासवर्ड परिवर्तन</string>
+    <string name="edit_profile__save">बचाना</string>
+    <string name="edit_profile__phone">फ़ोन</string>
+    <string name="edit_profile__address">पता</string>
+    <string name="edit_profile__city">Faridabad</string>
+    <string name="verify_email">ईमेल सत्यापित करें</string>
+    <string name="verify_phone_code">OTP कोड दर्ज करें</string>
+
+
+    <string name="menu__home">होम</string>
+    <string name="menu__profile">प्रोफाइल</string>
+    <string name="menu__favourite_items">पसंदीदा</string>
+    <string name="menu__user_history">उपयोगकर्ता इतिहास</string>
+    <string name="menu__logout">लोग आउट</string>
+    <string name="menu__about_app">हमारे बारे में</string>
+    <string name="menu__contact_us">हमसे संपर्क करें</string>
+    <string name="menu__language">भाषा</string>
+    <string name="menu__setting">सेटिंग</string>
+    <string name="menu__interest">ब्याज</string>
+    <string name="menu__app_setting">ऐप</string>
+    <string name="menu__user_info">उपयोगकर्ता जानकारी</string>
+    <string name="menu__search">खोज</string>
+    <string name="menu__filter">फ़िल्टर</string>
+    <string name="menu__latest_item">नवीनतम आइटम</string>
+    <string name="menu__discount">पदोन्नति आइटम</string>
+    <string name="menu__category">वर्ग</string>
+    <string name="menu__featured_item">सबसे अच्छी चीजें आइटम</string>
+    <string name="menu__trending_item">लोकप्रिय आइटम</string>
+    <string name="menu__home_category_view_All_un">सभी को देखें</string>
+    <string name="menu__collections">संग्रह</string>
+    <string name="menu__map_filter_apply">लागू करें</string>
+    <string name="menu__map_filter_reset">रीसेट</string>
+    <string name="menu__rate">इस ऐप्लिकेशन को रेट करे</string>
+    <string name="menu__message">संदेश</string>
+    <string name="menu__report_item">वस्तु की सूचना</string>
+    <string name="menu__share">शेयर</string>
+    <string name="menu__privacy_policy">नियम और शर्तें</string>
+    <string name="menu__manufacturer">उत्पादक</string>
+
+
+    <string name="item_detail__rating">कोई रेटिंग नहीं।</string>
+    <string name="item_detail__view_count">%1$sदृश्य</string>
+    <string name="item_detail__fav_count">%1$sपसंदीदा</string>
+    <string name="item_detail__read_more">और पढो</string>
+    <string name="item_detail__call">कॉल</string>
+    <string name="item_detail__statistic">सांख्यिकीय</string>
+    <string name="item_detail__meet_seller">विक्रेता से मिलें</string>
+    <string name="item_detail__chat">बातचीत</string>
+    <string name="item_detail__edit">संपादित करें</string>
+    <string name="item_detail__sold">बिक</string>
+    <string name="item_detail__photo">तस्वीर</string>
+    <string name="item_detail__photos">तस्वीरें</string>
+    <string name="item_detail__mark_sold">बिक के रूप में चिह्नित करें</string>
+    <string name="item_detail__delete">हटाना</string>
+    <string name="item_detail__confirm_delete">क्या आप इस आइटम को हटाना सुनिश्चित कर रहे हैं?</string>
+    <string name="item_detail__confirm_sold_out">क्या आप इस आइटम को बेचना सुनिश्चित कर रहे हैं?</string>
+    <string name="item_detail__safety_tip">सुरक्षा टिप्स</string>
+    <string name="item_detail__item_location">आइटम स्थान</string>
+    <string name="item_detail__view_on_map">मानचित्र पर देखें</string>
+    <string name="item_detail__manufacturers">निर्माता</string>
+    <string name="item_detail__model">आदर्श</string>
+    <string name="item_detail__color">रंग</string>
+    <string name="item_detail__fuel_type">ईंधन प्रकार</string>
+    <string name="item_detail__steering_position">संचालन स्थिति</string>
+    <string name="item_detail__numbers_of_owners">मालिकों की संख्या</string>
+    <string name="item_detail__trim_name">ट्रिम नाम</string>
+    <string name="item_detail__vehicle_id">वाहन आईडी</string>
+    <string name="item_detail__build_type">बिल्ड प्रकार</string>
+    <string name="item_detail__licence_status">लाइसेंस स्थिति</string>
+    <string name="item_detail__max_passengers">मैक्स यात्रियों</string>
+    <string name="item_detail__no_of_doors">दरवाजे के नहीं</string>
+    <string name="item_detail__seller_type">विक्रेता का प्रकार</string>
+    <string name="item_detail__plate_number">प्लेट नंबर</string>
+    <string name="item_detail__engine_power">इंजन की शक्ति</string>
+    <string name="item_detail__transmission">हस्तांतरण</string>
+    <string name="item_detail__mileage">लाभ</string>
+    <string name="item_detail__license_expiration">लाइसेंस का समय समाप्त होने</string>
+    <string name="item_detail__year">साल</string>
+
+
+    <string name="item_entry_detail__description">विवरण</string>
+    <string name="item_entry_detail__price">मूल्य</string>
+    <string name="item_entry_detail__title">आज आप क्या सूचीबद्ध कर रहे हैं?</string>
+    <string name="item_entry_detail__desc">अपनी चीज़ दिखाने के लिए चावल का फोटो चुनें।</string>
+    <string name="item_entry_detail__shop_setting">दुकान की स्थापना</string>
+    <string name="item_entry_detail__is_shop">दुकान है?</string>
+    <string name="item_entry_detail__is_shop_desc">(यदि शो उपयोगकर्ता एक से अधिक ऑर्डर कर सकता है)</string>
+    <string name="item_entry_detail__highlight">जानकारी हाइलाइट करें</string>
+    <string name="item_entry_detail__latitude">अक्षांश</string>
+    <string name="item_entry_detail__longitude">देशान्तर</string>
+    <string name="item_entry_detail__location">स्थान</string>
+    <string name="item_entry_detail__address">पता</string>
+    <string name="item_entry_detail__submit">जमा करें</string>
+    <string name="item_entry_toolbar">प्रविष्टि प्रविष्टि</string>
+    <string name="item_entry_sold">बिक</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">कृपया कम से कम एक छवि का चयन करें</string>
+    <string name="item_entry_need_manufacturer">निर्माता चुनें</string>
+    <string name="item_entry_need_modle">मॉडल का चयन करें</string>
+    <string name="item_entry_need_type">प्रकार चुनें</string>
+    <string name="item_entry_need_list_title">अपना आइटम शीर्षक भरें</string>
+    <string name="item_entry_need_item_condition">आइटम स्थिति चुनें</string>
+    <string name="item_entry_need_item_plate_number">अपने मद प्लेट नंबर भरें</string>
+    <string name="item_entry_need_item_engine_power">अपने मद इंजन शक्ति भरें</string>
+    <string name="item_entry_need_item_year">अपने मद साल भरें</string>
+    <string name="item_entry_need_item_transmission">ट्रांसमिशन चुनें</string>
+    <string name="item_entry_need_description">अपने आइटम के लिए विवरण लिखें</string>
+    <string name="item_entry_need_price">अपनी कीमत लिखिए</string>
+    <string name="item_entry_need_currency_symbol">अपनी मुद्रा प्रतीक चुनें</string>
+    <string name="item_entry_offer_not_zero">आपका ऑफ़र मूल्य शून्य नहीं हो सकता</string>
+    <string name="item_entry_accept_confirm">क्या आप वास्तव में इस मूल्य को स्वीकार करना चाहते हैं?</string>
+    <string name="item_entry_reject_confirm">क्या आप वास्तव में इस मूल्य को अस्वीकार करना चाहते हैं?</string>
+    <string name="item_entry_user_not_exit">यह उपयोगकर्ता बाहर नहीं निकलता है</string>
+    <string name="item_entry_pin_shop">पिन दुकान स्थान</string>
+    <string name="item_entry_camera">कैमरा</string>
+    <string name="item_entry_gallery">गेलरी</string>
+    <string name="item_entry__manufacturer">उत्पादक</string>
+    <string name="item_entry__model">आदर्श</string>
+    <string name="item_entry__color">रंग</string>
+    <string name="item_entry__fuel_type">ईंधन प्रकार</string>
+    <string name="item_entry__build_type">बिल्ड प्रकार</string>
+    <string name="item_entry__seller_type">विक्रेता का प्रकार</string>
+    <string name="item_entry__transmission">हस्तांतरण</string>
+    <string name="item_entry__plate_number">थाली संख्या</string>
+    <string name="item_entry__engine_power">इंजन की शक्ति</string>
+    <string name="item_entry__steering_position">संचालन स्थिति</string>
+    <string name="item_entry__no_of_owner">मालिक की संख्या</string>
+    <string name="item_entry__trim_name">ट्रिम नाम</string>
+    <string name="item_entry__vehicle_id">वाहन आईडी</string>
+    <string name="item_entry__price_unit">कीमत दर</string>
+    <string name="item_entry__year">साल</string>
+    <string name="item_entry__licence_status">लाइसेंस स्थिति</string>
+    <string name="item_entry__max_passengers">अधिकतम वाले यात्रियों को</string>
+    <string name="item_entry__no_of_door">दरवाजा की संख्या</string>
+    <string name="item_entry__mileage">लाभ</string>
+    <string name="item_entry__license_expiration_date">लाइसेंस की समाप्ति तिथि</string>
+    <string name="item_entry__is_licence">लाइसेंस है?</string>
+
+    <string name="item_from_follower_toolbar">अनुयायी से आइटम सूची</string>
+
+
+    <string name="item_condition__type">(%1$s)</string>
+
+
+    <string name="map_filter__map_title">मानचित्र फ़िल्टर</string>
+    <string name="map_filter__browsing">चारों ओर ब्राउजिंग</string>
+    <string name="map_filter__all">सब</string>
+
+    <string name="map__pick_location">स्थान चुनें</string>
+
+    <string name="no_internet_error">कोई इंटरनेट कनेक्शन नहीं।</string>
+
+
+    <string name="message_sent">आपका सन्देश भेज दिया गया है।</string>
+
+
+    <string name="update_noti">कृपया प्रतीक्षा करें! फिर भी अधिसूचना सेटिंग अपडेट की जा रही है।</string>
+
+    <string name="success">सफलता</string>
+    <string name="confirm">की पुष्टि करें</string>
+    <string name="info">जानकारी</string>
+    <string name="error">त्रुटि</string>
+    <string name="warning">चेतावनी</string>
+    <string name="version_update">संस्करण अद्यतन</string>
+    <string name="update">अद्यतन करें</string>
+
+
+    <string name="category__list_title">आपकी रुचि क्या है ?</string>
+
+
+    <string name="blog_list__title">ब्लॉग सूची</string>
+
+
+    <string name="blog_detail__error_message">इस आईडी के साथ ब्लॉग मौजूद नहीं है</string>
+    <string name="blog_detail__title">ब्लॉग विस्तार</string>
+
+
+    <string name="city_menu__title">सिटी मेनू</string>
+
+
+    <string name="city__sure_to_exit">क्या आप इस शहर से बाहर निकलना चाहते हैं?</string>
+
+
+    <string name="item_list_title">सामान की सूची</string>
+
+
+    <string name="force_update__button_update"> अद्यतन करें</string>
+
+
+    <string name="dashboard_keyword">कीवर्ड</string>
+    <string name="dashboard_blog">ब्लॉग</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">हमारे समुदाय के साथ कनेक्ट</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+
+    <string name="selected_city_manufactures">निर्माता</string>
+    <string name="selected_city_recent">नवीनतम अपलोड किए कारें</string>
+    <string name="selected_city_popular_item">लोकप्रिय कारें</string>
+    <string name="selected_city_item_follower">अपने अनुयायियों से कारें</string>
+    <string name="selected_city_add"> SUBMIT एक स्वतंत्र विज्ञापन</string>
+
+
+    <string name="location_title">आपकी स्थिति</string>
+    <string name="location_change_later">आप बाद में बदल सकते हैं!</string>
+    <string name="location_select">कृपया शहर चुनें।</string>
+
+    <string name="setting__clear_cache_confirm">क्या आप छवि कैश साफ़ करना सुनिश्चित कर रहे हैं?</string>
+    <string name="setting__clear_image_cache">साफ छवि कैश</string>
+    <string name="setting__image_cache_size">छवि कैश आकार</string>
+    <string name="setting__camera">कैमरा</string>
+    <string name="setting__default_camera">डिफ़ॉल्ट कैमरा</string>
+    <string name="setting__custom_camera">कस्टम कैमरा</string>
+    <string name="setting__change_gdpr">GDPR सेटिंग बदलें</string>
+    <string name="setting__version_no">संस्करण संख्या:</string>
+
+    <string name="chat__mark_as_sold">बिकने जैसा निशान</string>
+    <string name="chat__accept">स्वीकार करना</string>
+    <string name="chat__reject">अस्वीकार</string>
+    <string name="chat__make_offer_title">इस आइटम के लिए प्रस्ताव दें</string>
+    <string name="chat__offer">बनाओ \ n</string>
+    <string name="chat__make_offer_sender">प्रस्ताव देना</string>
+    <string name="chat__make_offer_receiver">प्रस्ताव प्राप्त हुआ</string>
+    <string name="chat__accept_text">प्रस्ताव स्वीकृत है</string>
+    <string name="chat__reject_text">अर्पित किया गया</string>
+    <string name="chat__sold">बिक</string>
+    <string name="chat__give_review">समीक्षा दें</string>
+    <string name="chat__item_is_sold">आइटम बिक गया है</string>
+    <string name="chat__item_space_error">आपकी कीमत रिक्त नहीं हो सकती</string>
+
+
+    <string name="verify_email__informateion">आपको अभी एक ईमेल प्राप्त हुआ है जिसमें सत्यापन कोड है</string>
+    <string name="verify_email__enter_code">सत्यापन कोड दर्ज करें</string>
+    <string name="verify_email__change_email">ई - मेल बदलें</string>
+    <string name="verify_email__resent_code">आचार संहिता</string>
+    <string name="verify_email__submit">जमा करें</string>
+    <string name="verify_email__title">ई - मेल सत्यापन</string>
+
+
+    <string name="verify_phone__informateion">तुम बस फोन OTP कोड युक्त पर संदेश मिला है</string>
+    <string name="verify_phone__back_login">लॉगिन पर वापस जाएं ?</string>
+    <string name="verify_phone__title">फ़ोन सत्यापन</string>
+
+
+    <string name="user_follower_list_toolbar_name">अनुयायी उपयोगकर्ता सूची</string>
+    <string name="user_following_list_toolbar_name">उपयोगकर्ता सूची का पालन करें</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

@@ -1,0 +1,215 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="loadingMore"
+            type="boolean" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/itemCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:cardCornerRadius="@dimen/space_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/notiConstraintLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    app:cardElevation="@dimen/space_4"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <ImageView
+                            android:id="@+id/itemImageView"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:contentDescription="@string/image_default__image"
+                            android:scaleType="centerCrop"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:srcCompat="@drawable/placeholder_image" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/itemNameTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/space_16"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:maxLines="1"
+                    android:padding="@dimen/space_2"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary"
+                    android:textSize="@dimen/font_title_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cardView"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Item Name item name" />
+
+                <TextView
+                    android:id="@+id/priceTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/space_2"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary_dark"
+                    android:textSize="@dimen/font_title_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="@+id/priceTitleTextView"
+                    app:layout_constraintStart_toEndOf="@+id/priceTitleTextView"
+                    app:layout_constraintTop_toTopOf="@+id/priceTitleTextView"
+                    tools:text="$100" />
+
+                <TextView
+                    android:id="@+id/priceTitleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:text="@string/item_entry_detail__price"
+                    android:textColor="@color/text__primary_light"
+                    android:textSize="@dimen/font_body_size"
+                    app:font='@{"normal"}'
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/cardView"
+                    app:layout_constraintTop_toBottomOf="@+id/itemNameTextView" />
+
+                <TextView
+                    android:id="@+id/lakhTextView"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="16dp"
+                    android:padding="@dimen/space_2"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text__primary_dark"
+                    android:textSize="@dimen/font_title_size"
+                    app:font='@{"normal"}'
+                    tools:text="Lakh"
+                    app:layout_constraintBottom_toBottomOf="@+id/priceTitleTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/priceTextView"
+                    app:layout_constraintTop_toTopOf="@+id/priceTitleTextView" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:background="@color/global__primary"
+            android:gravity="center"
+            android:text="@string/chat__make_offer_title"
+            android:textColor="@color/text__white"
+            android:textSize="@dimen/font_h6_size"
+            app:font='@{"bold"}'
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/currencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:enabled="false"
+            android:textColor="@color/text__primary"
+            android:textSize="@dimen/font_h6_size"
+            android:visibility="gone"
+            app:font='@{"normal"}'
+            app:layout_constraintBottom_toBottomOf="@+id/offerPriceEditText"
+            app:layout_constraintEnd_toStartOf="@+id/offerPriceEditText"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/offerPriceEditText"
+            tools:text=" $ " />
+
+        <TextView
+            android:id="@+id/backCurrencyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:enabled="false"
+            android:textColor="@color/text__primary"
+            android:textSize="@dimen/font_h6_size"
+            android:visibility="gone"
+            app:font='@{"normal"}'
+            app:layout_constraintBottom_toBottomOf="@+id/offerPriceEditText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/offerPriceEditText"
+            app:layout_constraintTop_toTopOf="@+id/offerPriceEditText"
+            tools:text=" $ " />
+
+        <EditText
+            android:id="@+id/offerPriceEditText"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_corner_shape_for_login"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            android:textColor="@color/text__primary"
+            android:textSize="@dimen/font_h6_size"
+            app:font='@{"normal"}'
+            android:labelFor="@+id/itemNameTextView"
+            app:layout_constraintEnd_toStartOf="@+id/backCurrencyTextView"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toEndOf="@+id/currencyTextView"
+            app:layout_constraintTop_toBottomOf="@+id/itemCardView"
+            tools:text="100"
+            />
+
+        <Button
+            android:id="@+id/offerButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/chat__make_offer_sender"
+            android:textColor="@color/text__white"
+            android:textSize="@dimen/font_title_size"
+            app:font='@{"bold"}'
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/offerPriceEditText" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,453 @@
+<resources>
+
+    <string name="history__title">历史</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">最爱</string>
+
+
+    <string name="gallery__title">画廊</string>
+    <string name="gallery_img__desc">图片描述</string>
+
+
+    <string name="image_default__image">默认图片</string>
+
+
+    <string name="app__ok">好</string>
+    <string name="app__cancel">取消</string>
+    <string name="app__drawer_open">抽屉打开</string>
+    <string name="app__drawer_close">抽屉关闭</string>
+
+
+    <string name="register__user_name">用户名</string>
+    <string name="register__email">电子邮件</string>
+    <string name="register__password">密码</string>
+    <string name="register__back_to_login">已经是会员？登录</string>
+    <string name="register__register">寄存器</string>
+    <string name="register__check_option">您同意这个隐私和政策吗？</string>
+
+
+    <string name="forgot_password__title">忘记密码</string>
+    <string name="forgot_password__email">电子邮件</string>
+    <string name="forgot_password__back_to_login">已经是会员？登录</string>
+    <string name="forgot_password__save">保存</string>
+    <string name="forgot_password__send">发送</string>
+
+
+    <string name="password_change__password">密码</string>
+    <string name="password_change__save">保存</string>
+    <string name="password_change__confirm_password">确认密码</string>
+    <string name="password_change__password_change">密码更改</string>
+
+
+    <string name="login__email">电子邮件</string>
+    <string name="login__password">密码</string>
+    <string name="login__not_a_member_join_now">新来的？注册</string>
+    <string name="login__forgot_your_password">忘记密码 ？</string>
+    <string name="login__login">登入</string>
+    <string name="login__choice_text">要么</string>
+    <string name="login__with_phone">Telefon ile signin</string>
+    <string name="login__with_google">Google ile giriş yap</string>
+
+
+    <string name="contact_us__name">联系人姓名</string>
+    <string name="contact_us__email">联系电子邮件</string>
+    <string name="contact_us__message">联系信息</string>
+    <string name="contact_us__phone">联系电话</string>
+    <string name="contact_us__submit">提交</string>
+
+
+    <string name="notification_setting__on_off">通知设置（开/关）</string>
+    <string name="notification_setting__latest_message_from_system">来自系统的最新消息</string>
+    <string name="notification__notification">通知！</string>
+    <string name="notification__title">通知</string>
+    <string name="notification_setting__title">通知设定</string>
+    <string name="notification_detail__title">通知详情</string>
+    <string name="notification__alert">警报</string>
+
+
+    <string name="language__language_change">您确定要更改为 %1$s 吗？</string>
+    <string name="language__title">语言</string>
+
+
+    <string name="rating__list">评级表</string>
+    <string name="rating__write_review">写评论</string>
+    <string name="rating__total_count">%1$s 顾客评论</string>
+    <string name="rating__total_value">%1$s 满分5星</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">标题</string>
+    <string name="rating__message">信息</string>
+    <string name="rating__user_rating">用户评分输入！</string>
+    <string name="rating__your_rating">你的评分</string>
+    <string name="rating__five_star">5星</string>
+    <string name="rating__four_star">4星</string>
+    <string name="rating__three_star">3星</string>
+    <string name="rating__two_star">2星</string>
+    <string name="rating__one_star">1星</string>
+
+
+    <string name="dialog__title_m_mun">排序</string>
+    <string name="popular__m_mun">流行</string>
+    <string name="recent__m_mun">最新</string>
+    <string name="char_asc__m_mun">A  - &gt; Z.</string>
+    <string name="char_desc__m_mun">Z  - &gt; A.</string>
+
+
+    <string name="edit_setting__notification_setting">通知设定</string>
+    <string name="edit_setting__logout">登出</string>
+    <string name="edit_setting__logout_question">你确定要退出吗？</string>
+    <string name="edit_setting__terms_and_conditions">条款和条件</string>
+    <string name="edit_setting__app_info">应用信息</string>
+    <string name="edit_setting__title">设置</string>
+
+
+    <string name="message__loading">载入中…</string>
+    <string name="message__please_wait">请耐心等待…</string>
+    <string name="message__welcome">欢迎来到PS Market Place</string>
+    <string name="message__want_to_quit">你真的想退出吗？</string>
+    <string name="message__ok_close">好</string>
+    <string name="message__cancel_close">取消</string>
+    <string name="message__seller">来自卖家</string>
+    <string name="message__buyer">来自买家</string>
+
+
+    <string name="search__notSet">没有设置</string>
+    <string name="search__by_price">价格范围</string>
+    <string name="search__lowest_price">最低限度</string>
+    <string name="search__highest_price">最大值</string>
+
+
+    <string name="sf__manufacturer">生产厂家</string>
+    <string name="sf__model">模型</string>
+    <string name="sf__transmission">传输</string>
+    <string name="sf__color">颜色</string>
+    <string name="sf__fuelType">汽油种类</string>
+    <string name="sf__buildType">构建类型</string>
+    <string name="sf__sellerType">卖家类型</string>
+    <string name="sf__notSet">没有设置</string>
+    <string name="sf__ByItemType">清单标题</string>
+    <string name="sf__Filter_Button">过滤</string>
+    <string name="sf__Search_Button">搜索</string>
+    <string name="sf__price_type">价格类型</string>
+    <string name="sf__item_condition">项目情况</string>
+    <string name="sf__type">类型</string>
+
+
+    <string name="error_message__login_first">请先登录！</string>
+    <string name="error_message__rating">请完全填写评分。</string>
+    <string name="error_message__blank_email">请输入电子邮件。</string>
+    <string name="error_message__choose_manufacturer">选择制造商第一</string>
+    <string name="error_message__blank_contact_message">请输入联系信息。</string>
+    <string name="error_message__blank_password">请输入密码。</string>
+    <string name="error_message__blank_name">请输入姓名。</string>
+    <string name="error_message__blank_phone_no">请输入电话号码。</string>
+    <string name="error_message__password_not_equal">密码不相等！</string>
+    <string name="error_message__image_cannot_upload">图片无法上传</string>
+    <string name="error_message__item_cannot_upload">项目无法上传</string>
+    <string name="error_message__already_accept">您的商品已售出</string>
+    <string name="error_message__to_check_agreement">您需要检查的隐私和政策的协议。</string>
+
+
+    <string name="Feature_UI_Type__Button">生产厂家</string>
+    <string name="Feature_UI_Tune__Button">过滤和排序</string>
+    <string name="Feature_UI_Sort__Button">使用地图过滤</string>
+    <string name="Feature_UI__item_list_no_item_title">没有数据</string>
+    <string name="Feature_UI__item_list_no_item_desc">没有结果！请尝试调整过滤器。</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">选择制造商</string>
+    <string name="Feature_UI__search_alert_model_title">选择型号</string>
+    <string name="Feature_UI__search_alert_type_title">选择项目类型</string>
+    <string name="Feature_UI__search_alert_price_type_title">选择项目价格类型</string>
+    <string name="Feature_UI__search_alert_condition_title">选择项目条件</string>
+    <string name="Feature_UI__search_alert_location_title">选择项目位置选项</string>
+    <string name="Feature_UI__search_alert_currency_title">选择项目货币选项</string>
+    <string name="Feature_UI__search_alert_deal_option_title">选择商品交易选项</string>
+    <string name="Feature_UI__search_alert_transmission">选择传输</string>
+    <string name="Feature_UI__search_alert_color">选择颜色</string>
+    <string name="Feature_UI__search_fuel_type">选择燃料类型</string>
+    <string name="Feature_UI__search_build_type">选择Build类型</string>
+    <string name="Feature_UI__search_seller_type">选择卖家类型</string>
+
+
+    <string name="about_us__phone">电话</string>
+    <string name="about_us__facebook">Facebook的</string>
+    <string name="about_us__gplus">Google Plus</string>
+    <string name="about_us__instagram">Instagram的</string>
+    <string name="about_us__youtube">的Youtube</string>
+    <string name="about_us__pinterest">Pinterest的</string>
+    <string name="about_us__twitter">推特</string>
+    <string name="about_us__visit_website">访问我们的网站</string>
+    <string name="about_us__title">应用信息</string>
+
+
+    <string name="profile__title">轮廓</string>
+    <string name="profile__edit">编辑</string>
+    <string name="profile__favourites">最爱</string>
+    <string name="profile__setting">设置</string>
+    <string name="profile__joined_on">加入</string>
+    <string name="profile__see_all">查看全部</string>
+    <string name="profile__verified">验证</string>]
+    <string name="profile__followers">关注</string>
+    <string name="profile__following">以下</string>
+    <string name="profile__listing">清单</string>
+    <string name="profile__follow">跟随</string>
+    <string name="profile__unfollow">取消关注</string>
+    <string name="profile__joined">加入 - </string>
+    <string name="profile__deactivate">关闭户口</string>
+    <string name="profile__confirm_deactivate">您确定要停用此帐户吗？</string>
+
+
+    <string name="edit_profile__title">编辑个人资料</string>
+    <string name="edit_profile__user_name">用户名</string>
+    <string name="edit_profile__about_me">关于我</string>
+    <string name="edit_profile__email">电子邮件</string>
+    <string name="edit_profile__password_change">密码更改</string>
+    <string name="edit_profile__save">保存</string>
+    <string name="edit_profile__phone">电话</string>
+    <string name="edit_profile__address">地址</string>
+    <string name="edit_profile__city">市</string>
+    <string name="verify_email">验证邮件</string>
+    <string name="verify_phone_code">输入OTP代码</string>
+
+
+    <string name="menu__home">家</string>
+    <string name="menu__profile">轮廓</string>
+    <string name="menu__favourite_items">喜爱</string>
+    <string name="menu__user_history">用户历史</string>
+    <string name="menu__logout">登出</string>
+    <string name="menu__about_app">关于我们</string>
+    <string name="menu__contact_us">联系我们</string>
+    <string name="menu__language">语言</string>
+    <string name="menu__setting">设置</string>
+    <string name="menu__interest">利益</string>
+    <string name="menu__app_setting">应用</string>
+    <string name="menu__user_info">用户信息</string>
+    <string name="menu__search">搜索</string>
+    <string name="menu__filter">过滤</string>
+    <string name="menu__latest_item">最新产品</string>
+    <string name="menu__discount">促销品</string>
+    <string name="menu__category">类别</string>
+    <string name="menu__featured_item">最好的东西项目</string>
+    <string name="menu__trending_item">热门项目</string>
+    <string name="menu__home_category_view_All_un">查看全部</string>
+    <string name="menu__collections">集合</string>
+    <string name="menu__map_filter_apply">应用</string>
+    <string name="menu__map_filter_reset">重启</string>
+    <string name="menu__rate">为这个应用软件评分</string>
+    <string name="menu__message">信息</string>
+    <string name="menu__report_item">报告项目</string>
+    <string name="menu__share">分享</string>
+    <string name="menu__privacy_policy">条款和条件</string>
+    <string name="menu__manufacturer">生产厂家</string>
+
+    <string name="item_detail__rating">没有评级。</string>
+    <string name="item_detail__view_count">%1$s次浏览</string>
+    <string name="item_detail__fav_count">%1$s收藏</string>
+    <string name="item_detail__read_more">阅读更多</string>
+    <string name="item_detail__call">呼叫</string>
+    <string name="item_detail__statistic">统计</string>
+    <string name="item_detail__meet_seller">认识卖家</string>
+    <string name="item_detail__chat">聊</string>
+    <string name="item_detail__edit">编辑</string>
+    <string name="item_detail__sold">出售</string>
+    <string name="item_detail__photo">照片</string>
+    <string name="item_detail__photos">相片</string>
+    <string name="item_detail__mark_sold">标记为已售出</string>
+    <string name="item_detail__delete">删除</string>
+    <string name="item_detail__confirm_delete">你确定要删除这个项目吗？</string>
+    <string name="item_detail__confirm_sold_out">你确定要把这件物品卖光了吗？</string>
+    <string name="item_detail__safety_tip">安全提示</string>
+    <string name="item_detail__item_location">项目位置</string>
+    <string name="item_detail__view_on_map">在地图上查看</string>
+    <string name="item_detail__manufacturers">制造商</string>
+    <string name="item_detail__model">模型</string>
+    <string name="item_detail__color">颜色</string>
+    <string name="item_detail__fuel_type">汽油种类</string>
+    <string name="item_detail__steering_position">操舵位置</string>
+    <string name="item_detail__numbers_of_owners">业主人数</string>
+    <string name="item_detail__trim_name">修剪名称</string>
+    <string name="item_detail__vehicle_id">车辆ID</string>
+    <string name="item_detail__build_type">构建类型</string>
+    <string name="item_detail__licence_status">授权状态</string>
+    <string name="item_detail__max_passengers">最大乘客</string>
+    <string name="item_detail__no_of_doors">没有门</string>
+    <string name="item_detail__seller_type">卖家类型</string>
+    <string name="item_detail__plate_number">板块无</string>
+    <string name="item_detail__engine_power">发动机功率</string>
+    <string name="item_detail__transmission">传输</string>
+    <string name="item_detail__mileage">里程</string>
+    <string name="item_detail__license_expiration">许可证到期</string>
+    <string name="item_detail__year">年</string>
+
+
+
+    <string name="item_entry_detail__description">描述</string>
+    <string name="item_entry_detail__price">价钱</string>
+    <string name="item_entry_detail__title">你今天列出的是什么？</string>
+    <string name="item_entry_detail__desc">选择米饭照片来展示你的东西。</string>
+    <string name="item_entry_detail__shop_setting">商店设置</string>
+    <string name="item_entry_detail__is_shop">是商店吗？</string>
+    <string name="item_entry_detail__is_shop_desc">（如果show user可以订购多个）</string>
+    <string name="item_entry_detail__highlight">突出显示信息</string>
+    <string name="item_entry_detail__latitude">纬度</string>
+    <string name="item_entry_detail__longitude">经度</string>
+    <string name="item_entry_detail__location">地点</string>
+    <string name="item_entry_detail__address">地址</string>
+    <string name="item_entry_detail__submit">提交</string>
+    <string name="item_entry_toolbar">上市条目</string>
+    <string name="item_entry_sold">出售</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">请至少选择一张图片</string>
+    <string name="item_entry_need_manufacturer">选择制造商</string>
+    <string name="item_entry_need_modle">选择模型</string>
+    <string name="item_entry_need_type">选择类型</string>
+    <string name="item_entry_need_list_title">填写您的项目标题</string>
+    <string name="item_entry_need_item_condition">选择项目条件</string>
+    <string name="item_entry_need_item_plate_number">填写您的项目车牌号码</string>
+    <string name="item_entry_need_item_engine_power">填写您的物品发动机功率</string>
+    <string name="item_entry_need_item_year">填写您的项目年</string>
+    <string name="item_entry_need_item_transmission">选择传输</string>
+    <string name="item_entry_need_description">为您的项目写下描述</string>
+    <string name="item_entry_need_price">写下你的价格</string>
+    <string name="item_entry_need_currency_symbol">选择您的货币符号</string>
+    <string name="item_entry_offer_not_zero">您的报价不能为零</string>
+    <string name="item_entry_accept_confirm">你真的想接受这个价格吗？</string>
+    <string name="item_entry_reject_confirm">你真的想拒绝这个价格吗？</string>
+    <string name="item_entry_user_not_exit">此用户不会退出</string>
+    <string name="item_entry_pin_shop">销店位置</string>
+    <string name="item_entry_camera">相机</string>
+    <string name="item_entry_gallery">画廊</string>
+    <string name="item_entry__manufacturer">生产厂家</string>
+    <string name="item_entry__model">模型</string>
+    <string name="item_entry__color">颜色</string>
+    <string name="item_entry__fuel_type">汽油种类</string>
+    <string name="item_entry__build_type">构建类型</string>
+    <string name="item_entry__seller_type">卖家类型</string>
+    <string name="item_entry__transmission">传输</string>
+    <string name="item_entry__plate_number">车牌号码</string>
+    <string name="item_entry__engine_power">发动机功率</string>
+    <string name="item_entry__steering_position">操舵位置</string>
+    <string name="item_entry__no_of_owner">号码主人</string>
+    <string name="item_entry__trim_name">修剪名称</string>
+    <string name="item_entry__vehicle_id">车辆ID</string>
+    <string name="item_entry__price_unit">价格单位</string>
+    <string name="item_entry__year">年</string>
+    <string name="item_entry__licence_status">授权状态</string>
+    <string name="item_entry__max_passengers">最大乘客</string>
+    <string name="item_entry__no_of_door">数门</string>
+    <string name="item_entry__mileage">里程</string>
+    <string name="item_entry__license_expiration_date">许可证到期日期</string>
+    <string name="item_entry__is_licence">是许可证？</string>
+
+    <string name="item_from_follower_toolbar">来自追随者的物品清单</string>
+
+
+    <string name="item_condition__type">（%1$s）</string>
+
+
+    <string name="map_filter__map_title">地图过滤器</string>
+    <string name="map_filter__browsing">浏览</string>
+    <string name="map_filter__all">所有</string>
+
+    <string name="map__pick_location">选择位置</string>
+
+    <string name="no_internet_error">没有网络连接。</string>
+
+
+    <string name="message_sent">您的留言已发送。</string>
+
+
+    <string name="update_noti">请耐心等待！仍在更新通知设置。</string>
+
+    <string name="success">成功</string>
+    <string name="confirm">确认</string>
+    <string name="info">信息</string>
+    <string name="error">错误</string>
+    <string name="warning">警告</string>
+    <string name="version_update">版本更新</string>
+    <string name="update">更新</string>
+
+
+    <string name="category__list_title">你有什么兴趣？</string>
+
+
+    <string name="blog_list__title">博客列表</string>
+
+
+    <string name="blog_detail__error_message">具有此ID的博客不存在</string>
+    <string name="blog_detail__title">博客详情</string>
+
+
+    <string name="city_menu__title">城市菜单</string>
+
+
+    <string name="city__sure_to_exit">你想离开这个城市吗？</string>
+
+
+    <string name="item_list_title">物品清单</string>
+
+
+    <string name="force_update__button_update"> 更新</string>
+
+
+    <string name="dashboard_keyword">关键词</string>
+    <string name="dashboard_blog">博客</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">我们的社区连接</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="selected_city_manufactures">制造商</string>
+    <string name="selected_city_recent">最近上传的汽车</string>
+    <string name="selected_city_popular_item">大众汽车</string>
+    <string name="selected_city_item_follower">从你的追随者汽车</string>
+    <string name="selected_city_add"> 提交免费广告</string>
+
+
+    <string name="location_title">您的位置</string>
+    <string name="location_change_later">你可以稍后改变！</string>
+    <string name="location_select">请选择城市。</string>
+
+    <string name="setting__clear_cache_confirm">你确定要清除图像缓存吗？</string>
+    <string name="setting__clear_image_cache">清除图像缓存</string>
+    <string name="setting__image_cache_size">图像缓存大小</string>
+    <string name="setting__camera">相机</string>
+    <string name="setting__default_camera">默认摄像头</string>
+    <string name="setting__custom_camera">自定义相机</string>
+    <string name="setting__change_gdpr">更改GDPR设置</string>
+    <string name="setting__version_no">版本號：</string>
+
+    <string name="chat__mark_as_sold">标记为已售出</string>
+    <string name="chat__accept">接受</string>
+    <string name="chat__reject">拒绝</string>
+    <string name="chat__make_offer_title">为这个项目提供报价</string>
+    <string name="chat__offer">制作\ n提供</string>
+    <string name="chat__make_offer_sender">提出要约</string>
+    <string name="chat__make_offer_receiver">收到的报价</string>
+    <string name="chat__accept_text">优惠已接受</string>
+    <string name="chat__reject_text">优惠被拒绝</string>
+    <string name="chat__sold">出售</string>
+    <string name="chat__give_review">给予评论</string>
+    <string name="chat__item_is_sold">商品已售出</string>
+    <string name="chat__item_space_error">你的价格不能为空</string>
+
+
+    <string name="verify_email__informateion">您刚收到一封包含验证码的电子邮件</string>
+    <string name="verify_email__enter_code">输入验证码</string>
+    <string name="verify_email__change_email">更改电子邮件</string>
+    <string name="verify_email__resent_code">重新编码</string>
+    <string name="verify_email__submit">提交</string>
+    <string name="verify_email__title">电子邮件验证</string>
+
+
+    <string name="verify_phone__informateion">你刚刚收到包含OTP代码的手机短信</string>
+    <string name="verify_phone__back_login">回到登入 ？</string>
+    <string name="verify_phone__title">电话确认</string>
+
+
+    <string name="user_follower_list_toolbar_name">追随者用户名单</string>
+    <string name="user_following_list_toolbar_name">关注用户列表</string>
+
+</resources>

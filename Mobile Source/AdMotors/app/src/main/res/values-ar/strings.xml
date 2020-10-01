@@ -1,0 +1,493 @@
+<resources>
+
+    <!--History -->
+    <string name="history__title">التاريخ</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+    <!-- Favourite -->
+    <string name="favourite__title">المفضلة</string>
+
+    <!-- FB Register -->
+
+    <!-- Gallery -->
+    <string name="gallery__title">صالة عرض</string>
+    <string name="gallery_img__desc">وصف الصورة</string>
+
+    <!-- Image Related -->
+    <string name="image_default__image">الصورة الافتراضية</string>
+
+    <!-- App General -->
+    <string name="app__ok">حسنا</string>
+    <string name="app__cancel">إلغاء</string>
+    <string name="app__drawer_open">فتح الدرج</string>
+    <string name="app__drawer_close">إغلاق الدرج</string>
+
+    <!-- Register -->
+    <string name="register__user_name">اسم المستخدم</string>
+    <string name="register__email">البريد الإلكتروني</string>
+    <string name="register__password">كلمه السر</string>
+    <string name="register__back_to_login">عضو بالفعل؟ تسجيل الدخول</string>
+    <string name="register__register">تسجيل</string>
+    <string name="register__check_option">هل توافق على هذه الخصوصية والسياسة؟</string>
+
+    <!-- Forgot Password -->
+    <string name="forgot_password__title">هل نسيت كلمة المرور</string>
+    <string name="forgot_password__email">البريد الإلكتروني</string>
+    <string name="forgot_password__back_to_login">عضو بالفعل؟ تسجيل الدخول</string>
+    <string name="forgot_password__save">حفظ</string>
+    <string name="forgot_password__send">إرسال</string>
+
+    <!-- Password Change -->
+    <string name="password_change__password">كلمه السر</string>
+    <string name="password_change__save">حفظ</string>
+    <string name="password_change__confirm_password">تأكيد كلمة المرور</string>
+    <string name="password_change__password_change">تغيير كلمة السر</string>
+
+    <!-- Login -->
+    <string name="login__email">البريد الإلكتروني</string>
+    <string name="login__password">كلمه السر</string>
+    <string name="login__not_a_member_join_now">جديد هنا؟ سجل</string>
+    <string name="login__forgot_your_password">هل نسيت كلمة المرور ؟</string>
+    <string name="login__login">تسجيل الدخول</string>
+    <string name="login__choice_text">أو</string>
+    <string name="login__with_phone">في تسجيل الدخول مع الهاتف</string>
+    <string name="login__with_google">الدخول مع جوجل</string>
+
+    <!-- Contact Us -->
+    <string name="contact_us__name">اسم جهة الاتصال</string>
+    <string name="contact_us__email">تواصل بالبريد الاكتروني</string>
+    <string name="contact_us__message">رسالة الاتصال</string>
+    <string name="contact_us__phone">الاتصال الهاتف</string>
+    <string name="contact_us__submit">خضع</string>
+
+    <!-- Notification Setting -->
+    <string name="notification_setting__on_off">إعداد الإخطار (تشغيل / إيقاف)</string>
+    <string name="notification_setting__latest_message_from_system">أحدث رسالة من النظام</string>
+    <string name="notification__notification">إخطار!</string>
+    <string name="notification__title">إعلام</string>
+    <string name="notification_setting__title">إعداد الإخطار</string>
+    <string name="notification_detail__title">تفاصيل الإخطار</string>
+    <string name="notification__alert">محزر</string>
+
+    <!-- Language -->
+    <string name="language__language_change">هل تريد بالتأكيد التغيير إلى %1$s؟</string>
+    <string name="language__title">لغة</string>
+
+    <!-- Comment -->
+
+    <!-- Rating -->
+    <string name="rating__list">قائمة التقييم</string>
+    <string name="rating__write_review">أكتب مراجعة</string>
+    <string name="rating__total_count">%1$s آراء العملاء</string>
+    <string name="rating__total_value">%1$s من 5 نجوم</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">عنوان</string>
+    <string name="rating__message">رسالة</string>
+    <string name="rating__user_rating">دخول تقييم المستخدم!</string>
+    <string name="rating__your_rating">تقييمك</string>
+    <string name="rating__five_star">5 نجمة</string>
+    <string name="rating__four_star">4 نجمة</string>
+    <string name="rating__three_star">3 نجمة</string>
+    <string name="rating__two_star">2 نجمة</string>
+    <string name="rating__one_star">1 نجمة</string>
+
+    <!--Button Sheet Dialog Messages-->
+    <string name="dialog__title_m_mun">فرز</string>
+    <string name="popular__m_mun">جمع</string>
+    <string name="recent__m_mun">آخر</string>
+    <string name="char_asc__m_mun">A -> Z</string>
+    <string name="char_desc__m_mun">Z -> A</string>
+
+    <!-- edit setting -->
+    <string name="edit_setting__notification_setting">إعداد الإخطار</string>
+    <string name="edit_setting__logout">الخروج</string>
+    <string name="edit_setting__logout_question">هل أنت متأكد من تسجيل الخروج؟</string>
+    <string name="edit_setting__terms_and_conditions">الأحكام والشروط</string>
+    <string name="edit_setting__app_info">معلومات التطبيق</string>
+    <string name="edit_setting__title">ضبط</string>
+
+    <!-- Message -->
+    <string name="message__loading">جار التحميل…</string>
+    <string name="message__please_wait">ارجوك انتظر…</string>
+    <string name="message__welcome">نموذج الترحيب PS Market</string>
+    <string name="message__want_to_quit">حقيقة تريد الاستقالة؟</string>
+    <string name="message__ok_close">حسنا</string>
+    <string name="message__cancel_close">إلغاء</string>
+    <string name="message__seller">من البائعين</string>
+    <string name="message__buyer">من المشترين</string>
+
+    <!-- Search -->
+    <string name="search__notSet">غير مضبوط</string>
+    <string name="search__by_price">نطاق السعر</string>
+    <string name="search__lowest_price">الحد الأدنى</string>
+    <string name="search__highest_price">أقصى</string>
+
+    <!--Special_Filtering-->
+    <string name="sf__manufacturer">الصانع</string>
+    <string name="sf__model">نموذج</string>
+    <string name="sf__transmission">انتقال</string>
+    <string name="sf__color">اللون</string>
+    <string name="sf__fuelType">نوع الوقود</string>
+    <string name="sf__buildType">نوع البناء</string>
+    <string name="sf__sellerType">نوع البائع</string>
+    <string name="sf__notSet">غير مضبوط</string>
+    <string name="sf__ByItemType">عنوان القائمة</string>
+    <string name="sf__Filter_Button">منقي</string>
+    <string name="sf__Search_Button">Search</string>
+    <string name="sf__price_type">نوع السعر</string>
+    <string name="sf__item_condition">حالة السلعة</string>
+    <string name="sf__type">نوع</string>
+
+    <!-- Error Message -->
+    <string name="error_message__login_first">الرجاء تسجيل الدخول أولا!</string>
+    <string name="error_message__rating">يرجى ملء تماما لتقييم.</string>
+    <string name="error_message__blank_email">الرجاء إدخال البريد الإلكتروني.</string>
+    <string name="error_message__choose_manufacturer">اختيار الصانع الأولى</string>
+    <string name="error_message__blank_contact_message">يرجى إدخال رسالة الاتصال.</string>
+    <string name="error_message__blank_password">يرجى إدخال كلمة السر.</string>
+    <string name="error_message__blank_name">الرجاء إدخال الاسم.</string>
+    <string name="error_message__blank_phone_no">الرجاء إدخال رقم الهاتف.</string>
+    <string name="error_message__password_not_equal">كلمة المرور ليست متساوية!</string>
+    <string name="error_message__image_cannot_upload">لا يمكن تحميل الصورة</string>
+    <string name="error_message__item_cannot_upload">لا يمكن تحميل العنصر</string>
+    <string name="error_message__already_accept">البند الخاص بك قد تم بيعها بالفعل</string>
+    <string name="error_message__to_check_agreement">تحتاج إلى التحقق من اتفاق الخصوصية والسياسة.</string>
+
+    <!--FeatureUIButton-->
+    <string name="Feature_UI_Type__Button">الصانع</string>
+    <string name="Feature_UI_Tune__Button">تصفية وفرز</string>
+    <string name="Feature_UI_Sort__Button">تصفية مع خريطة</string>
+    <string name="Feature_UI__item_list_no_item_title">لايوجد بيانات</string>
+    <string name="Feature_UI__item_list_no_item_desc">لا يوجد نتيجة! يرجى المحاولة لضبط الفلتر.</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">اختيار الصانع</string>
+    <string name="Feature_UI__search_alert_model_title">اختيار نموذج</string>
+    <string name="Feature_UI__search_alert_type_title">اختر نوع العنصر</string>
+    <string name="Feature_UI__search_alert_price_type_title">اختر نوع سعر البند</string>
+    <string name="Feature_UI__search_alert_condition_title">اختيار حالة البند</string>
+    <string name="Feature_UI__search_alert_deal_option_title">اختيار خيار صفقة البند</string>
+    <string name="Feature_UI__search_alert_location_title">اختر خيار موقع العنصر</string>
+    <string name="Feature_UI__search_alert_currency_title">اختر عنصر عملة الخيار</string>
+    <string name="Feature_UI__search_alert_transmission">اختيار الإرسال</string>
+    <string name="Feature_UI__search_alert_color">اختيار اللون</string>
+    <string name="Feature_UI__search_fuel_type">اختيار نوع الوقود</string>
+    <string name="Feature_UI__search_build_type">اختيار نوع البناء</string>
+    <string name="Feature_UI__search_seller_type">اختيار نوع البائع</string>
+
+    <!-- About Us -->
+    <string name="about_us__phone">هاتف</string>
+    <string name="about_us__facebook">فيس بوك</string>
+    <string name="about_us__gplus">جوجل بلس</string>
+    <string name="about_us__instagram">إينستاجرام</string>
+    <string name="about_us__youtube">موقع YouTube</string>
+    <string name="about_us__pinterest">موقع Pinterest</string>
+    <string name="about_us__twitter">تغريد</string>
+    <string name="about_us__visit_website">زيارة إلى موقعنا</string>
+    <string name="about_us__title">معلومات التطبيق</string>
+
+    <!-- Profile -->
+    <string name="profile__title">الملف الشخصي</string>
+    <string name="profile__edit">تصحيح</string>
+    <string name="profile__favourites">المفضلة</string>
+    <string name="profile__setting">ضبط</string>
+    <string name="profile__joined_on">انضم على</string>
+    <string name="profile__see_all">اظهار الكل</string>
+    <string name="profile__verified">التحقق</string>
+    <string name="profile__followers">متابعون</string>
+    <string name="profile__following">التالية</string>
+    <string name="profile__listing">قائمة</string>
+    <string name="profile__follow">Follow</string>
+    <string name="profile__unfollow">Unfollow</string>
+    <string name="profile__joined">انضم - </string>
+    <string name="profile__deactivate">تعطيل الحساب</string>
+    <string name="profile__confirm_deactivate">هل أنت متأكد من إلغاء تنشيط هذا الحساب؟</string>
+
+    <!-- Edit Profile -->
+    <string name="edit_profile__title">تعديل الملف الشخصي</string>
+    <string name="edit_profile__user_name">اسم المستخدم</string>
+    <string name="edit_profile__about_me">عني</string>
+    <string name="edit_profile__email">البريد الإلكتروني</string>
+    <string name="edit_profile__password_change">تغيير كلمة السر</string>
+    <string name="edit_profile__save">حفظ</string>
+    <string name="edit_profile__phone">هاتف</string>
+    <string name="edit_profile__address">عنوان</string>
+    <string name="edit_profile__city">مدينة</string>
+    <string name="verify_email">التحقق من البريد الإلكتروني</string>
+    <string name="verify_phone_code">أدخل رمز OTP</string>
+
+
+    <!-- Menu -->
+    <string name="menu__home">الصفحة الرئيسية</string>
+    <string name="menu__profile">الملف الشخصي</string>
+    <string name="menu__favourite_items">مفضل</string>
+    <string name="menu__user_history">سجل المستخدم</string>
+    <string name="menu__logout">الخروج</string>
+    <string name="menu__about_app">معلومات عنا</string>
+    <string name="menu__contact_us">معلومات عنا</string>
+    <string name="menu__language">لغة</string>
+    <string name="menu__setting">ضبط</string>
+    <string name="menu__interest">Interest</string>
+    <string name="menu__app_setting">التطبيق</string>
+    <string name="menu__user_info">معلومات المستخدم</string>
+    <string name="menu__search">بحث</string>
+    <string name="menu__filter">منقي</string>
+    <string name="menu__latest_item">أحدث العناصر</string>
+    <string name="menu__discount">عناصر الترويج </string>
+    <string name="menu__category">الفئة </string>
+    <string name="menu__featured_item">أفضل الأشياء البنود</string>
+    <string name="menu__trending_item">العناصر الشعبية</string>
+    <string name="menu__home_category_view_All_un">عرض الكل</string>
+    <string name="menu__collections">مجموعات</string>
+    <string name="menu__map_filter_apply">تطبيق</string>
+    <string name="menu__map_filter_reset">إعادة تعيين</string>
+    <string name="menu__rate">قيم هذا التطبيق</string>
+    <string name="menu__message">رسالة</string>
+    <string name="menu__report_item">بلغ عن شيء</string>
+    <string name="menu__share">شارك</string>
+    <string name="menu__privacy_policy">الأحكام والشروط</string>
+    <string name="menu__manufacturer">الصانع</string>
+
+    <!-- Collection List -->
+
+    <!--Item detail-->
+    <string name="item_detail__rating">لا يوجد تقييم.</string>
+    <string name="item_detail__view_count">%1$s الآراء</string>
+    <string name="item_detail__fav_count">%1$s مفضل</string>
+    <string name="item_detail__read_more">قراءة المزيد</string>
+    <string name="item_detail__call">مكالمة</string>
+    <string name="item_detail__statistic">إحصائية</string>
+    <string name="item_detail__meet_seller">قابل البائع</string>
+    <string name="item_detail__chat">دردشة</string>
+    <string name="item_detail__edit">تصحيح</string>
+    <string name="item_detail__sold">تم البيع</string>
+    <string name="item_detail__photo">صورة فوتوغرافية</string>
+    <string name="item_detail__photos">الصور</string>
+    <string name="item_detail__mark_sold">اجعلها مباعة</string>
+    <string name="item_detail__delete">حذف</string>
+    <string name="item_detail__confirm_delete">هل أنت متأكد من حذف هذا العنصر؟</string>
+    <string name="item_detail__confirm_sold_out">هل أنت متأكد من بيع هذا المنتج؟</string>
+    <string name="item_detail__safety_tip">نصائح السلامة</string>
+    <string name="item_detail__item_location">موقع السلعة</string>
+    <string name="item_detail__view_on_map">عرض على الخريطة</string>
+    <string name="item_detail__manufacturers">مصنعين</string>
+    <string name="item_detail__model">نموذج</string>
+    <string name="item_detail__color">اللون</string>
+    <string name="item_detail__fuel_type">نوع الوقود</string>
+    <string name="item_detail__steering_position">الوظيفة التوجيهية</string>
+    <string name="item_detail__numbers_of_owners">عدد من أصحاب</string>
+    <string name="item_detail__trim_name">اسم تقليم</string>
+    <string name="item_detail__vehicle_id">رقم المركبة</string>
+    <string name="item_detail__build_type">بناء نوع</string>
+    <string name="item_detail__licence_status">الحالة رخصة</string>
+    <string name="item_detail__max_passengers">ركاب كحد أقصى</string>
+    <string name="item_detail__no_of_doors">عدد الأبواب</string>
+    <string name="item_detail__seller_type">نوع البائع</string>
+    <string name="item_detail__plate_number">لوحة لا</string>
+    <string name="item_detail__engine_power">قوة المحرك</string>
+    <string name="item_detail__transmission">انتقال</string>
+    <string name="item_detail__mileage">عدد الأميال</string>
+    <string name="item_detail__license_expiration">انتهاء رخصة</string>
+    <string name="item_detail__year">عام</string>
+
+
+
+    <string name="item_entry_detail__description">وصف</string>
+    <string name="item_entry_detail__price">السعر</string>
+    <string name="item_entry_detail__title">ما الذي تدرجه اليوم؟</string>
+    <string name="item_entry_detail__desc">اختيار صورة الأرز لعرض ما لديك.</string>
+    <string name="item_entry_detail__shop_setting">متجر الإعداد</string>
+    <string name="item_entry_detail__is_shop">هو متجر؟</string>
+    <string name="item_entry_detail__is_shop_desc">(إذا كان بإمكان المستخدم إظهار أكثر من طلب)</string>
+    <string name="item_entry_detail__highlight">تسليط الضوء على المعلومات</string>
+    <string name="item_entry_detail__latitude">خط العرض</string>
+    <string name="item_entry_detail__longitude">خط الطول</string>
+    <string name="item_entry_detail__location">موقعك</string>
+    <string name="item_entry_detail__address">عنوان</string>
+    <string name="item_entry_detail__submit">خضع</string>
+    <string name="item_entry_toolbar">إدخال قائمة</string>
+    <string name="item_entry_sold">تم البيع</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">يرجى اختيار صورة واحدة على الأقل</string>
+    <string name="item_entry_need_manufacturer">اختيار الشركة المصنعة</string>
+    <string name="item_entry_need_modle">اختيار نموذج</string>
+    <string name="item_entry_need_type">اختر النوع</string>
+    <string name="item_entry_need_list_title">ملء عنوان البند الخاص بك</string>
+    <string name="item_entry_need_item_condition">اختيار حالة البند</string>
+    <string name="item_entry_need_item_plate_number">ملء رقم لوحة البند الخاص بك</string>
+    <string name="item_entry_need_item_engine_power">ملء قوة المحرك البند الخاص بك</string>
+    <string name="item_entry_need_item_year">ملء العام البند الخاص بك</string>
+    <string name="item_entry_need_item_transmission">اختيار الإرسال</string>
+    <string name="item_entry_need_description">اكتب وصفا للبند الخاص بك</string>
+    <string name="item_entry_need_price">اكتب سعرك</string>
+    <string name="item_entry_need_currency_symbol">اختر رمز عملتك</string>
+    <string name="item_entry_offer_not_zero">لا يمكن أن يكون سعر العرض الخاص بك صفرًا</string>
+    <string name="item_entry_accept_confirm">هل تريد حقًا قبول هذا السعر؟</string>
+    <string name="item_entry_reject_confirm">هل تريد حقًا رفض هذا السعر؟</string>
+    <string name="item_entry_user_not_exit">هذا المستخدم لا يخرج</string>
+    <string name="item_entry_pin_shop">متجر دبوس الموقع</string>
+    <string name="item_entry_camera">الة تصوير</string>
+    <string name="item_entry_gallery">صالة عرض</string>
+    <string name="item_entry__manufacturer">الصانع</string>
+    <string name="item_entry__model">نموذج</string>
+    <string name="item_entry__color">اللون</string>
+    <string name="item_entry__fuel_type">نوع الوقود</string>
+    <string name="item_entry__build_type">بناء نوع</string>
+    <string name="item_entry__seller_type">نوع البائع</string>
+    <string name="item_entry__transmission">انتقال</string>
+    <string name="item_entry__plate_number">رقم لوحة</string>
+    <string name="item_entry__engine_power">قوة المحرك</string>
+    <string name="item_entry__steering_position">الوظيفة التوجيهية</string>
+    <string name="item_entry__no_of_owner">عدد من المالك</string>
+    <string name="item_entry__trim_name">اسم تقليم</string>
+    <string name="item_entry__vehicle_id">رقم المركبة</string>
+    <string name="item_entry__price_unit">سعر الوحدة</string>
+    <string name="item_entry__year">عام</string>
+    <string name="item_entry__licence_status">الحالة رخصة</string>
+    <string name="item_entry__max_passengers">الركاب الأقصى</string>
+    <string name="item_entry__no_of_door">عدد الأبواب</string>
+    <string name="item_entry__mileage">عدد الأميال</string>
+    <string name="item_entry__license_expiration_date">رخصة تاريخ انتهاء الصلاحية</string>
+    <string name="item_entry__is_licence">هو ترخيص؟</string>
+
+    <string name="item_from_follower_toolbar">قوائم البند من التابع</string>
+
+
+    <!--Discount-->
+
+    <!--Map-->
+    <string name="map_filter__map_title">مرشح الخريطة</string>
+    <string name="map_filter__browsing">التصفح حول</string>
+    <string name="map_filter__all">الكل</string>
+
+    <string name="map__pick_location">اختيار الموقع</string>
+
+    <!--Warning-->
+    <string name="no_internet_error">لا يوجد اتصال بالإنترنت.</string>
+
+
+    <!--SUCCESS-->
+
+    <string name="message_sent">تم ارسال رسالتك.</string>
+
+    <!--NOTIFICATION-->
+
+    <string name="update_noti">ارجوك انتظر! لا يزال تحديث إعداد الإخطار.</string>
+
+    <string name="success">نجاح</string>
+    <string name="confirm">تؤكد</string>
+    <string name="info">INFO</string>
+    <string name="error">خطأ</string>
+    <string name="warning">تحذير</string>
+    <string name="version_update">تحديث الإصدار</string>
+    <string name="update">تحديث</string>
+
+    <!--MANUFACTURER LIST -->
+    <string name="category__list_title">ما هي اهتماتك ؟</string>
+
+    <!--SUB MANUFACTURER LIST -->
+
+    <!--BlogList-->
+    <string name="blog_list__title">قائمة المدونة</string>
+
+    <!--BlogDetail-->
+    <string name="blog_detail__error_message">المدونة التي تحمل هذا المعرف غير موجودة</string>
+    <string name="blog_detail__title">تفاصيل المدونة</string>
+
+    <!--ShopTag-->
+    <!--<string name="shop_category__title">قائمة فئة المتجر</string>-->
+
+    <!--City Menu-->
+    <string name="city_menu__title">قائمة المدينة</string>
+
+    <!-- Selected shop -->
+    <string name="city__sure_to_exit">هل تريد الخروج من هذه المدينة؟</string>
+
+    <!--<string name="shop">متجر</string>-->
+
+    <!--<string name="copy_clipboard">نسخ إلى الحافظة</string>-->
+
+    <!--item list-->
+    <string name="item_list_title">قائمة البند</string>
+
+    <!--force update-->
+    <string name="force_update__button_update"> تحديث </string>
+
+    <!--Email-->
+
+    <!--Dashboard-->
+    <string name="dashboard_keyword">الكلمة</string>
+    <string name="dashboard_blog">مدونة</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">التواصل مع مجتمعنا</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <!--Dashboard-->
+
+    <!--Selected City-->
+    <string name="selected_city_manufactures">مصنعين</string>
+    <string name="selected_city_recent">سيارات حملت الأخيرة</string>
+    <string name="selected_city_popular_item">سيارات شعبية</string>
+    <string name="selected_city_item_follower">سيارات من متابعيك</string>
+    <string name="selected_city_add">أضف</string>
+    <!--Selected City-->
+
+    <!--City List-->
+    <!--City List-->
+
+    <!--Location-->
+    <string name="location_title">موقعك</string>
+    <string name="location_change_later">يمكنك تغيير في وقت لاحق!</string>
+    <string name="location_select">يرجى اختيار المدينة.</string>
+
+    <!--Item Condition-->
+    <string name="item_condition__type">( %1$s )</string>
+
+    <!-- Setting -->
+    <string name="setting__clear_cache_confirm">هل أنت متأكد من مسح ذاكرة التخزين المؤقت للصور؟</string>
+    <string name="setting__clear_image_cache">مسح صورة ذاكرة التخزين المؤقت</string>
+    <string name="setting__image_cache_size">حجم ذاكرة التخزين المؤقت للصور</string>
+    <string name="setting__camera">الة تصوير</string>
+    <string name="setting__change_gdpr">تغيير إعداد الناتج المحلي الإجمالي</string>
+    <string name="setting__version_no">رقم الإصدار:</string>
+    <string name="setting__default_camera">افتراضي كاميرا</string>
+    <string name="setting__custom_camera">كاميرا مخصصة</string>
+
+    <!--Chat-->
+    <string name="chat__accept">قبول</string>
+    <string name="chat__reject">رفض</string>
+    <string name="chat__mark_as_sold">Mark As \nSold</string>
+    <string name="chat__offer">Make \nOffer</string>
+    <string name="chat__make_offer_title">تقديم عرض لهذا البند</string>
+    <string name="chat__make_offer_sender">تقديم عرض</string>
+    <string name="chat__make_offer_receiver">تلقى العرض</string>
+    <string name="chat__accept_text">وافقت</string>
+    <string name="chat__reject_text">مرفوض</string>
+    <string name="chat__sold">تم البيع</string>
+    <string name="chat__give_review">إعطاء مراجعة</string>
+    <string name="chat__item_is_sold">تم بيع العنصر</string>
+    <string name="chat__item_space_error">لا يمكن أن يكون السعر فارغًا</string>
+
+    <!-- Verify Email -->
+    <string name="verify_email__informateion">لقد تلقيت للتو رسالة بريد إلكتروني تحتوي على رمز التحقق في</string>
+    <string name="verify_email__enter_code">أدخل رمز التحقق</string>
+    <string name="verify_email__change_email">تغيير الايميل</string>
+    <string name="verify_email__resent_code">رمز الاستياء</string>
+    <string name="verify_email__submit">خضع</string>
+    <string name="verify_email__title">تأكيد بواسطة البريد الالكتروني</string>
+
+    <!-- Verify Phone -->
+    <string name="verify_phone__informateion">لقد تلقيت للتو رسالة هاتفية تحتوي على كود مكتب المدعي العام على</string>
+    <string name="verify_phone__back_login">العودة إلى تسجيل الدخول؟</string>
+    <string name="verify_phone__title">التحقق من رقم الهاتف</string>
+
+    <!--  User -->
+    <string name="user_follower_list_toolbar_name">قائمة المستخدم التابع</string>
+    <string name="user_following_list_toolbar_name">بعد قائمة المستخدم</string>
+
+
+</resources>
+
+
+
+

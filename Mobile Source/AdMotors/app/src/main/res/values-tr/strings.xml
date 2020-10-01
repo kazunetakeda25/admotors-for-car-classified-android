@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="history__title">Tarihçe</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">Favoriler</string>
+
+
+    <string name="gallery__title">galeri</string>
+    <string name="gallery_img__desc">Görüntü açıklaması</string>
+
+
+    <string name="image_default__image">Varsayılan Resim</string>
+
+
+    <string name="app__ok">tamam</string>
+    <string name="app__cancel">İptal etmek</string>
+    <string name="app__drawer_open">Çekmece Açık</string>
+    <string name="app__drawer_close">Çekmece Kapat</string>
+
+
+    <string name="register__user_name">Kullanıcı adı</string>
+    <string name="register__email">E-posta</string>
+    <string name="register__password">Parola</string>
+    <string name="register__back_to_login">Zaten üye misiniz? Oturum aç</string>
+    <string name="register__register">Kayıt olmak</string>
+    <string name="register__check_option">Bu gizlilik ve politikayı kabul ediyor musunuz?</string>
+
+
+    <string name="forgot_password__title">Parolanızı mı unuttunuz</string>
+    <string name="forgot_password__email">E-posta</string>
+    <string name="forgot_password__back_to_login">Zaten üye misiniz? Oturum aç</string>
+    <string name="forgot_password__save">Kayıt etmek</string>
+    <string name="forgot_password__send">göndermek</string>
+
+
+    <string name="password_change__password">Parola</string>
+    <string name="password_change__save">Kayıt etmek</string>
+    <string name="password_change__confirm_password">Şifreyi Onayla</string>
+    <string name="password_change__password_change">Parola değişimi</string>
+
+
+    <string name="login__email">E-posta</string>
+    <string name="login__password">Parola</string>
+    <string name="login__not_a_member_join_now">Burada yeni? Kaydol</string>
+    <string name="login__forgot_your_password">Parolanızı mı unuttunuz ?</string>
+    <string name="login__login">Oturum aç</string>
+    <string name="login__choice_text">VEYA</string>
+    <string name="login__with_phone">เข้าสู่ระบบด้วยโทรศัพท์</string>
+    <string name="login__with_google">เข้าสู่ระบบกับ Google</string>
+
+
+    <string name="contact_us__name">Kişi Adı</string>
+    <string name="contact_us__email">İletişim E-posta</string>
+    <string name="contact_us__message">İletişim Mesajı</string>
+    <string name="contact_us__phone">İletişim Telefonu</string>
+    <string name="contact_us__submit">Gönder</string>
+
+
+    <string name="notification_setting__on_off">Bildirim Ayarı (Açık / Kapalı)</string>
+    <string name="notification_setting__latest_message_from_system">Sistemden Son Mesaj</string>
+    <string name="notification__notification">Bildirim!</string>
+    <string name="notification__title">Bildirim</string>
+    <string name="notification_setting__title">Bildirim ayarı</string>
+    <string name="notification_detail__title">Bildirim Ayrıntısı</string>
+    <string name="notification__alert">Alarm</string>
+
+
+    <string name="language__language_change"> %1$s olarak değiştirmek istediğinize emin misiniz?</string>
+    <string name="language__title">Dil</string>
+
+
+    <string name="rating__list">Derecelendirme Listesi</string>
+    <string name="rating__write_review">Yorum yaz</string>
+    <string name="rating__total_count">%1$sMüşteriYorumları</string>
+    <string name="rating__total_value">5 yıldız üzerinden%1$s</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">Başlık</string>
+    <string name="rating__message">Mesaj</string>
+    <string name="rating__user_rating">Kullanıcı Oyuna Giriş!</string>
+    <string name="rating__your_rating">Sizin dereceniz</string>
+    <string name="rating__five_star">5 yıldız</string>
+    <string name="rating__four_star">4 yıldız</string>
+    <string name="rating__three_star">3 yıldız</string>
+    <string name="rating__two_star">2 yıldız</string>
+    <string name="rating__one_star">1 yıldız</string>
+
+
+    <string name="dialog__title_m_mun">sınıflandırma</string>
+    <string name="popular__m_mun">Popüler</string>
+    <string name="recent__m_mun">son</string>
+    <string name="char_asc__m_mun">A -&gt; Z</string>
+    <string name="char_desc__m_mun">Z -&gt; A</string>
+
+
+    <string name="edit_setting__notification_setting">Bildirim ayarı</string>
+    <string name="edit_setting__logout">Çıkış Yap</string>
+    <string name="edit_setting__logout_question">Çıkış yaptığınızdan emin misiniz?</string>
+    <string name="edit_setting__terms_and_conditions">Şartlar ve koşullar</string>
+    <string name="edit_setting__app_info">Uygulama bilgisi</string>
+    <string name="edit_setting__title">Ayar</string>
+
+
+    <string name="message__loading">Yükleniyor…</string>
+    <string name="message__please_wait">Lütfen bekle…</string>
+    <string name="message__welcome">Hoş Geldiniz formu PS Market Place</string>
+    <string name="message__want_to_quit">Gerçekten çıkmak istiyor musun?</string>
+    <string name="message__ok_close">tamam</string>
+    <string name="message__cancel_close">İptal etmek</string>
+    <string name="message__seller">Satıcılardan</string>
+    <string name="message__buyer">Alıcılardan</string>
+
+
+    <string name="search__notSet">Ayarlanmadı</string>
+    <string name="search__by_price">Fiyat aralığı</string>
+    <string name="search__lowest_price">minimum</string>
+    <string name="search__highest_price">Maksimum</string>
+
+
+    <string name="sf__manufacturer">Üretici firma</string>
+    <string name="sf__model">model</string>
+    <string name="sf__transmission">Aktarma</string>
+    <string name="sf__color">Renk</string>
+    <string name="sf__fuelType">Yakıt tipi</string>
+    <string name="sf__buildType">Yapı Tipi</string>
+    <string name="sf__sellerType">Satıcı Tipi</string>
+    <string name="sf__notSet">Ayarlanmadı</string>
+    <string name="sf__ByItemType">İlan Başlığı</string>
+    <string name="sf__Filter_Button">filtre</string>
+    <string name="sf__Search_Button">Arama</string>
+    <string name="sf__price_type">Fiyat türü</string>
+    <string name="sf__item_condition">Ürün durumu</string>
+    <string name="sf__type">tip</string>
+
+
+    <string name="error_message__login_first">Lütfen önce giriş yapınız!</string>
+    <string name="error_message__rating">Lütfen derecelendirme için tamamen doldurunuz.</string>
+    <string name="error_message__blank_email">Lütfen Email\'i giriniz.</string>
+    <string name="error_message__choose_manufacturer">Üretici Önce seç</string>
+    <string name="error_message__blank_contact_message">Lütfen İletişim Mesajını girin.</string>
+    <string name="error_message__blank_password">Lütfen şifreyi giriniz.</string>
+    <string name="error_message__blank_name">Lütfen isim giriniz.</string>
+    <string name="error_message__blank_phone_no">girişi telefon numarasını lütfen.</string>
+    <string name="error_message__password_not_equal">Parola eşit değil!</string>
+    <string name="error_message__image_cannot_upload">Resim Yüklenemiyor</string>
+    <string name="error_message__item_cannot_upload">Öğe Yüklenemiyor</string>
+    <string name="error_message__already_accept">Öğeniz zaten satıldı</string>
+    <string name="error_message__to_check_agreement">Sen gizlilik ve politika anlaşmaya kontrol etmeniz gerekir.</string>
+
+
+    <string name="Feature_UI_Type__Button">Üretici firma</string>
+    <string name="Feature_UI_Tune__Button">Filtrele ve Sırala</string>
+    <string name="Feature_UI_Sort__Button">Haritalı Filtre</string>
+    <string name="Feature_UI__item_list_no_item_title">Veri yok</string>
+    <string name="Feature_UI__item_list_no_item_desc">Sonuç yok! Lütfen filtreyi ayarlamayı deneyin.</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">Üretici seç</string>
+    <string name="Feature_UI__search_alert_model_title">Model seçin</string>
+    <string name="Feature_UI__search_alert_type_title">Öğe Türü Seçin</string>
+    <string name="Feature_UI__search_alert_price_type_title">Ürün Fiyat Tipini Seçiniz</string>
+    <string name="Feature_UI__search_alert_condition_title">Öğe Koşulu Seç</string>
+    <string name="Feature_UI__search_alert_location_title">Öğe Konum Seçeneğini Seçin</string>
+    <string name="Feature_UI__search_alert_currency_title">Öğe Para Birimi Seçeneğini Seçin</string>
+    <string name="Feature_UI__search_alert_deal_option_title">Öğe Fırsat Seçeneğini Seçin</string>
+    <string name="Feature_UI__search_alert_transmission">İletim seç</string>
+    <string name="Feature_UI__search_alert_color">Renk seç</string>
+    <string name="Feature_UI__search_fuel_type">Yakıt Türü Seçin</string>
+    <string name="Feature_UI__search_build_type">Yapı Tipi Seç</string>
+    <string name="Feature_UI__search_seller_type">Satıcı Türü Seçin</string>
+
+    <string name="about_us__phone">Telefon</string>
+    <string name="about_us__facebook">Facebook</string>
+    <string name="about_us__gplus">Google artı</string>
+    <string name="about_us__instagram">Instagram</string>
+    <string name="about_us__youtube">Youtube</string>
+    <string name="about_us__pinterest">pinterest</string>
+    <string name="about_us__twitter">heyecan</string>
+    <string name="about_us__visit_website">Web Sitemizi Ziyaret Edin</string>
+    <string name="about_us__title">Uygulama bilgisi</string>
+
+
+    <string name="profile__title">Profil</string>
+    <string name="profile__edit">Düzenle</string>
+    <string name="profile__favourites">Favoriler</string>
+    <string name="profile__setting">Ayar</string>
+    <string name="profile__joined_on">Katıldı</string>
+    <string name="profile__see_all">Hepsini gör</string>
+    <string name="profile__verified">Doğrulanmış</string>]
+    <string name="profile__followers">İzleyiciler</string>
+    <string name="profile__following">Takip etme</string>
+    <string name="profile__listing">listeleme</string>
+    <string name="profile__follow">Takip et</string>
+    <string name="profile__unfollow">Takip etmekten vazgeç</string>
+    <string name="profile__joined">Katıldı -</string>
+    <string name="profile__deactivate">Aktif edilmemiş hesap</string>
+    <string name="profile__confirm_deactivate">Bu hesabı devre dışı bıraktığınızdan emin misiniz?</string>
+
+
+    <string name="edit_profile__title">Profili Düzenle</string>
+    <string name="edit_profile__user_name">Kullanıcı adı</string>
+    <string name="edit_profile__about_me">Benim hakkımda</string>
+    <string name="edit_profile__email">E-posta</string>
+    <string name="edit_profile__password_change">Parola değişimi</string>
+    <string name="edit_profile__save">Kayıt etmek</string>
+    <string name="edit_profile__phone">Telefon</string>
+    <string name="edit_profile__address">Adres</string>
+    <string name="edit_profile__city">Kent</string>
+    <string name="verify_email">E-mail\'i doğrula</string>
+    <string name="verify_phone_code">OTP Kodunu Girin</string>
+
+
+    <string name="menu__home">Ev</string>
+    <string name="menu__profile">Profil</string>
+    <string name="menu__favourite_items">Favori</string>
+    <string name="menu__user_history">Kullanıcı Geçmişi</string>
+    <string name="menu__logout">Çıkış Yap</string>
+    <string name="menu__about_app">Hakkımızda</string>
+    <string name="menu__contact_us">Bizimle iletişime geçin</string>
+    <string name="menu__language">Dil</string>
+    <string name="menu__setting">Ayar</string>
+    <string name="menu__interest">Faiz</string>
+    <string name="menu__app_setting">Uygulama</string>
+    <string name="menu__user_info">Kullanıcı bilgisi</string>
+    <string name="menu__search">Arama</string>
+    <string name="menu__filter">filtre</string>
+    <string name="menu__latest_item">Son Öğeler</string>
+    <string name="menu__discount">Promosyon Ürünleri</string>
+    <string name="menu__category">Kategori</string>
+    <string name="menu__featured_item">En iyi şeyler Öğeler</string>
+    <string name="menu__trending_item">Popüler Öğeler</string>
+    <string name="menu__home_category_view_All_un">Hepsini gör</string>
+    <string name="menu__collections">Koleksiyonları</string>
+    <string name="menu__map_filter_apply">UYGULAMAK</string>
+    <string name="menu__map_filter_reset">RESET</string>
+    <string name="menu__rate">Bu uygulamayı oyla</string>
+    <string name="menu__message">Mesaj</string>
+    <string name="menu__report_item">Öğe Bildir</string>
+    <string name="menu__share">Pay</string>
+    <string name="menu__privacy_policy">Şartlar ve koşullar</string>
+    <string name="menu__manufacturer">Üretici firma</string>
+
+    <string name="item_detail__rating">Değerlendirme yok.</string>
+    <string name="item_detail__view_count">%1$sGörüntüleme</string>
+    <string name="item_detail__fav_count">%1$sFavori</string>
+    <string name="item_detail__read_more">Daha fazla oku</string>
+    <string name="item_detail__call">Telefon etmek</string>
+    <string name="item_detail__statistic">istatistik</string>
+    <string name="item_detail__meet_seller">Satıcı ile tanışın</string>
+    <string name="item_detail__chat">Sohbet</string>
+    <string name="item_detail__edit">Düzenle</string>
+    <string name="item_detail__sold">Satıldı</string>
+    <string name="item_detail__photo">Fotoğraf</string>
+    <string name="item_detail__photos">Fotoğraflar</string>
+    <string name="item_detail__mark_sold">Satıldı Olarak İşaretle</string>
+    <string name="item_detail__delete">silmek</string>
+    <string name="item_detail__confirm_delete">Bu öğeyi silmek istediğinize emin misiniz?</string>
+    <string name="item_detail__confirm_sold_out">Bu eşyayı sattığına emin misin?</string>
+    <string name="item_detail__safety_tip">Güvenlik ipuçları</string>
+    <string name="item_detail__item_location">Öğe konumu</string>
+    <string name="item_detail__view_on_map">Haritada görüntüle</string>
+    <string name="item_detail__manufacturers">Üreticiler</string>
+    <string name="item_detail__model">model</string>
+    <string name="item_detail__color">Renk</string>
+    <string name="item_detail__fuel_type">Yakıt tipi</string>
+    <string name="item_detail__steering_position">Direksiyon pozisyonu</string>
+    <string name="item_detail__numbers_of_owners">sahiplerinin sayısı</string>
+    <string name="item_detail__trim_name">Trim Adı</string>
+    <string name="item_detail__vehicle_id">Araç İD</string>
+    <string name="item_detail__build_type">Yapı Tipi</string>
+    <string name="item_detail__licence_status">Lisans Durumu</string>
+    <string name="item_detail__max_passengers">Azami yolcu</string>
+    <string name="item_detail__no_of_doors">kapıların yok</string>
+    <string name="item_detail__seller_type">Satıcı Tipi</string>
+    <string name="item_detail__plate_number">Plaka No</string>
+    <string name="item_detail__engine_power">Motor gücü</string>
+    <string name="item_detail__transmission">Aktarma</string>
+    <string name="item_detail__mileage">Kilometre</string>
+    <string name="item_detail__license_expiration">Lisans Bitiş</string>
+    <string name="item_detail__year">Yıl</string>
+
+
+
+    <string name="item_entry_detail__description">Açıklama</string>
+    <string name="item_entry_detail__price">Fiyat</string>
+    <string name="item_entry_detail__title">Bugün neyi listeliyorsun?</string>
+    <string name="item_entry_detail__desc">Bir şey göstermek için pirinç fotoğrafını seçin.</string>
+    <string name="item_entry_detail__shop_setting">Mağaza ayarı</string>
+    <string name="item_entry_detail__is_shop">Dükkân mı?</string>
+    <string name="item_entry_detail__is_shop_desc">(Gösteri kullanıcısı birden fazla sipariş verebiliyorsa)</string>
+    <string name="item_entry_detail__highlight">Bilgi Vurgula</string>
+    <string name="item_entry_detail__latitude">Enlem</string>
+    <string name="item_entry_detail__longitude">Boylam</string>
+    <string name="item_entry_detail__location">yer</string>
+    <string name="item_entry_detail__address">Adres</string>
+    <string name="item_entry_detail__submit">Gönder</string>
+    <string name="item_entry_toolbar">İlan girişi</string>
+    <string name="item_entry_sold">SATILDI</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">Lütfen en az bir resim seçin</string>
+    <string name="item_entry_need_manufacturer">üreticisine seç</string>
+    <string name="item_entry_need_modle">modeli seçin</string>
+    <string name="item_entry_need_type">Türünü seçin</string>
+    <string name="item_entry_need_list_title">Öğe başlığınızı doldurun</string>
+    <string name="item_entry_need_item_condition">Öğe koşulunu seçin</string>
+    <string name="item_entry_need_item_plate_number">Öğe plaka numarasını doldurun</string>
+    <string name="item_entry_need_item_engine_power">Öğe motor gücünü doldurun</string>
+    <string name="item_entry_need_item_year">Öğe yıl doldurun</string>
+    <string name="item_entry_need_item_transmission">İletim seç</string>
+    <string name="item_entry_need_description">Öğeniz için açıklama yazın</string>
+    <string name="item_entry_need_price">Fiyatını yaz</string>
+    <string name="item_entry_need_currency_symbol">Para birimi sembolünüzü seçin</string>
+    <string name="item_entry_offer_not_zero">Teklif fiyatınız sıfır olamaz</string>
+    <string name="item_entry_accept_confirm">Bu fiyatı gerçekten kabul etmek istiyor musun?</string>
+    <string name="item_entry_reject_confirm">Bu fiyatı gerçekten reddetmek istiyor musunuz?</string>
+    <string name="item_entry_user_not_exit">Bu kullanıcı çıkmıyor</string>
+    <string name="item_entry_pin_shop">Pim dükkanı yeri</string>
+    <string name="item_entry_camera">Kamera</string>
+    <string name="item_entry_gallery">galeri</string>
+    <string name="item_entry__manufacturer">Üretici firma</string>
+    <string name="item_entry__model">model</string>
+    <string name="item_entry__color">Renk</string>
+    <string name="item_entry__fuel_type">Yakıt tipi</string>
+    <string name="item_entry__build_type">Yapı Tipi</string>
+    <string name="item_entry__seller_type">Satıcı Tipi</string>
+    <string name="item_entry__transmission">Aktarma</string>
+    <string name="item_entry__plate_number">Plaka numarası</string>
+    <string name="item_entry__engine_power">Motor gücü</string>
+    <string name="item_entry__steering_position">Direksiyon pozisyonu</string>
+    <string name="item_entry__no_of_owner">Sahibinin Sayısı</string>
+    <string name="item_entry__trim_name">Trim Adı</string>
+    <string name="item_entry__vehicle_id">Araç İD</string>
+    <string name="item_entry__price_unit">Birim fiyat</string>
+    <string name="item_entry__year">Yıl</string>
+    <string name="item_entry__licence_status">Lisans Durumu</string>
+    <string name="item_entry__max_passengers">Maksimum Yolcular</string>
+    <string name="item_entry__no_of_door">Kapı Sayısı</string>
+    <string name="item_entry__mileage">Kilometre</string>
+    <string name="item_entry__license_expiration_date">Lisans Son Kullanma Tarihi</string>
+    <string name="item_entry__is_licence">lisans mı?</string>
+
+    <string name="item_from_follower_toolbar">İzleyiciden Öğe Listeleri</string>
+
+
+    <string name="item_condition__type">(%1$s)</string>
+
+
+    <string name="map_filter__map_title">Harita Filtresi</string>
+    <string name="map_filter__browsing">Gezinme</string>
+    <string name="map_filter__all">Her şey</string>
+
+    <string name="map__pick_location">Konum seç</string>
+
+    <string name="no_internet_error">İnternet bağlantısı yok.</string>
+
+
+    <string name="message_sent">Mesajınız gönderildi.</string>
+
+
+    <string name="update_noti">Lütfen bekle! Hala bildirim ayarını güncelliyor.</string>
+
+    <string name="success">BAŞARI</string>
+    <string name="confirm">ONAYLAMAK</string>
+    <string name="info">BİLGİ</string>
+    <string name="error">HATA</string>
+    <string name="warning">UYARI</string>
+    <string name="version_update">Sürüm Güncellemesi</string>
+    <string name="update">Güncelleştirme</string>
+
+
+    <string name="category__list_title">İlginiz nedir?</string>
+
+
+    <string name="blog_list__title">Blog Listesi</string>
+
+
+    <string name="blog_detail__error_message">Bu kimliğe sahip blog yok</string>
+    <string name="blog_detail__title">Blog Ayrıntısı</string>
+
+
+    <string name="city_menu__title">Şehir Menüsü</string>
+
+
+    <string name="city__sure_to_exit">Bu şehirden çıkmak ister misin?</string>
+
+
+    <string name="item_list_title">Eşya listesi</string>
+
+
+    <string name="force_update__button_update"> Güncelleştirme</string>
+
+
+    <string name="dashboard_keyword">Kelimeler</string>
+    <string name="dashboard_blog">Blog</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">topluluğumuzla iletişime</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="selected_city_manufactures">Üreticiler</string>
+    <string name="selected_city_recent">Son Yüklenen Arabalar</string>
+    <string name="selected_city_popular_item">Popüler Otomobil</string>
+    <string name="selected_city_item_follower">Takipçilerinizin Otomobil</string>
+    <string name="selected_city_add"> BEDAVA YAZIN</string>
+
+
+    <string name="location_title">Konumunuz</string>
+    <string name="location_change_later">Sonra değiştirebilirsin!</string>
+    <string name="location_select">Lütfen şehir seçiniz.</string>
+
+    <string name="setting__clear_cache_confirm">Görüntü önbelleğini temizlediğinizden emin misiniz?</string>
+    <string name="setting__clear_image_cache">Görüntü Önbelleğini Temizle</string>
+    <string name="setting__image_cache_size">Görüntü Önbellek Boyutu</string>
+    <string name="setting__camera">Kamera</string>
+    <string name="setting__default_camera">Standart Kamera</string>
+    <string name="setting__custom_camera">Özel Kamera</string>
+    <string name="setting__change_gdpr">GDPR ayarını değiştir</string>
+    <string name="setting__version_no">Sürüm No:</string>
+
+    <string name="chat__mark_as_sold">Satıldı Olarak İşaretle</string>
+    <string name="chat__accept">Kabul etmek</string>
+    <string name="chat__reject">reddetmek</string>
+    <string name="chat__make_offer_title">Bu Ürüne Teklif Yap</string>
+    <string name="chat__offer">Make \ nOffer</string>
+    <string name="chat__make_offer_sender">Teklif yap</string>
+    <string name="chat__make_offer_receiver">Teklif Alındı</string>
+    <string name="chat__accept_text">Teklif kabul edildi</string>
+    <string name="chat__reject_text">Teklif Reddedildi</string>
+    <string name="chat__sold">Satıldı</string>
+    <string name="chat__give_review">Yorum Yap</string>
+    <string name="chat__item_is_sold">Ürün Satıldı</string>
+    <string name="chat__item_space_error">Fiyatınız boş olamaz</string>
+
+
+    <string name="verify_email__informateion">Tarihinde doğrulama kodunu içeren bir e-posta aldınız</string>
+    <string name="verify_email__enter_code">dogrulama kodunu giriniz</string>
+    <string name="verify_email__change_email">Değişim e-posta</string>
+    <string name="verify_email__resent_code">Tekrar Gönderme Kodu</string>
+    <string name="verify_email__submit">Gönder</string>
+    <string name="verify_email__title">Eposta Doğrulama</string>
+
+
+    <string name="verify_phone__informateion">Sadece üzerinde OTP Kodunu içeren telefon mesajı aldık</string>
+    <string name="verify_phone__back_login">GERİ OTURUM?</string>
+    <string name="verify_phone__title">Telefon Doğrulaması</string>
+
+
+    <string name="user_follower_list_toolbar_name">Takipçi Kullanıcı Listesi</string>
+    <string name="user_following_list_toolbar_name">Aşağıdaki Kullanıcı Listesi</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

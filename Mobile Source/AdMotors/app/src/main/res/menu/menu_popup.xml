@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/baseline_blog_white_24"
+        android:title="@string/menu__report_item"
+        app:showAsAction="never" />
+
+    <item
+        android:icon="@drawable/baseline_blog_white_24"
+        android:title="@string/menu__share"
+        app:showAsAction="never" />
+
+</menu>

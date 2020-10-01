@@ -1,0 +1,381 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="user"
+            type="com.panaceasoft.admotors.viewobject.User" />
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/md_grey_100"
+            android:paddingBottom="@dimen/space_16"
+            tools:context="com.panaceasoft.admotors.ui.user.ProfileFragment">
+
+            <ImageView
+                android:id="@+id/userCoverImageView"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/image_default__image"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_profile"
+                app:imageProfileUrl="@{user.userProfilePhoto}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/userCoverBlurImageView"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/image_default__image"
+                android:scaleType="fitXY"
+                android:src="@drawable/blur"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="100dp"
+                android:contentDescription="@string/image_default__image"
+                android:src="@drawable/default_profile"
+                app:imageProfileUrl="@{user.userProfilePhoto}"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/userCoverBlurImageView" />
+
+            <ImageView
+                android:id="@+id/profileEditImageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/rounded_corner_shape"
+                android:contentDescription="@string/image_default__image"
+                android:src="@android:drawable/ic_menu_edit"
+                app:layout_constraintEnd_toEndOf="@+id/profileImageView"
+                app:layout_constraintTop_toTopOf="@+id/profileImageView"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_corner_shape_button"
+                android:text="@string/edit_profile__save"
+                android:textColor="@color/button__primary_text"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/userCardView"
+                app:textSize='@{"button_text"}'
+                tools:layout_editor_absoluteY="640dp"
+                tools:text="Save" />
+
+            <Button
+                android:id="@+id/passwordChangeButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/rounded_corner_shape_button"
+                android:text="@string/edit_profile__password_change"
+                android:textColor="@color/button__primary_text"
+                app:font='@{"normal"}'
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/saveButton"
+                tools:text="Change Password" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/userCardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                app:cardElevation="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/profileImageView">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/nameTextView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/edit_profile__user_name"
+                        android:textColor="@color/text__primary"
+                        android:textSize="12sp"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/edit_profile__user_name" />
+
+                    <EditText
+                        android:id="@+id/userNameEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/layout_border"
+                        android:hint="@string/edit_profile__user_name"
+                        android:inputType="textPersonName"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="8dp"
+                        android:text="@{user.userName}"
+                        android:textColor="@color/text__primary"
+                        android:textSize="@dimen/font_body_size"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+
+                    <TextView
+                        android:id="@+id/emailTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/edit_profile__email"
+                        android:textColor="@color/text__primary"
+                        android:textSize="12sp"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userNameEditText"
+                        tools:text="@string/edit_profile__email" />
+
+                    <EditText
+                        android:id="@+id/userEmailEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/layout_border"
+                        android:hint="@string/edit_profile__email"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="8dp"
+                        android:text="@{user.userEmail}"
+                        android:textColor="@color/text__primary"
+                        android:textSize="@dimen/font_body_size"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/emailTextView" />
+
+                    <EditText
+                        android:id="@+id/userPhoneEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/layout_border"
+                        android:hint="@string/edit_profile__phone"
+                        android:inputType="phone"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="8dp"
+                        android:text='@{user.userPhone.equals("") ? "-" : user.userPhone}'
+                        android:textColor="@color/text__primary"
+                        android:textSize="@dimen/font_body_size"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/phoneTextView" />
+
+
+                    <TextView
+                        android:id="@+id/addressTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/edit_profile__address"
+                        android:textColor="@color/text__primary"
+                        android:textSize="12sp"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userPhoneEditText"
+                        tools:text="@string/edit_profile__address" />
+
+                    <EditText
+                        android:id="@+id/userAddressEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/layout_border"
+                        android:hint="@string/edit_profile__address"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="8dp"
+                        android:text="@{user.userAddress}"
+                        android:textColor="@color/text__primary"
+                        android:textSize="@dimen/font_body_size"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/addressTextView" />
+
+                    <TextView
+                        android:id="@+id/cityTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/edit_profile__city"
+                        android:textColor="@color/text__primary"
+                        android:textSize="12sp"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userAddressEditText"
+                        tools:text="@string/edit_profile__city" />
+
+                    <EditText
+                        android:id="@+id/userCityEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:background="@drawable/layout_border"
+                        android:hint="@string/edit_profile__city"
+                        android:inputType="textEmailAddress"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="8dp"
+                        android:text="@{user.city}"
+                        android:textColor="@color/text__primary"
+                        android:textSize="@dimen/font_body_size"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/cityTextView" />
+
+                    <EditText
+                        android:id="@+id/userAboutMeEditText"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@drawable/layout_border"
+                        android:hint="@string/edit_profile__about_me"
+                        android:imeOptions="actionDone"
+                        android:inputType="textMultiLine"
+                        android:paddingStart="10dp"
+                        android:paddingTop="8dp"
+                        android:paddingEnd="10dp"
+                        android:paddingBottom="8dp"
+                        android:text='@{user.userAboutMe.equals("") ? "-" : user.userAboutMe }'
+                        android:textColor="@color/text__primary"
+                        android:textSize="@dimen/font_body_size"
+                        app:font='@{"normal"}'
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/aboutMeTextView" />
+
+                    <TextView
+                        android:id="@+id/phoneTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/edit_profile__phone"
+                        android:textColor="@color/text__primary"
+                        android:textSize="12sp"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userEmailEditText" />
+
+                    <TextView
+                        android:id="@+id/aboutMeTextView"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:paddingTop="4dp"
+                        android:paddingBottom="4dp"
+                        android:text="@string/edit_profile__about_me"
+                        android:textColor="@color/text__primary"
+                        android:textSize="12sp"
+                        app:font='@{"normal"}'
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/userCityEditText" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</layout>
+

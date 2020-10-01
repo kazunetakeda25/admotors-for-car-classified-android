@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="history__title">история</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">Избранные</string>
+
+
+    <string name="gallery__title">Галерея</string>
+    <string name="gallery_img__desc">Описание изображения</string>
+
+
+    <string name="image_default__image">Изображение по умолчанию</string>
+
+
+    <string name="app__ok">Хорошо</string>
+    <string name="app__cancel">отменить</string>
+    <string name="app__drawer_open">Ящик открыт</string>
+    <string name="app__drawer_close">Ящик Закрыть</string>
+
+
+    <string name="register__user_name">Имя пользователя</string>
+    <string name="register__email">Эл. адрес</string>
+    <string name="register__password">пароль</string>
+    <string name="register__back_to_login">Уже зарегистрированы? Авторизоваться</string>
+    <string name="register__register">регистр</string>
+    <string name="register__check_option">Согласны ли вы с этой политикой конфиденциальности?</string>
+
+
+    <string name="forgot_password__title">Забыли пароль</string>
+    <string name="forgot_password__email">Эл. адрес</string>
+    <string name="forgot_password__back_to_login">Уже зарегистрированы? Авторизоваться</string>
+    <string name="forgot_password__save">Сохранить</string>
+    <string name="forgot_password__send">послать</string>
+
+
+    <string name="password_change__password">пароль</string>
+    <string name="password_change__save">Сохранить</string>
+    <string name="password_change__confirm_password">Подтвердите Пароль</string>
+    <string name="password_change__password_change">Изменение пароля</string>
+
+
+    <string name="login__email">Эл. адрес</string>
+    <string name="login__password">пароль</string>
+    <string name="login__not_a_member_join_now">Новенький тут? Подписаться</string>
+    <string name="login__forgot_your_password">Забыли пароль ?</string>
+    <string name="login__login">Войти в систему</string>
+    <string name="login__choice_text">ИЛИ ЖЕ</string>
+    <string name="login__with_phone">Телефон с входа в аккаунт</string>
+    <string name="login__with_google">С помощью Google для входа в аккаунт</string>
+
+
+    <string name="contact_us__name">Контактное лицо</string>
+    <string name="contact_us__email">Почта для связи</string>
+    <string name="contact_us__message">Контактное сообщение</string>
+    <string name="contact_us__phone">Контактный телефон</string>
+    <string name="contact_us__submit">Отправить</string>
+
+
+    <string name="notification_setting__on_off">Настройка уведомлений (вкл / выкл)</string>
+    <string name="notification_setting__latest_message_from_system">Последнее сообщение от системы</string>
+    <string name="notification__notification">Уведомление!</string>
+    <string name="notification__title">уведомление</string>
+    <string name="notification_setting__title">Настройка уведомлений</string>
+    <string name="notification_detail__title">Деталь уведомления</string>
+    <string name="notification__alert">бдительный</string>
+
+
+    <string name="language__language_change">Вы уверены, что хотите изменить на %1$s?</string>
+    <string name="language__title">язык</string>
+
+
+    <string name="rating__list">Рейтинговый список</string>
+    <string name="rating__write_review">Написать отзыв</string>
+    <string name="rating__total_count">Отзывыклиентов:%1$s</string>
+    <string name="rating__total_value">%1$sиз5звезд</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">заглавие</string>
+    <string name="rating__message">Сообщение</string>
+    <string name="rating__user_rating">Рейтинг пользователей</string>
+    <string name="rating__your_rating">Ваш рейтинг</string>
+    <string name="rating__five_star">5 звезд</string>
+    <string name="rating__four_star">4 звезды</string>
+    <string name="rating__three_star">3 звезды</string>
+    <string name="rating__two_star">2 звезды</string>
+    <string name="rating__one_star">1 звезда</string>
+
+
+    <string name="dialog__title_m_mun">Сортировка</string>
+    <string name="popular__m_mun">Популярный</string>
+    <string name="recent__m_mun">Самый последний</string>
+    <string name="char_asc__m_mun">A -&gt; Z</string>
+    <string name="char_desc__m_mun">Z -&gt; A</string>
+
+
+    <string name="edit_setting__notification_setting">Настройка уведомлений</string>
+    <string name="edit_setting__logout">Выйти</string>
+    <string name="edit_setting__logout_question">Вы уверены, что хотите выйти?</string>
+    <string name="edit_setting__terms_and_conditions">Условия и положения</string>
+    <string name="edit_setting__app_info">Информация о приложении</string>
+    <string name="edit_setting__title">настройка</string>
+
+
+    <string name="message__loading">Loading …</string>
+    <string name="message__please_wait">Пожалуйста, подождите…</string>
+    <string name="message__welcome">Приветственная форма PS Market Place</string>
+    <string name="message__want_to_quit">Вы действительно хотите бросить?</string>
+    <string name="message__ok_close">Хорошо</string>
+    <string name="message__cancel_close">отменить</string>
+    <string name="message__seller">От продавцов</string>
+    <string name="message__buyer">От покупателей</string>
+
+
+    <string name="search__notSet">Не установлен</string>
+    <string name="search__by_price">Ценовой диапазон</string>
+    <string name="search__lowest_price">минимальный</string>
+    <string name="search__highest_price">максимальная</string>
+
+
+    <string name="sf__manufacturer">производитель</string>
+    <string name="sf__model">модель</string>
+    <string name="sf__transmission">коробка передач</string>
+    <string name="sf__color">цвет</string>
+    <string name="sf__fuelType">Тип топлива</string>
+    <string name="sf__buildType">Построить Тип</string>
+    <string name="sf__sellerType">Тип продавца</string>
+    <string name="sf__notSet">Не установлен</string>
+    <string name="sf__ByItemType">Заголовок объявления</string>
+    <string name="sf__Filter_Button">Фильтр</string>
+    <string name="sf__Search_Button">Поиск</string>
+    <string name="sf__price_type">Тип цены</string>
+    <string name="sf__item_condition">Состояние</string>
+    <string name="sf__type">Тип</string>
+
+
+    <string name="error_message__login_first">Пожалуйста, войдите сначала!</string>
+    <string name="error_message__rating">Пожалуйста, заполните полностью для оценки.</string>
+    <string name="error_message__blank_email">Пожалуйста, введите адрес электронной почты.</string>
+    <string name="error_message__choose_manufacturer">Выберите Производитель First</string>
+    <string name="error_message__blank_contact_message">Пожалуйста, введите контактное сообщение.</string>
+    <string name="error_message__blank_password">Пожалуйста, введите пароль.</string>
+    <string name="error_message__blank_name">Пожалуйста, введите имя.</string>
+    <string name="error_message__blank_phone_no">Пожалуйста, введите номер телефона.</string>
+    <string name="error_message__password_not_equal">Пароль не равен!</string>
+    <string name="error_message__image_cannot_upload">Изображение не может быть загружено</string>
+    <string name="error_message__item_cannot_upload">Предмет не может быть загружен</string>
+    <string name="error_message__already_accept">Ваш товар уже продан</string>
+    <string name="error_message__to_check_agreement">Вы должны проверить договор о неприкосновенности частной жизни и политике.</string>
+
+
+    <string name="Feature_UI_Type__Button">производитель</string>
+    <string name="Feature_UI_Tune__Button">Фильтр и сортировка</string>
+    <string name="Feature_UI_Sort__Button">Фильтр с картой</string>
+    <string name="Feature_UI__item_list_no_item_title">Нет данных</string>
+    <string name="Feature_UI__item_list_no_item_desc">Нет результата! Пожалуйста, попробуйте настроить фильтр.</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">Выбор производителя</string>
+    <string name="Feature_UI__search_alert_model_title">Выберите модель</string>
+    <string name="Feature_UI__search_alert_type_title">Выберите тип элемента</string>
+    <string name="Feature_UI__search_alert_price_type_title">Выберите тип цены товара</string>
+    <string name="Feature_UI__search_alert_condition_title">Выберите пункт Состояние</string>
+    <string name="Feature_UI__search_alert_location_title">Выберите пункт Расположение</string>
+    <string name="Feature_UI__search_alert_currency_title">Выберите пункт валюты</string>
+    <string name="Feature_UI__search_alert_deal_option_title">Выберите пункт сделки</string>
+    <string name="Feature_UI__search_alert_transmission">Выберите Transmission</string>
+    <string name="Feature_UI__search_alert_color">Выберите цвет</string>
+    <string name="Feature_UI__search_fuel_type">Выберите Тип топлива</string>
+    <string name="Feature_UI__search_build_type">Выберите команду Построить Тип</string>
+    <string name="Feature_UI__search_seller_type">Выберите Тип продавца</string>
+
+    <string name="about_us__phone">Телефон</string>
+    <string name="about_us__facebook">facebook</string>
+    <string name="about_us__gplus">Гугл плюс</string>
+    <string name="about_us__instagram">Instagram</string>
+    <string name="about_us__youtube">YouTube</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">щебет</string>
+    <string name="about_us__visit_website">Посетите наш сайт</string>
+    <string name="about_us__title">Информация о приложении</string>
+
+
+    <string name="profile__title">Профиль</string>
+    <string name="profile__edit">редактировать</string>
+    <string name="profile__favourites">Избранные</string>
+    <string name="profile__setting">настройка</string>
+    <string name="profile__joined_on">Регистрация на</string>
+    <string name="profile__see_all">Посмотреть все</string>
+    <string name="profile__verified">проверенный</string>]
+    <string name="profile__followers">Читают</string>
+    <string name="profile__following">Следующий</string>
+    <string name="profile__listing">список</string>
+    <string name="profile__follow">следить</string>
+    <string name="profile__unfollow">Отписаться</string>
+    <string name="profile__joined">Регистрация -</string>
+    <string name="profile__deactivate">Деактивировать аккаунт</string>
+    <string name="profile__confirm_deactivate">Вы уверены, что деактивировать эту учетную запись?</string>
+
+
+    <string name="edit_profile__title">Редактировать профиль</string>
+    <string name="edit_profile__user_name">Имя пользователя</string>
+    <string name="edit_profile__about_me">Обо мне</string>
+    <string name="edit_profile__email">Эл. адрес</string>
+    <string name="edit_profile__password_change">Изменение пароля</string>
+    <string name="edit_profile__save">Сохранить</string>
+    <string name="edit_profile__phone">Телефон</string>
+    <string name="edit_profile__address">Адрес</string>
+    <string name="edit_profile__city">город</string>
+    <string name="verify_email">подтвердить электронную почту</string>
+    <string name="verify_phone_code">Введите код OTP</string>
+
+
+    <string name="menu__home">Главная</string>
+    <string name="menu__profile">Профиль</string>
+    <string name="menu__favourite_items">любимец</string>
+    <string name="menu__user_history">История пользователей</string>
+    <string name="menu__logout">Выйти</string>
+    <string name="menu__about_app">Насчет нас</string>
+    <string name="menu__contact_us">Связаться с нами</string>
+    <string name="menu__language">язык</string>
+    <string name="menu__setting">настройка</string>
+    <string name="menu__interest">Интерес</string>
+    <string name="menu__app_setting">Приложение</string>
+    <string name="menu__user_info">Информация о пользователе</string>
+    <string name="menu__search">Поиск</string>
+    <string name="menu__filter">Фильтр</string>
+    <string name="menu__latest_item">Последние товары</string>
+    <string name="menu__discount">Рекламные предметы</string>
+    <string name="menu__category">категория</string>
+    <string name="menu__featured_item">Лучшие вещи</string>
+    <string name="menu__trending_item">Популярные товары</string>
+    <string name="menu__home_category_view_All_un">Посмотреть все</string>
+    <string name="menu__collections">Коллекции</string>
+    <string name="menu__map_filter_apply">ПРИМЕНЯТЬ</string>
+    <string name="menu__map_filter_reset">СБРОС</string>
+    <string name="menu__rate">Оцените это приложение</string>
+    <string name="menu__message">Сообщение</string>
+    <string name="menu__report_item">Элемент отчета</string>
+    <string name="menu__share">Поделиться</string>
+    <string name="menu__privacy_policy">Условия и положения</string>
+    <string name="menu__manufacturer">производитель</string>
+
+
+    <string name="item_detail__rating">Без рейтинга.</string>
+    <string name="item_detail__view_count">%1$sПросмотров</string>
+    <string name="item_detail__fav_count">%1$sИзбранное</string>
+    <string name="item_detail__read_more">Прочитайте больше</string>
+    <string name="item_detail__call">Вызов</string>
+    <string name="item_detail__statistic">статистика</string>
+    <string name="item_detail__meet_seller">Встретить продавца</string>
+    <string name="item_detail__chat">чат</string>
+    <string name="item_detail__edit">редактировать</string>
+    <string name="item_detail__sold">Продано</string>
+    <string name="item_detail__photo">Фото</string>
+    <string name="item_detail__photos">Фото</string>
+    <string name="item_detail__mark_sold">Отметить как проданный</string>
+    <string name="item_detail__delete">удалять</string>
+    <string name="item_detail__confirm_delete">Вы уверены, что хотите удалить этот элемент?</string>
+    <string name="item_detail__confirm_sold_out">Вы уверены, что распродали этот товар?</string>
+    <string name="item_detail__safety_tip">Советы по безопасности</string>
+    <string name="item_detail__item_location">Местонахождение предмета</string>
+    <string name="item_detail__view_on_map">Посмотреть на карте</string>
+    <string name="item_detail__manufacturers">Производители</string>
+    <string name="item_detail__model">модель</string>
+    <string name="item_detail__color">цвет</string>
+    <string name="item_detail__fuel_type">Тип топлива</string>
+    <string name="item_detail__steering_position">Положение руля</string>
+    <string name="item_detail__numbers_of_owners">Количество владельцев</string>
+    <string name="item_detail__trim_name">Обрезка Имя</string>
+    <string name="item_detail__vehicle_id">Автомобиль ID</string>
+    <string name="item_detail__build_type">построить Тип</string>
+    <string name="item_detail__licence_status">Статус лицензии</string>
+    <string name="item_detail__max_passengers">Максимальное количество пассажиров</string>
+    <string name="item_detail__no_of_doors">Нет дверей</string>
+    <string name="item_detail__seller_type">Тип продавца</string>
+    <string name="item_detail__plate_number">Тарелка Нет</string>
+    <string name="item_detail__engine_power">Мощность двигателя</string>
+    <string name="item_detail__transmission">коробка передач</string>
+    <string name="item_detail__mileage">Пробег</string>
+    <string name="item_detail__license_expiration">лицензия Истечение</string>
+    <string name="item_detail__year">Год</string>
+
+
+
+    <string name="item_entry_detail__description">Описание</string>
+    <string name="item_entry_detail__price">Цена</string>
+    <string name="item_entry_detail__title">Что вы перечисляете сегодня?</string>
+    <string name="item_entry_detail__desc">Выберите рис рис, чтобы продемонстрировать свою вещь.</string>
+    <string name="item_entry_detail__shop_setting">Настройка магазина</string>
+    <string name="item_entry_detail__is_shop">Это магазин?</string>
+    <string name="item_entry_detail__is_shop_desc">(Если шоу пользователь может заказать более одного)</string>
+    <string name="item_entry_detail__highlight">Выделить информацию</string>
+    <string name="item_entry_detail__latitude">широта</string>
+    <string name="item_entry_detail__longitude">Долгота</string>
+    <string name="item_entry_detail__location">Место нахождения</string>
+    <string name="item_entry_detail__address">Адрес</string>
+    <string name="item_entry_detail__submit">Отправить</string>
+    <string name="item_entry_toolbar">Запись в список</string>
+    <string name="item_entry_sold">ПРОДАНО</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">Пожалуйста, выберите хотя бы одно изображение</string>
+    <string name="item_entry_need_manufacturer">Выберите производителя</string>
+    <string name="item_entry_need_modle">Выберите модель</string>
+    <string name="item_entry_need_type">Выберите тип</string>
+    <string name="item_entry_need_list_title">Введите название предмета</string>
+    <string name="item_entry_need_item_condition">Выберите условие товара</string>
+    <string name="item_entry_need_item_plate_number">Заполните ваш номер пункт пластинчатый</string>
+    <string name="item_entry_need_item_engine_power">Наполните свою силу пункта двигателя</string>
+    <string name="item_entry_need_item_year">Заполните ваш деталь год</string>
+    <string name="item_entry_need_item_transmission">Выберите Transmission</string>
+    <string name="item_entry_need_description">Написать описание для вашего товара</string>
+    <string name="item_entry_need_price">Напишите свою цену</string>
+    <string name="item_entry_need_currency_symbol">Выберите символ валюты</string>
+    <string name="item_entry_offer_not_zero">Цена вашего предложения не может быть нулевой</string>
+    <string name="item_entry_accept_confirm">Вы действительно хотите принять эту цену?</string>
+    <string name="item_entry_reject_confirm">Вы действительно хотите отказаться от этой цены?</string>
+    <string name="item_entry_user_not_exit">Этот пользователь не выходит</string>
+    <string name="item_entry_pin_shop">Pin-магазин место</string>
+    <string name="item_entry_camera">камера</string>
+    <string name="item_entry_gallery">Галерея</string>
+    <string name="item_entry__manufacturer">производитель</string>
+    <string name="item_entry__model">модель</string>
+    <string name="item_entry__color">цвет</string>
+    <string name="item_entry__fuel_type">Тип топлива</string>
+    <string name="item_entry__build_type">построить Тип</string>
+    <string name="item_entry__seller_type">Тип продавца</string>
+    <string name="item_entry__transmission">коробка передач</string>
+    <string name="item_entry__plate_number">Номерной знак</string>
+    <string name="item_entry__engine_power">Мощность двигателя</string>
+    <string name="item_entry__steering_position">Положение руля</string>
+    <string name="item_entry__no_of_owner">Число Владелец</string>
+    <string name="item_entry__trim_name">Обрезка Имя</string>
+    <string name="item_entry__vehicle_id">Автомобиль ID</string>
+    <string name="item_entry__price_unit">Цена за штуку</string>
+    <string name="item_entry__year">Год</string>
+    <string name="item_entry__licence_status">Статус лицензии</string>
+    <string name="item_entry__max_passengers">Максимум пассажиров</string>
+    <string name="item_entry__no_of_door">Число дверей</string>
+    <string name="item_entry__mileage">Пробег</string>
+    <string name="item_entry__license_expiration_date">Лицензия Дата истечения срока действия</string>
+    <string name="item_entry__is_licence">Является ли лицензия?</string>
+
+    <string name="item_from_follower_toolbar">Списки товаров от последователя</string>
+
+
+    <string name="item_condition__type">(%1$s)</string>
+
+
+    <string name="map_filter__map_title">Фильтр карты</string>
+    <string name="map_filter__browsing">Просмотр вокруг</string>
+    <string name="map_filter__all">Все</string>
+
+    <string name="map__pick_location">Выберите Расположение</string>
+
+    <string name="no_internet_error">Подключение к Интернету отсутствует.</string>
+
+
+    <string name="message_sent">Ваше сообщение отправлено.</string>
+
+
+    <string name="update_noti">Подождите пожалуйста! Все еще обновляет настройки уведомлений.</string>
+
+    <string name="success">УСПЕХ</string>
+    <string name="confirm">ПОДТВЕРДИТЬ</string>
+    <string name="info">ИНФОРМАЦИЯ</string>
+    <string name="error">ОШИБКА</string>
+    <string name="warning">ПРЕДУПРЕЖДЕНИЕ</string>
+    <string name="version_update">Обновление версии</string>
+    <string name="update">Обновить</string>
+
+
+    <string name="category__list_title">Что вас интересует?</string>
+
+
+    <string name="blog_list__title">Список блогов</string>
+
+
+    <string name="blog_detail__error_message">Блог с таким идентификатором не существует</string>
+    <string name="blog_detail__title">Блог подробно</string>
+
+
+    <string name="city_menu__title">Городское меню</string>
+
+
+    <string name="city__sure_to_exit">Вы хотите выйти из этого города?</string>
+
+
+    <string name="item_list_title">Список предметов</string>
+
+
+    <string name="force_update__button_update"> Обновить</string>
+
+
+    <string name="dashboard_keyword">Ключевое слово</string>
+    <string name="dashboard_blog">Блог</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">Связаться с нашим сообществом</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="selected_city_manufactures">Производители</string>
+    <string name="selected_city_recent">Последние Добавленные Автомобили</string>
+    <string name="selected_city_popular_item">Популярные автомобили</string>
+    <string name="selected_city_item_follower">Автомобили из ваших последователей</string>
+    <string name="selected_city_add"> Отправить бесплатное объявление</string>
+
+
+    <string name="location_title">Твое местонахождение</string>
+    <string name="location_change_later">Вы можете изменить позже!</string>
+    <string name="location_select">Пожалуйста, выберите город.</string>
+
+    <string name="setting__clear_cache_confirm">Вы уверены, что очистите кэш изображений?</string>
+    <string name="setting__clear_image_cache">Очистить кэш изображений</string>
+    <string name="setting__image_cache_size">Размер кэша изображения</string>
+    <string name="setting__camera">камера</string>
+    <string name="setting__default_camera">камера по умолчанию</string>
+    <string name="setting__custom_camera">Пользовательские камеры</string>
+    <string name="setting__change_gdpr">Изменить настройку GDPR</string>
+    <string name="setting__version_no">Версия №:</string>
+
+    <string name="chat__mark_as_sold">Отметить как проданный</string>
+    <string name="chat__accept">принимать</string>
+    <string name="chat__reject">отклонять</string>
+    <string name="chat__make_offer_title">Сделать предложение для этого товара</string>
+    <string name="chat__offer">Сделать \ nOffer</string>
+    <string name="chat__make_offer_sender">Сделать предложение</string>
+    <string name="chat__make_offer_receiver">Предложение получено</string>
+    <string name="chat__accept_text">Предложение принято</string>
+    <string name="chat__reject_text">Предложение отклонено</string>
+    <string name="chat__sold">Продано</string>
+    <string name="chat__give_review">Дать обзор</string>
+    <string name="chat__item_is_sold">Товар был продан</string>
+    <string name="chat__item_space_error">Ваша цена не может быть пустой</string>
+
+
+    <string name="verify_email__informateion">Вы только что получили письмо с кодом подтверждения на</string>
+    <string name="verify_email__enter_code">введите код подтверждения</string>
+    <string name="verify_email__change_email">Сменить имейл</string>
+    <string name="verify_email__resent_code">Повторный код</string>
+    <string name="verify_email__submit">Отправить</string>
+    <string name="verify_email__title">Подтверждение по элетронной почте</string>
+
+
+    <string name="verify_phone__informateion">Вы только что получил телефон сообщение, содержащее код на ОТР</string>
+    <string name="verify_phone__back_login">ВЕРНУТЬСЯ НА СТРАНИЦУ ВХОДА ?</string>
+    <string name="verify_phone__title">Проверка номера телефона</string>
+
+
+    <string name="user_follower_list_toolbar_name">Список подписчиков</string>
+    <string name="user_following_list_toolbar_name">Следующий список пользователей</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

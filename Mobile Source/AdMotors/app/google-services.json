@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "000000000000",
+    "firebase_url": "https://mokets-00000.firebaseio.com",
+    "project_id": "ps-buy-and-sell-00000",
+    "storage_bucket": "admotors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:27f2f73c90217ed0",
+        "android_client_info": {
+          "package_name": "admotors.appspot.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "000000000000-00000000000000000000000000000000.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ps-buy-and-sell.appspot.com",
+            "certificate_hash": "0000000000000000000000000000000000000000"
+          }
+        },
+        {
+          "client_id": "000000000000-00000000000000000000000000000000.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "00000000000000000000000000000-000000000"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "000000000000-00000000000000000000000000000000.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

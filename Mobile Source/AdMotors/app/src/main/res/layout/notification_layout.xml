@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@android:style/Widget.ActionButton"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/notiImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:contentDescription="@string/image_default__image"
+        android:gravity="center"
+        app:iconTintMode="add"
+        android:src="@drawable/baseline_noti_white_24"
+        android:iconTint="@color/md_grey_700" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="@dimen/space_8"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="@dimen/space_8"
+        android:background="@drawable/ps_baseline_red_circle_24"
+        android:gravity="center"
+        android:minWidth="17sp"
+        tools:text="0"
+        android:textColor="#ffffffff"
+        android:textSize="9sp"
+        tools:ignore="SmallSp" />
+</RelativeLayout>

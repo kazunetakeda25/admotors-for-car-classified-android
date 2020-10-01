@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="history__title">ประวัติศาสตร์</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">รายการโปรด</string>
+
+
+    <string name="gallery__title">เฉลียง</string>
+    <string name="gallery_img__desc">คำอธิบายรูปภาพ</string>
+
+
+    <string name="image_default__image">รูปภาพเริ่มต้น</string>
+
+
+    <string name="app__ok">ตกลง</string>
+    <string name="app__cancel">ยกเลิก</string>
+    <string name="app__drawer_open">เปิดลิ้นชัก</string>
+    <string name="app__drawer_close">ปิดลิ้นชัก</string>
+
+
+    <string name="register__user_name">ชื่อผู้ใช้</string>
+    <string name="register__email">อีเมล์</string>
+    <string name="register__password">รหัสผ่าน</string>
+    <string name="register__back_to_login">เป็นสมาชิกอยู่แล้ว? เข้าสู่ระบบ</string>
+    <string name="register__register">สมัครสมาชิก</string>
+    <string name="register__check_option">คุณตกลงความเป็นส่วนตัวและนโยบายนี้หรือไม่?</string>
+
+
+    <string name="forgot_password__title">ลืมรหัสผ่าน</string>
+    <string name="forgot_password__email">อีเมล์</string>
+    <string name="forgot_password__back_to_login">เป็นสมาชิกอยู่แล้ว? เข้าสู่ระบบ</string>
+    <string name="forgot_password__save">บันทึก</string>
+    <string name="forgot_password__send">ส่ง</string>
+
+
+    <string name="password_change__password">รหัสผ่าน</string>
+    <string name="password_change__save">บันทึก</string>
+    <string name="password_change__confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="password_change__password_change">เปลี่ยนรหัสผ่าน</string>
+
+
+    <string name="login__email">อีเมล์</string>
+    <string name="login__password">รหัสผ่าน</string>
+    <string name="login__not_a_member_join_now">ใหม่ที่นี่? ลงชื่อ</string>
+    <string name="login__forgot_your_password">ลืมรหัสผ่าน ?</string>
+    <string name="login__login">ลงชื่อเข้าใช้</string>
+    <string name="login__choice_text">หรือ</string>
+    <string name="login__with_phone">SignIn con el teléfono</string>
+    <string name="login__with_google">Inicia sesión con Google</string>
+
+
+    <string name="contact_us__name">ชื่อผู้ติดต่อ</string>
+    <string name="contact_us__email">อีเมลติดต่อ</string>
+    <string name="contact_us__message">ข้อความติดต่อ</string>
+    <string name="contact_us__phone">เบอร์โทรติดต่อ</string>
+    <string name="contact_us__submit">เสนอ</string>
+
+
+    <string name="notification_setting__on_off">การตั้งค่าการแจ้งเตือน (เปิด / ปิด)</string>
+    <string name="notification_setting__latest_message_from_system">ข้อความล่าสุดจากระบบ</string>
+    <string name="notification__notification">การแจ้งเตือน!</string>
+    <string name="notification__title">การแจ้งเตือน</string>
+    <string name="notification_setting__title">การตั้งค่าการแจ้งเตือน</string>
+    <string name="notification_detail__title">รายละเอียดการแจ้งเตือน</string>
+    <string name="notification__alert">เตือนภัย</string>
+
+
+    <string name="language__language_change">คุณแน่ใจหรือว่าต้องการเปลี่ยนเป็น %1$s</string>
+    <string name="language__title">ภาษา</string>
+
+
+    <string name="rating__list">รายการอันดับ</string>
+    <string name="rating__write_review">เขียนรีวิว</string>
+    <string name="rating__total_count">รีวิวจากลูกค้า%1$s</string>
+    <string name="rating__total_value">%1$sจาก5ดาว</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">หัวข้อ</string>
+    <string name="rating__message">ข่าวสาร</string>
+    <string name="rating__user_rating">รายการคะแนนจากผู้ใช้!</string>
+    <string name="rating__your_rating">คะแนนของคุณ</string>
+    <string name="rating__five_star">5 ดาว</string>
+    <string name="rating__four_star">4 ดาว</string>
+    <string name="rating__three_star">3 ดาว</string>
+    <string name="rating__two_star">2 ดาว</string>
+    <string name="rating__one_star">1 ดาว</string>
+
+
+    <string name="dialog__title_m_mun">การเรียงลำดับ</string>
+    <string name="popular__m_mun">เป็นที่นิยม</string>
+    <string name="recent__m_mun">ล่าสุด</string>
+    <string name="char_asc__m_mun">A -&gt; Z</string>
+    <string name="char_desc__m_mun">Z -&gt; A</string>
+
+
+    <string name="edit_setting__notification_setting">การตั้งค่าการแจ้งเตือน</string>
+    <string name="edit_setting__logout">ออกจากระบบ</string>
+    <string name="edit_setting__logout_question">คุณแน่ใจว่าจะออกจากระบบ?</string>
+    <string name="edit_setting__terms_and_conditions">ข้อกำหนดและเงื่อนไข</string>
+    <string name="edit_setting__app_info">ข้อมูลแอพ</string>
+    <string name="edit_setting__title">การตั้งค่า</string>
+
+
+    <string name="message__loading">กำลังโหลด …</string>
+    <string name="message__please_wait">โปรดรอ…</string>
+    <string name="message__welcome">ยินดีต้อนรับแบบฟอร์ม PS Market Place</string>
+    <string name="message__want_to_quit">คุณต้องการเลิกจริงๆหรือ</string>
+    <string name="message__ok_close">ตกลง</string>
+    <string name="message__cancel_close">ยกเลิก</string>
+    <string name="message__seller">จากผู้ขาย</string>
+    <string name="message__buyer">จากผู้ซื้อ</string>
+
+
+    <string name="search__notSet">ไม่ได้ตั้งค่า</string>
+    <string name="search__by_price">ช่วงราคา</string>
+    <string name="search__lowest_price">ขั้นต่ำ</string>
+    <string name="search__highest_price">สูงสุด</string>
+
+
+    <string name="sf__manufacturer">ผู้ผลิต</string>
+    <string name="sf__model">แบบ</string>
+    <string name="sf__transmission">การส่งผ่าน</string>
+    <string name="sf__color">สี</string>
+    <string name="sf__fuelType">ประเภทของน้ำมันเชื้อเพลิง</string>
+    <string name="sf__buildType">ประเภทรูปร่าง</string>
+    <string name="sf__sellerType">ผู้ขายประเภท</string>
+    <string name="sf__notSet">ไม่ได้ตั้งค่า</string>
+    <string name="sf__ByItemType">ชื่อรายการ</string>
+    <string name="sf__Filter_Button">กรอง</string>
+    <string name="sf__Search_Button">ค้นหา</string>
+    <string name="sf__price_type">ประเภทราคา</string>
+    <string name="sf__item_condition">สภาพสินค้า</string>
+    <string name="sf__type">ชนิด</string>
+
+
+    <string name="error_message__login_first">กรุณาเข้าสู่ระบบก่อน!</string>
+    <string name="error_message__rating">กรุณากรอกอย่างสมบูรณ์สำหรับการให้คะแนน</string>
+    <string name="error_message__blank_email">กรุณาใส่อีเมล์</string>
+    <string name="error_message__choose_manufacturer">เลือกผู้ผลิตรายแรก</string>
+    <string name="error_message__blank_contact_message">กรุณาใส่ข้อความติดต่อ</string>
+    <string name="error_message__blank_password">กรุณาใส่รหัสผ่าน</string>
+    <string name="error_message__blank_name">กรุณาใส่ชื่อ</string>
+    <string name="error_message__blank_phone_no">กรุณาใส่หมายเลขโทรศัพท์</string>
+    <string name="error_message__password_not_equal">รหัสผ่านไม่เท่ากัน!</string>
+    <string name="error_message__image_cannot_upload">ไม่สามารถอัพโหลดภาพ</string>
+    <string name="error_message__item_cannot_upload">ไม่สามารถอัปโหลดรายการ</string>
+    <string name="error_message__already_accept">รายการของคุณขายแล้ว</string>
+    <string name="error_message__to_check_agreement">คุณต้องตรวจสอบข้อตกลงความเป็นส่วนตัวและนโยบาย</string>
+
+
+    <string name="Feature_UI_Type__Button">ผู้ผลิต</string>
+    <string name="Feature_UI_Tune__Button">ตัวกรองและเรียงลำดับ</string>
+    <string name="Feature_UI_Sort__Button">กรองด้วยแผนที่</string>
+    <string name="Feature_UI__item_list_no_item_title">ไม่มีข้อมูล</string>
+    <string name="Feature_UI__item_list_no_item_desc">ไม่มีผลลัพธ์! โปรดลองปรับตัวกรอง</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">เลือกผู้ผลิต</string>
+    <string name="Feature_UI__search_alert_model_title">เลือกรูปแบบ</string>
+    <string name="Feature_UI__search_alert_type_title">เลือกประเภทรายการ</string>
+    <string name="Feature_UI__search_alert_price_type_title">เลือกประเภทราคารายการ</string>
+    <string name="Feature_UI__search_alert_condition_title">เลือกเงื่อนไขรายการ</string>
+    <string name="Feature_UI__search_alert_location_title">เลือกตัวเลือกที่ตั้งของรายการ</string>
+    <string name="Feature_UI__search_alert_currency_title">เลือกตัวเลือกสกุลเงินของรายการ</string>
+    <string name="Feature_UI__search_alert_deal_option_title">เลือกตัวเลือกการจัดการรายการ</string>
+    <string name="Feature_UI__search_alert_transmission">เลือกเกียร์</string>
+    <string name="Feature_UI__search_alert_color">เลือกสี</string>
+    <string name="Feature_UI__search_fuel_type">เลือกประเภทของน้ำมันเชื้อเพลิง</string>
+    <string name="Feature_UI__search_build_type">เลือกสร้างประเภท</string>
+    <string name="Feature_UI__search_seller_type">เลือกผู้ขายประเภท</string>
+
+
+    <string name="about_us__phone">โทรศัพท์</string>
+    <string name="about_us__facebook">Facebook</string>
+    <string name="about_us__gplus">Google Plus</string>
+    <string name="about_us__instagram">Instagram</string>
+    <string name="about_us__youtube">Youtube</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">พูดเบาและรวดเร็ว</string>
+    <string name="about_us__visit_website">เยี่ยมชมเว็บไซต์ของเรา</string>
+    <string name="about_us__title">ข้อมูลแอพ</string>
+
+
+    <string name="profile__title">ข้อมูลส่วนตัว</string>
+    <string name="profile__edit">แก้ไข</string>
+    <string name="profile__favourites">รายการโปรด</string>
+    <string name="profile__setting">การตั้งค่า</string>
+    <string name="profile__joined_on">เข้าร่วมเมื่อ</string>
+    <string name="profile__see_all">ดูทั้งหมด</string>
+    <string name="profile__verified">ได้รับการยืนยัน</string>]
+    <string name="profile__followers">สมัครพรรคพวก</string>
+    <string name="profile__following">ดังต่อไปนี้</string>
+    <string name="profile__listing">รายชื่อ</string>
+    <string name="profile__follow">ปฏิบัติตาม</string>
+    <string name="profile__unfollow">เลิก</string>
+    <string name="profile__joined">เข้าร่วม -</string>
+    <string name="profile__deactivate">ปิดใช้งานบัญชี</string>
+    <string name="profile__confirm_deactivate">คุณแน่ใจหรือไม่ว่าจะปิดใช้งานบัญชีนี้</string>
+
+
+    <string name="edit_profile__title">แก้ไขโปรไฟล์</string>
+    <string name="edit_profile__user_name">ชื่อผู้ใช้</string>
+    <string name="edit_profile__about_me">เกี่ยวกับฉัน</string>
+    <string name="edit_profile__email">อีเมล์</string>
+    <string name="edit_profile__password_change">เปลี่ยนรหัสผ่าน</string>
+    <string name="edit_profile__save">บันทึก</string>
+    <string name="edit_profile__phone">โทรศัพท์</string>
+    <string name="edit_profile__address">ที่อยู่</string>
+    <string name="edit_profile__city">เมือง</string>
+    <string name="verify_email">ตรวจสอบอีเมล์</string>
+    <string name="verify_phone_code">ใส่รหัส OTP</string>
+
+
+    <string name="menu__home">บ้าน</string>
+    <string name="menu__profile">ข้อมูลส่วนตัว</string>
+    <string name="menu__favourite_items">ที่ชื่นชอบ</string>
+    <string name="menu__user_history">ประวัติผู้ใช้งาน</string>
+    <string name="menu__logout">ออกจากระบบ</string>
+    <string name="menu__about_app">เกี่ยวกับเรา</string>
+    <string name="menu__contact_us">ติดต่อเรา</string>
+    <string name="menu__language">ภาษา</string>
+    <string name="menu__setting">การตั้งค่า</string>
+    <string name="menu__interest">ดอกเบี้ย</string>
+    <string name="menu__app_setting">App</string>
+    <string name="menu__user_info">ข้อมูลผู้ใช้</string>
+    <string name="menu__search">ค้นหา</string>
+    <string name="menu__filter">กรอง</string>
+    <string name="menu__latest_item">รายการล่าสุด</string>
+    <string name="menu__discount">รายการส่งเสริมการขาย</string>
+    <string name="menu__category">ประเภท</string>
+    <string name="menu__featured_item">รายการสิ่งที่ดีที่สุด</string>
+    <string name="menu__trending_item">รายการยอดนิยม</string>
+    <string name="menu__home_category_view_All_un">ดูทั้งหมด</string>
+    <string name="menu__collections">คอลเลกชัน</string>
+    <string name="menu__map_filter_apply">ใช้</string>
+    <string name="menu__map_filter_reset">RESET</string>
+    <string name="menu__rate">ให้คะแนนแอปนี้</string>
+    <string name="menu__message">ข่าวสาร</string>
+    <string name="menu__report_item">รายการรายงาน</string>
+    <string name="menu__share">หุ้น</string>
+    <string name="menu__privacy_policy">ข้อกำหนดและเงื่อนไข</string>
+    <string name="menu__manufacturer">ผู้ผลิต</string>
+
+    <string name="item_detail__rating">ไม่มีคะแนน</string>
+    <string name="item_detail__view_count">%1$sการดู</string>
+    <string name="item_detail__fav_count">รายการโปรด%1$s</string>
+    <string name="item_detail__read_more">อ่านเพิ่มเติม</string>
+    <string name="item_detail__call">โทร</string>
+    <string name="item_detail__statistic">สถิติ</string>
+    <string name="item_detail__meet_seller">พบกับผู้ขาย</string>
+    <string name="item_detail__chat">พูดคุย</string>
+    <string name="item_detail__edit">แก้ไข</string>
+    <string name="item_detail__sold">ขาย</string>
+    <string name="item_detail__photo">ภาพถ่าย</string>
+    <string name="item_detail__photos">ภาพถ่าย</string>
+    <string name="item_detail__mark_sold">ทำเครื่องหมายว่าขายแล้ว</string>
+    <string name="item_detail__delete">ลบ</string>
+    <string name="item_detail__confirm_delete">คุณแน่ใจที่จะลบรายการนี้?</string>
+    <string name="item_detail__confirm_sold_out">คุณแน่ใจหรือไม่ว่าขายสินค้านี้หมด?</string>
+    <string name="item_detail__safety_tip">เคล็ดลับความปลอดภัย</string>
+    <string name="item_detail__item_location">รายการสถานที่ตั้ง</string>
+    <string name="item_detail__view_on_map">ดูบนแผนที่</string>
+    <string name="item_detail__manufacturers">ผู้ผลิต</string>
+    <string name="item_detail__model">แบบ</string>
+    <string name="item_detail__color">สี</string>
+    <string name="item_detail__fuel_type">ประเภทของน้ำมันเชื้อเพลิง</string>
+    <string name="item_detail__steering_position">พวงมาลัยตำแหน่ง</string>
+    <string name="item_detail__numbers_of_owners">จำนวนของผู้เป็นเจ้าของ</string>
+    <string name="item_detail__trim_name">ชื่อ Trim</string>
+    <string name="item_detail__vehicle_id">ID ยานพาหนะ</string>
+    <string name="item_detail__build_type">สร้างประเภท</string>
+    <string name="item_detail__licence_status">สถานะใบอนุญาต</string>
+    <string name="item_detail__max_passengers">ผู้โดยสารสูงสุด</string>
+    <string name="item_detail__no_of_doors">ไม่มีประตู</string>
+    <string name="item_detail__seller_type">ประเภทผู้ขาย</string>
+    <string name="item_detail__plate_number">จานไม่มี</string>
+    <string name="item_detail__engine_power">ฝีจักร</string>
+    <string name="item_detail__transmission">การส่งผ่าน</string>
+    <string name="item_detail__mileage">ระยะทาง</string>
+    <string name="item_detail__license_expiration">ใบอนุญาตหมดอายุ</string>
+    <string name="item_detail__year">ปี</string>
+
+
+
+    <string name="item_entry_detail__description">ลักษณะ</string>
+    <string name="item_entry_detail__price">ราคา</string>
+    <string name="item_entry_detail__title">วันนี้คุณมีรายชื่ออะไร</string>
+    <string name="item_entry_detail__desc">เลือกรูปข้าวเพื่อจัดแสดงสิ่งของของคุณ</string>
+    <string name="item_entry_detail__shop_setting">การตั้งค่าร้านค้า</string>
+    <string name="item_entry_detail__is_shop">ร้านค้าคืออะไร?</string>
+    <string name="item_entry_detail__is_shop_desc">(หากผู้ใช้แสดงสามารถสั่งซื้อมากกว่าหนึ่ง)</string>
+    <string name="item_entry_detail__highlight">ข้อมูลที่น่าสนใจ</string>
+    <string name="item_entry_detail__latitude">ละติจูด</string>
+    <string name="item_entry_detail__longitude">ลองจิจูด</string>
+    <string name="item_entry_detail__location">ที่ตั้ง</string>
+    <string name="item_entry_detail__address">ที่อยู่</string>
+    <string name="item_entry_detail__submit">เสนอ</string>
+    <string name="item_entry_toolbar">รายการเข้า</string>
+    <string name="item_entry_sold">SOLD</string>
+    <string name="item_entry_star">* * * *</string>
+    <string name="item_entry_need_image">โปรดเลือกอย่างน้อยหนึ่งภาพ</string>
+    <string name="item_entry_need_manufacturer">เลือกผู้ผลิต</string>
+    <string name="item_entry_need_modle">เลือกรูปแบบ</string>
+    <string name="item_entry_need_type">เลือกประเภท</string>
+    <string name="item_entry_need_list_title">เติมชื่อรายการของคุณ</string>
+    <string name="item_entry_need_item_condition">เลือกเงื่อนไขรายการ</string>
+    <string name="item_entry_need_item_plate_number">กรอกหมายเลขทะเบียนรายการของคุณ</string>
+    <string name="item_entry_need_item_engine_power">เติมกำลังของเครื่องยนต์รายการของคุณ</string>
+    <string name="item_entry_need_item_year">กรอกปีรายการของคุณ</string>
+    <string name="item_entry_need_item_transmission">เลือกเกียร์</string>
+    <string name="item_entry_need_description">เขียนคำอธิบายสำหรับรายการของคุณ</string>
+    <string name="item_entry_need_price">เขียนราคาของคุณ</string>
+    <string name="item_entry_need_currency_symbol">เลือกสัญลักษณ์สกุลเงินของคุณ</string>
+    <string name="item_entry_offer_not_zero">ราคาข้อเสนอของคุณต้องไม่เป็นศูนย์</string>
+    <string name="item_entry_accept_confirm">คุณต้องการยอมรับราคานี้จริง ๆ หรือไม่</string>
+    <string name="item_entry_reject_confirm">คุณต้องการปฏิเสธราคานี้จริง ๆ หรือไม่</string>
+    <string name="item_entry_user_not_exit">ผู้ใช้รายนี้ไม่ออก</string>
+    <string name="item_entry_pin_shop">สถานที่ตั้งของร้านขา</string>
+    <string name="item_entry_camera">กล้อง</string>
+    <string name="item_entry_gallery">เฉลียง</string>
+    <string name="item_entry__manufacturer">ผู้ผลิต</string>
+    <string name="item_entry__model">แบบ</string>
+    <string name="item_entry__color">สี</string>
+    <string name="item_entry__fuel_type">ประเภทของน้ำมันเชื้อเพลิง</string>
+    <string name="item_entry__build_type">สร้างประเภท</string>
+    <string name="item_entry__seller_type">ประเภทผู้ขาย</string>
+    <string name="item_entry__transmission">การส่งผ่าน</string>
+    <string name="item_entry__plate_number">หมายเลขทะเบียน</string>
+    <string name="item_entry__engine_power">ฝีจักร</string>
+    <string name="item_entry__steering_position">พวงมาลัยตำแหน่ง</string>
+    <string name="item_entry__no_of_owner">จำนวนของเจ้าของ</string>
+    <string name="item_entry__trim_name">ชื่อ Trim</string>
+    <string name="item_entry__vehicle_id">ID ยานพาหนะ</string>
+    <string name="item_entry__price_unit">ราคาต่อหน่วย</string>
+    <string name="item_entry__year">ปี</string>
+    <string name="item_entry__licence_status">สถานะใบอนุญาต</string>
+    <string name="item_entry__max_passengers">ผู้โดยสารสูงสุด</string>
+    <string name="item_entry__no_of_door">จำนวนประตู</string>
+    <string name="item_entry__mileage">ระยะทาง</string>
+    <string name="item_entry__license_expiration_date">ใบอนุญาตวันที่หมดอายุ</string>
+    <string name="item_entry__is_licence">คือใบอนุญาต?</string>
+
+    <string name="item_from_follower_toolbar">รายการไอเท็มจากผู้ติดตาม</string>
+
+
+    <string name="item_condition__type">(%1$s)</string>
+
+
+    <string name="map_filter__map_title">ตัวกรองแผนที่</string>
+    <string name="map_filter__browsing">เรียกดูรอบ ๆ</string>
+    <string name="map_filter__all">ทั้งหมด</string>
+
+    <string name="map__pick_location">เลือกสถานที่ตั้ง</string>
+
+    <string name="no_internet_error">ไม่มีการเชื่อมต่ออินเทอร์เน็ต.</string>
+
+
+    <string name="message_sent">ข้อความของคุณถูกส่งแล้ว.</string>
+
+
+    <string name="update_noti">โปรดรอ! กำลังอัปเดตการตั้งค่าการแจ้งเตือน</string>
+
+    <string name="success">ความสำเร็จ</string>
+    <string name="confirm">ยืนยัน</string>
+    <string name="info">ข้อมูล</string>
+    <string name="error">ข้อผิดพลาด</string>
+    <string name="warning">คำเตือน</string>
+    <string name="version_update">อัพเดตเวอร์ชั่น</string>
+    <string name="update">ปรับปรุง</string>
+
+
+    <string name="category__list_title">คุณสนใจอะไร</string>
+
+
+    <string name="blog_list__title">รายการบล็อก</string>
+
+
+    <string name="blog_detail__error_message">บล็อกที่มีรหัสนี้ไม่มีอยู่</string>
+    <string name="blog_detail__title">รายละเอียดบล็อก</string>
+
+
+    <string name="city_menu__title">เมนูเมือง</string>
+
+
+    <string name="city__sure_to_exit">คุณต้องการออกจากเมืองนี้หรือไม่</string>
+
+
+    <string name="item_list_title">รายการสินค้า</string>
+
+
+    <string name="force_update__button_update"> ปรับปรุง</string>
+
+
+    <string name="dashboard_keyword">คำหลัก</string>
+    <string name="dashboard_blog">บล็อก</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">เชื่อมต่อกับชุมชนของเรา</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+    <string name="selected_city_manufactures">ผู้ผลิต</string>
+    <string name="selected_city_recent">รถยนต์ที่อัปโหลดล่าสุด</string>
+    <string name="selected_city_popular_item">รถยนต์ที่เป็นที่นิยม</string>
+    <string name="selected_city_item_follower">รถยนต์จากผู้ติดตามของคุณ</string>
+    <string name="selected_city_add"> ส่งโฆษณาฟรี</string>
+
+
+    <string name="location_title">ตำแหน่งของคุณ</string>
+    <string name="location_change_later">คุณสามารถเปลี่ยนได้ในภายหลัง!</string>
+    <string name="location_select">กรุณาเลือกเมือง</string>
+
+    <string name="setting__clear_cache_confirm">คุณแน่ใจหรือไม่ว่าต้องการล้างแคชรูปภาพ</string>
+    <string name="setting__clear_image_cache">ล้างแคชรูปภาพ</string>
+    <string name="setting__image_cache_size">ขนาดแคชรูปภาพ</string>
+    <string name="setting__camera">กล้อง</string>
+    <string name="setting__default_camera">กล้องเริ่มต้น</string>
+    <string name="setting__custom_camera">Custom กล้อง</string>
+    <string name="setting__change_gdpr">เปลี่ยนการตั้งค่า GDPR</string>
+    <string name="setting__version_no">หมายเลขรุ่น:</string>
+
+    <string name="chat__mark_as_sold">ทำเครื่องหมายว่าขายแล้ว</string>
+    <string name="chat__accept">ยอมรับ</string>
+    <string name="chat__reject">ปฏิเสธ</string>
+    <string name="chat__make_offer_title">ทำข้อเสนอสำหรับรายการนี้</string>
+    <string name="chat__offer">สร้าง \ nOffer</string>
+    <string name="chat__make_offer_sender">ทำข้อเสนอ</string>
+    <string name="chat__make_offer_receiver">ได้รับข้อเสนอแล้ว</string>
+    <string name="chat__accept_text">ข้อเสนอได้รับการยอมรับ</string>
+    <string name="chat__reject_text">ข้อเสนอถูกปฏิเสธ</string>
+    <string name="chat__sold">ขาย</string>
+    <string name="chat__give_review">ให้รีวิว</string>
+    <string name="chat__item_is_sold">รายการนี้ได้ถูกขาย</string>
+    <string name="chat__item_space_error">ราคาของคุณต้องไม่ว่างเปล่า</string>
+
+
+    <string name="verify_email__informateion">คุณเพิ่งได้รับอีเมลที่มีรหัสยืนยันบน</string>
+    <string name="verify_email__enter_code">ใส่รหัสยืนยัน</string>
+    <string name="verify_email__change_email">เปลี่ยนอีเมล</string>
+    <string name="verify_email__resent_code">รหัสไม่พอใจ</string>
+    <string name="verify_email__submit">เสนอ</string>
+    <string name="verify_email__title">ยืนยันอีเมล</string>
+
+
+    <string name="verify_phone__informateion">คุณเพิ่งได้รับข้อความทางโทรศัพท์ที่มีรหัส OTP บน</string>
+    <string name="verify_phone__back_login">กลับไปเข้าระบบ?</string>
+    <string name="verify_phone__title">การยืนยันทางโทรศัพท์</string>
+
+
+    <string name="user_follower_list_toolbar_name">รายชื่อผู้ติดตาม</string>
+    <string name="user_following_list_toolbar_name">ติดตามรายชื่อผู้ใช้</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>

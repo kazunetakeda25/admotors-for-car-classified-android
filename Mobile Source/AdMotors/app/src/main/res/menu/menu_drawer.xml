@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group_before_login"
+        android:checkableBehavior="single">
+
+        <item android:title="@string/menu__home">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_home"
+                        android:icon="@drawable/baseline_home_grey_24"
+                        android:title="@string/menu__home" />
+                    <item
+                        android:id="@+id/nav_category"
+                        android:icon="@drawable/baseline_category_grey_24"
+                        android:title="@string/menu__manufacturer" />
+                    <item
+                        android:id="@+id/nav_latest"
+                        android:icon="@drawable/baesline_access_time_black_24"
+                        android:title="@string/menu__latest_item" />
+                    <item
+                        android:id="@+id/nav_popular"
+                        android:icon="@drawable/baseline_trending_grey_24"
+                        android:title="@string/menu__trending_item" />
+
+                </group>
+            </menu>
+
+        </item>
+
+
+        <item android:title="@string/menu__user_info">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/ic_profile"
+                        android:title="@string/menu__profile" />
+
+                </group>
+            </menu>
+
+        </item>
+
+        <item android:title="@string/menu__app_setting">
+            <menu>
+                <group android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/nav_language"
+                        android:icon="@drawable/baseline_language_24"
+                        android:title="@string/menu__language" />
+                    <item
+                        android:id="@+id/nav_contact_us"
+                        android:icon="@drawable/baseline_mail"
+                        android:title="@string/menu__contact_us" />
+                    <item
+                        android:id="@+id/nav_setting"
+                        android:icon="@drawable/ic_setting"
+                        android:title="@string/menu__setting" />
+                    <item
+                        android:id="@+id/nav_privacy_policy"
+                        android:icon="@drawable/baseline_info_white_24"
+                        android:title="@string/menu__privacy_policy" />
+                    <item
+                        android:id="@+id/nav_rate_this_app"
+                        android:icon="@drawable/baseline_rating_grey_24"
+                        android:title="@string/menu__rate" />
+                </group>
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/group_after_login"
+        android:checkableBehavior="single"
+        android:visible="false">
+
+        <item android:title="@string/menu__home">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_home_login"
+                        android:icon="@drawable/baseline_home_grey_24"
+                        android:title="@string/menu__home" />
+                    <item
+                        android:id="@+id/nav_category_login"
+                        android:icon="@drawable/baseline_category_grey_24"
+                        android:title="@string/menu__manufacturer" />
+                    <item
+                        android:id="@+id/nav_latest_login"
+                        android:icon="@drawable/baesline_access_time_black_24"
+                        android:title="@string/menu__latest_item" />
+                    <item
+                    android:id="@+id/nav_popular_login"
+                    android:icon="@drawable/baseline_trending_grey_24"
+                    android:title="@string/menu__trending_item" />
+                </group>
+            </menu>
+
+        </item>
+
+        <item android:title="@string/menu__user_info">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_profile_login"
+                        android:icon="@drawable/baseline_profile_grey_24"
+                        android:title="@string/menu__profile" />
+                    <item
+                        android:id="@+id/nav_favourite_news_login"
+                        android:icon="@drawable/baseline_heart_grey_24"
+                        android:title="@string/menu__favourite_items" />
+                    <item
+                        android:id="@+id/nav_user_history_login"
+                        android:icon="@drawable/baseline_menu_history_grey_24"
+                        android:title="@string/menu__user_history" />
+                    <item
+                        android:id="@+id/nav_logout_login"
+                        android:icon="@drawable/ic_logout"
+                        android:title="@string/menu__logout" />
+                </group>
+            </menu>
+
+        </item>
+
+        <item android:title="@string/menu__app_setting">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_language_login"
+                        android:icon="@drawable/baseline_language_24"
+                        android:title="@string/menu__language" />
+                    <item
+                        android:id="@+id/nav_contact_us_login"
+                        android:icon="@drawable/baseline_mail"
+                        android:title="@string/menu__contact_us" />
+                    <item
+                        android:id="@+id/nav_setting_login"
+                        android:icon="@drawable/ic_setting"
+                        android:title="@string/menu__setting" />
+                    <item
+                        android:id="@+id/nav_privacy_policy_login"
+                        android:icon="@drawable/baseline_info_white_24"
+                        android:title="@string/menu__privacy_policy" />
+                    <item
+                        android:id="@+id/nav_rate_this_app_login"
+                        android:icon="@drawable/baseline_rating_grey_24"
+                        android:title="@string/menu__rate" />
+                </group>
+            </menu>
+
+        </item>
+    </group>
+
+</menu>

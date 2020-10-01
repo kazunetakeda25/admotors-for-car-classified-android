@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>{AdMotors (Android)}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="This is a user guide for AdMotors android application with php backend">
+        <meta name="author" content="Autor">
+    
+        <!-- loading the css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        
+		<style type="text/css">
+        body {
+            padding-bottom: 40px;
+        }
+		
+		section {padding: 60px 0 0 0;}
+        </style>
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    
+        <!-- Various Icons (Favicon, Touch Icon,... -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+        
+    </head>
+    
+    
+        
+    <body data-spy="scroll" data-target=".navbar" id="top">
+    
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+                    <a class="brand" href="#overview">AdMotors</a><!-- TIP: Change this for the name of your file -->
+                    <div class="nav-collapse">
+                        
+                        <ul class="nav nav-pills">
+                            <li class="active"><a href="#overview">Overview</a></li>
+                            
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                Mobile <b class="caret"></b>
+                                </a>
+                                
+                                <ul class="dropdown-menu">
+                                
+                                	<li role="presentation">&nbsp;&nbsp;Setup & Configuration</li>
+                                	  
+                                    <li><a href="#androidsdkstudio">Android SDK & Android Studio</a></li>
+                                    <li><a href="#importproject">Import Project Into Android Studio</a></li>
+                                    <li><a href="#syncdependencies">Sync For Necessary Gradle libraries</a></li>
+                                    <li class="divider"></li>
+                                    
+                                    <li role="presentation">&nbsp;&nbsp;Project Structure</li>
+                                    <li><a href="#packagestructure">Package Structure</a></li>
+                                    <li><a href="#renamepackage">Rename Package</a></li>
+                                    <li><a href="#appicon">Change App Icon</a></li>
+                                    <li><a href="#colors">Change Material Design Color Theme  </a></li>
+                                    <li><a href="#string">Change String Value</a></li>
+                                    <li><a href="#configfile">Config File</a></li>
+                                    <li class="divider"></li>
+                                    
+                                    <li role="presentation">&nbsp;&nbsp;Generate Keys</li>
+                                    <li><a href="#fcmkey">Firebase Cloud Messaging & JSON File</a></li>
+                                    <li><a href="#admobkeys">Google Admob Keys</a></li>
+                                    <li><a href="#firebasechat">Firebase Chat Configuration</a></li>
+                                    
+                                    <li class="divider"></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                                Backend <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                	<li role="presentation">&nbsp;&nbsp;Setup</li>
+                                    <li><a href="#beconfig">Backend Configuration</a></li>
+                                    <li><a href="#import">Import Sample Data</a></li>
+                                    <li class="divider"></li>
+                                    
+                                    <li role="presentation">&nbsp;&nbsp;Features</li>
+                                    <li><a href="#login">Login To Backend</a></li>
+                                    <li><a href="#modulecrud">Backend Data Management</a></li> 
+                                    <li><a href="#sendnoti">Sending Push Notification</a></li>
+                                    <li><a href="#image_compress">Image Comparess Tips</a></li>
+                                    <li><a href="#api_key">API Key</a></li>
+                                    <li class="divider"></li>
+                                    
+                                    
+                                </ul>
+                            </li>
+                           
+                                                       
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========================= NAVIGATION BAR >> END ========================= -->
+    
+    
+    
+        <!-- ========================= MAIN CONTAINER >> START ========================= -->
+        <div class="container">
+        
+            <!-- ========================= SECTION: Intro >> START ========================= -->
+            <section id="overview">
+            
+                <div class="hero-unit">
+                    <h1>User Guide</h1>
+                    <p>Powered by <a href="http://panacea-soft.com">Panacea-Soft</a></p>
+                    <p>
+                    <b>AdMotors</b> is Android Full Application solution with Backend Management System.
+                    </p>
+                    <p class="well well-small">  Thank you for purchasing my full application. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/Panacea-Soft">here</a>. Response time is within 36 hrs.Thanks so much!.</p>
+                    <br>
+                   
+                    
+    
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>Panacea-Soft</td>
+                            </tr>
+                            <tr>
+                                <td>Contact:</td>
+                                <td><a href="#nowhere">teamps.is.cool@gmail.com</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Current App Version:</td>
+                                <td>1.1</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version</td>
+                                <td>1.1</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span4">
+                        <table width="100%">
+                            <tr>
+                                <td>Created:</td>
+                                <td>22/Jul/2019</td>
+                            </tr>
+                            <tr>
+                                <td>Modified:</td>
+                                <td>13/Dec/2019</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr>
+                
+            </section>
+            <!-- ========================= SECTION: Intro >> END ========================= -->
+
+
+          
+            <!-- ========================= SECTION: Overview >> START ========================= -->
+            <section id="markup">
+                <div class="page-header">
+                    <h1>Overview <small>{About The Item}</small></h1>
+                </div>
+            
+                <div class="alert alert-info"> <b>AdMotors!</b> 
+                You could build the niche app for AdMotors sharing among the people. You could able to upload all those wallpaper from backend CMS. 
+                
+                <br><br>
+                <b>Used Technology :</b>  Google Architecture Component, AndroidX, Native Android Development, Java JDK, Android SDK, Android Studio, Google Map, Firebase Cloud Messaging, CodeIgniter, Bootstrap, RESTFUL 
+                <br><br>
+                <b>Important Note :</b> After you downloaded main file successfully from CodeCanyon, here is you may need to know :
+                <br> 
+                1. <a href="#androidsdkstudio">Setup SDK & Studio</a> <br>  
+                2. <a href="#importproject">Import Project</a> <br>
+                3. <a href="#syncdependencies">Sync Gradle Libraries</a> <br>
+                4. <a href="#packagestructure">Project Package Structure</a> <br>
+                5. <a href="#configfile">Config File For RestAPI</a> <br>
+                6. <a href="#appicon">App Icon</a>, <a href="#string">String Value Config</a>, <a href="#colors">Material Design Color Theme </a> <br><br>
+                7. <a href="#fcmkey">Generate FCM Key</a> and <a href="#admobkeys">Google Admob Keys</a><br><br>
+                
+                8. <a href="#beconfig">Backend Configuration</a> and <a href="#import">Import Sample Database</a> <br>
+                
+               9. <a href="#login">Login To Backend</a> <br>
+               10. <a href="#modulecrud">Backend Data Management</a> <br>
+                
+                <br>
+                11. <a href="#analytics">Data Analytics</a>, <a href="#exportdb">Export Database</a> <br>
+                12. <a href="#sendnoti">Sending Push Notification</a> <br> 
+                13. <a href="#firebasechat">Firebase Chat Configuration</a> <br> 
+                
+                                         
+                </div>
+                <hr />
+            </section>
+
+           
+
+  <!-- ========================= SECTION: Overview >> END ========================= -->
+                
+                
+
+		<!-- ========================= SECTION: Android SDK & Android Studio >> START ========================= -->
+        <section id="androidsdkstudio">
+            <div class="page-header">
+                <h1>Android SDK & Android Studio <small>{How to setup for working environment?}</small></h1>
+            </div>
+            
+            <div class="row">
+                <div class="span3">
+                    <h3>Working Environment</h3>
+                    <p>
+                    	You need to setup your working environment for Android Development. 
+                    </p>
+                </div>
+
+                <div class="span9">
+                    <div class="accordion" id="accordion2">
+                        <div class="accordion-group">
+                            <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Install JDK </a> </div>
+                            <div id="collapseOne" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p>
+                                     Need to install Java JDK from <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">here</a>
+                                    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 2. Install Android Studio </a> </div>
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p>
+                                    Need to install <a href="https://developer.android.com/sdk/index.html">Android Studio</a> as official IDE for Android Development. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-group">
+                            <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 3. Install Necessary SDK Package </a> </div>
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p>
+                                    You can install necessary SDK packages from Android Studio Menu -> Tools -> Android -> SDK Manager <br>
+                                    According the app's targetSdkVersion from gradle file, you might need to install Android 9.0 <u>(API 28)</u>
+                                    <br>
+                                    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-group">
+                            <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 4. Install Emulator </a> </div>
+                            <div id="collapseTwo" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    <p>
+                                    If directly development and testing on real device is the best option but if you want to install android emulator, please install <a href="http://www.genymotion.com/">Genymotion</a> 
+                                    
+                                    (Note : <b>Google Play Service</b> is <u>required to install</u> for Google Map and GCM feature.)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <hr />
+
+        </section>
+        <!-- ========================= SECTION: Android SDK & Android Studio >> END ========================= -->
+                
+            
+                
+            
+  		<!-- ========================= SECTION: Import Project Into Android Studio >> START ========================= -->
+            <section id="importproject">
+                <div class="page-header">
+                    <h1>Import Project Into Android Studio <small>{How to import project?}</small></h1>
+                </div>
+                
+                <div class="row">
+                    <div class="span3">
+                        <h3>Import Project</h3>
+                        <p>
+                        You have to import the project into your android studio and copy into your workspace folder.
+                        </p>
+                    </div>
+    
+                    <div class="span9">
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Where is project?  </a> </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        After you download from Codecanyon, there is the project source code at "Mobile Source\AdMotors".
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 2. Import into Android Studio? </a> </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        You could import from Android Studio Menu ( File -> New -> Import Project ). When popup window come out, please go to the folder(Mentioned at step 1). Yes, please copy that project into your work space. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 3. Make sure the path? </a> </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        You have to make sure for SDK and JDK path for your imported project. Right Click project -> Open Module Settings. At popup window you could check whether correct path or not. <br><br>
+                                        <img src="assets/img/path.png">
+                                        
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+                <hr />
+
+            </section>
+            <!-- ========================= SECTION: Import Project Into Android Studio >> END ========================= -->
+         	
+         	<!-- ========================= SECTION: Sync For Dependencies Libraries >> START ========================= -->
+         	<section id="syncdependencies">
+         	    <div class="page-header">
+         	        <h1>Sync For Dependencies Libraries <small>{How to download Dependencies Libraries?}</small></h1>
+         	    </div>
+         	
+         	   
+         	
+         	    <div class="row">
+         	        <div class="span3">
+         	            <h3>Dependencies Libraries</h3>
+         	            <p>
+         	            Dependencies Libraries are some additional libraries for the project. Normally, it declares at gradle file then Android Studio will sync for those libs into your local working environment.
+         	            </p>
+         	        </div>
+         	        <div class="span9">
+         	            
+         	            
+         	            <div class="accordion" id="accordion2">
+         	                <div class="accordion-group">
+         	                    <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Where is declared for Dependencies?  </a> </div>
+         	                    <div id="collapseOne" class="accordion-body collapse">
+         	                        <div class="accordion-inner">
+         	                            <p>
+         	                            There is file so called build.gradle at "AdMotors\build.gradle". <br>
+         	                            <img src="assets/img/dependencies.png">
+         	                            </p>
+         	                        </div>
+         	                    </div>
+         	                </div>
+         	                        	                
+         	            </div>
+         	            
+         	            <div class="accordion" id="accordion2">
+         	                 <div class="accordion-group">
+         	                     <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 2. Sync Dependencies?  </a> </div>
+         	                     <div id="collapseOne" class="accordion-body collapse">
+         	                         <div class="accordion-inner">
+         	                             <p>
+         	                             When Android Studio ask whether want to sync for those dependencies, please click to "sync" and wait until it finished successfully. Please make sure one thing to uncheck for "Offline work", if not it will sync and download from internet. (Android Studio -> Preferences -> Build, Execution, Deployment -> Build Tools -> Gradle ) <br><br>
+         	                             <img src="assets/img/offlinework.png"> 
+         	                             </p>
+         	                         </div>
+         	                     </div>
+         	                 </div>
+         	                         	                
+         	             </div>
+         	            
+         	        </div>
+         	    </div>
+         	    
+         	    <hr />
+         	    
+         	    
+         	    
+         	</section>
+         	<!-- ========================= SECTION: Sync For Dependencies Libraries >> END ========================= -->
+         	
+         	<!-- ========================= SECTION: Package Structure >> START ========================= -->
+         	<section id="packagestructure">
+         	    <div class="page-header">
+         	        <h1>Package Structure <small>{Which package contains for which files}</small></h1>
+         	    </div>
+         	
+         	   
+         	
+         	    <div class="row">
+         	        <div class="span3">
+         	            <h3>Java Files Package</h3>
+         	            <p>
+         	            There is some package inside project to maintain easily in future.
+         	            </p>
+         	        </div>
+         	        <div class="span9">
+         	            <table class="table table-bordered table-striped">
+         	                <thead>
+         	                    <tr>
+         	                        <th>Package Name</th>
+         	                        <th>Description</th>
+         	                    </tr>
+         	                </thead>
+         	                <tbody>
+         	                    <tr>
+         	                        <td><code>com.panaceasoft.admotors.api</code></td>
+         	                        <td>
+         	                        Api modules are responsible for authenticating and interacting with APIs and sending network requests with Retrofit. 
+         	                        </td>
+         	                    </tr>
+         	                    
+         	                    <tr>
+         	                         <td><code>com.panaceasoft.admotors.binding</code></td>
+         	                         <td>
+         	                         Binding modules are responsible for custom binding adapter functions 
+         	                         </td>
+         	                     </tr>
+         	                     
+     	                     <tr>
+ 	                             <td><code>com.panaceasoft.admotors.db</code></td>
+ 	                             <td>
+ 	                              DB modules are responsible for Room Dao implementation with SQLite database. 
+ 	                             </td>
+     	                      </tr>
+
+                              <tr>
+                                 <td><code>com.panaceasoft.admotors.di</code></td>
+                                 <td>
+                                  Di modules are responsible for dependencies injection.
+                                 </td>
+                              </tr>
+         	                      
+     	                      <tr>
+     	                           <td><code>com.panaceasoft.admotors.repository</code></td>
+     	                           <td>
+     	                            Repository modules are responsible for handling data operations. 
+     	                           </td>
+     	                       </tr>
+         	                       
+     	                       <tr>
+     	                             <td><code>com.panaceasoft.admotors.ui</code></td>
+     	                             <td>
+     	                              Ui modules are responsible for all user interface. 
+     	                             </td>
+     	                        </tr>
+     	                    	
+         	                       	
+         	                    <tr>
+         	                        <td><code>com.panaceasoft.admotors.utils</code></td>
+         	                        <td>
+         	                         Utils modules are responsible for handling utilities functions. 
+         	                        </td>
+         	                     </tr>	
+         	                     
+         	                     <tr>
+         	                          <td><code>com.panaceasoft.admotors.viewmodel</code></td>
+         	                          <td>
+         	                            Viewmodels modules are responsible for handling data and logic of ui.
+         	                          </td>
+         	                     </tr>	
+
+                                  <tr>
+                                      <td><code>com.panaceasoft.admotors.viewobject</code></td>
+                                      <td>
+                                       viewobjects modules are responsible for holds user data, use as entity for Room and use as serialize for Retrofit API Call.
+ 
+                                      </td>
+                                 </tr>		
+         	                    	
+         	                </tbody>
+         	            </table>
+         	        </div>
+         	    </div>
+         	    
+         	    <hr />
+         	    
+         	    
+         	    
+         	</section>
+         	<!-- ========================= SECTION: Package Structure >> END ========================= -->
+         	
+         	<!-- ========================= SECTION: Rename Package >> START ========================= -->
+     		<section id="renamepackage">
+     		    <div class="page-header">
+     		        <h1>Rename Package <small>{How to rename the package?}</small></h1>
+     		    </div>
+     		
+     		   
+     		
+     		    <div class="row">
+     		        <div class="span3">
+     		            <h3>Rename Package</h3>
+     		            <p>
+     		            Currently, my original package name is "com.panaceasoft.psallpaper" so after you bought, you might need to change according your own package name. For example, if you want to change com.example.app to my.awesome.game.
+     		            (Note : My example is using Android Studio)
+     		            </p>
+     		        </div>
+     		        <div class="span9">
+     		            
+     		            
+     		            <div class="accordion" id="accordion2">
+     		                <div class="accordion-group">
+     		                    <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Project pane  </a> </div>
+     		                    <div id="collapseOne" class="accordion-body collapse">
+     		                        <div class="accordion-inner">
+     		                            <p>
+     		                            In your Project pane, click on the little gear icon      		                            
+     		                            </p>
+     		                        </div>
+     		                    </div>
+     		                </div>
+     		                        	                
+     		            </div>
+     		            
+     		            <div class="accordion" id="accordion2">
+     		                 <div class="accordion-group">
+     		                     <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 2. Compact Empty Middle Packages </a> </div>
+     		                     <div id="collapseOne" class="accordion-body collapse">
+     		                         <div class="accordion-inner">
+     		                             <p>
+     		                             Uncheck / De-select the Compact Empty Middle Packages option  <br><br>
+     		                             <img src="assets/img/compact_package.png">   		                             
+     		                             </p>
+     		                         </div>
+     		                     </div>
+     		                 </div>
+     		                         	                
+     		             </div>
+     		             
+     		             <div class="accordion" id="accordion2">
+ 		                   <div class="accordion-group">
+ 		                       <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 3. Individual Directories </a> </div>
+ 		                       <div id="collapseOne" class="accordion-body collapse">
+ 		                           <div class="accordion-inner">
+ 		                               <p>
+ 		                               Your package directory will now be broken up in individual directories.     		                             
+ 		                               </p>
+ 		                           </div>
+ 		                       </div>
+ 		                   </div>
+ 		                           	                
+ 		               </div>
+     		               
+ 		               <div class="accordion" id="accordion2">
+		                      <div class="accordion-group">
+		                          <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 4. Individually select each directory you want to rename </a> </div>
+		                          <div id="collapseOne" class="accordion-body collapse">
+		                              <div class="accordion-inner">
+		                                  <p>
+		                                  - Right-click it <br>
+		                                  - Select <b>Refactor</b> <br>
+		                                  - Click on <b>Rename</b> <br>
+		                                  - In the Pop-up dialog, click on <b>Rename Package</b> instead of Rename Directory <br>
+		                                  - Enter the new name and hit <b>Refactor</b> <br>
+		                                  - Allow a minute to let Android Studio update all changes <br>
+		                                  - Note: When renaming com in Android Studio, it might give a warning. In such case, select <b>Rename All</b>
+		                                  <br><br>
+		                                  <img src="assets/img/refactor_rename.png">   		                             
+		                                  </p>
+		                              </div>
+		                          </div>
+		                      </div>
+		                              	                
+		                  </div>
+		                  
+		                  <div class="accordion" id="accordion2">
+		                       <div class="accordion-group">
+		                           <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 5. Gradle Build File </a> </div>
+		                           <div id="collapseOne" class="accordion-body collapse">
+		                               <div class="accordion-inner">
+		                                   <p>
+		                                   Now open your <b>Gradle Build File</b> (build.gradle - Usually app or mobile). Update the applicationId to your new Package Name and Sync Gradle, if it hasn't already been updated automatically: <br><br>
+		                                   <img src="assets/img/gradle.png">
+		                                    		                             
+		                                   </p>
+		                               </div>
+		                           </div>
+		                       </div>
+		                               	                
+		                   </div> 
+		                  
+		                 
+		                  
+		                       		            
+     		        </div>
+     		    </div>
+     		    
+     		    <hr />
+     		    
+     		    
+     		    
+     		</section>
+     		<!-- ========================= SECTION: Sync For Dependencies Libraries >> END ========================= -->
+         	
+         	<!-- ========================= SECTION: Change App Icon >> START ========================= -->
+         	<section id="appicon">
+         	    <div class="page-header">
+         	        <h1>Change App Icon <small>{Change with your new icon}</small></h1>
+         	    </div>
+         	    
+         	  You could generate new app icon from <a href="http://romannurik.github.io/AndroidAssetStudio/icons-launcher.html">Android Assets Studio</a>. After that you could replace new ic_launcher.png at mipmap-mdpi, mipmap-hdpi, mipmap-xhdpi, mipmap-xxhdpi, mipmap-xxxhdpi. If you want to know about screen densities and icon dimensions, please take a look at below <br>
+         	  <br> <img src="assets/img/dendim.png">
+         	  
+         	    
+         	    <hr />
+         	    
+         	</section>
+         	<!-- ========================= SECTION:Change App Icon >> END ========================= --> 
+         	
+         				
+			<!-- ========================= SECTION: Change Material Design Color Palette >> START ========================= -->
+			<section id="colors">
+			    <div class="page-header">
+			        <h1>Change Material Design Color Palette <small>{How to change color pattern for Material Design?}</small></h1>
+			    </div>
+			
+			   
+			
+			    <div class="row">
+			        <div class="span3">
+			            <h3>Material Design Color</h3>
+			            <p>
+			           Color in material design is inspired by bold hues juxtaposed with muted environments, deep shadows, and bright highlights. (<a href="https://www.google.com/design/spec/style/color.html">Read More</a>)
+			            </p>
+			        </div>
+			        <div class="span9">
+			            <table class="table table-bordered table-striped">
+			                <thead>
+			                    <tr>
+			                        <th>File Name</th>
+			                        <th>Description</th>
+			                    </tr>
+			                </thead>
+			                <tbody>
+			                    <tr>
+			                        <td><code>/src/main/res/values/colors.xml</code></td>
+			                        <td>
+			                        You could replace the another material design colors at that colors.xml. If you don't know match colors combination, <a href="https://www.materialpalette.com/">Material Palette</a> would help you to pick the color easily. After you got the color from there, you just replace at colors.xml
+			                        
+			                        </td>
+			                    </tr>
+			                    
+			                </tbody>
+			            </table>
+			        </div>
+			    </div>
+			    
+			    <hr />
+			    
+			    
+			    
+			</section>
+			<!-- ========================= SECTION: Change Material Design Color Palette >> END ========================= -->
+			
+			<!-- ========================= SECTION: Change String Value >> START ========================= -->
+			<section id="string">
+			    <div class="page-header">
+			        <h1>Change String Value <small>{Change with your new string value}</small></h1>
+			    </div>
+			    
+			 <div class="row">
+			     <div class="span3">
+			         <h3>String Value Config</h3>
+			         All label and text from application are coming from string config file. 
+			         <p>
+			        
+			         </p>
+			     </div>
+			     <div class="span9">
+			         <table class="table table-bordered table-striped">
+			             <thead>
+			                 <tr>
+			                     <th>File Name</th>
+			                     <th>Description</th>
+			                 </tr>
+			             </thead>
+			             <tbody>
+			                 <tr>
+			                     <td><code>/src/main/res/values/strings.xml</code></td>
+			                     <td>
+			                     You could replace new label and text at strings.xml file including app name also at"app_name"
+			                    
+			                     </td>
+			                 </tr>
+			                 
+			             </tbody>
+			         </table>
+			     </div>
+			 </div>
+			  
+			    
+			    <hr />
+			    
+			</section>
+			<!-- ========================= SECTION:Change String Value >> END ========================= --> 
+			
+
+            <!-- ========================= SECTION: Config File >> START ========================= -->
+            <section id="configfile">
+                <div class="page-header">
+                    <h1>Config File <small>{API Link & Others Configuration}</small></h1>
+                </div>
+            
+               
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>API Link</h3>
+                        <p>
+                        You have to change your API link according your domain name.
+                        </p>
+                    </div>
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>src/main/java/com/panaceasoft<br>/admotors/Config.java</code></td>
+                                    <td>
+                                    You might need to replace your API link at this Config file according your domain and working environment.
+                                    <br>
+                                    public static final String APP_API_URL = "http://www.yourdomain.com/ps-admotors-admin/index.php";
+                                    <br>
+                                    public static final String APP_IMAGES_URL = "http://www.yourdomain.com/ps-admotors-admin/uploads/";
+                                                                           
+                                    
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr />
+                
+                
+                
+            </section>
+            <!-- ========================= SECTION: Config File >> END ========================= -->
+            
+            
+            
+            <!-- ========================= SECTION: FCM Key >> START ========================= -->
+            <section id="fcmkey">
+                <div class="page-header">
+                    <h1>Google Services & Firebase Cloud Messaging Key <small>{How to generate JSON and Key for FCM?}</small></h1>
+                </div>
+            
+               
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Firebase Cloud Messaging</h3>
+                        <p>
+                        Send data from your server to your users' devices, and receive messages from devices on the same connection. The FCM service handles all aspects of queueing of messages and delivery to client applications running on target devices, and it is completely free. 
+                        </p>
+                    </div>
+                    <div class="span9">
+                        
+                        
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Login Firebase Console  </a> </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        You might need to login into <a href="https://console.firebase.google.com/">Firebase Console</a> using with your gmail account.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                    	                
+                        </div>
+                        
+                        <div class="accordion" id="accordion2">
+                             <div class="accordion-group">
+                                 <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 2. Create New Project  </a> </div>
+                                 <div id="collapseOne" class="accordion-body collapse">
+                                     <div class="accordion-inner">
+                                         <p>
+                                         After login into Firebase Console, please crate new project
+                                         <br><br>
+                                         <img src="assets/img/newprj.png"> <br><br>
+                                         Please choose "Add Firebase to your Android App".
+                                         <img src="assets/img/choose_android.png">
+                                         
+                                         </p>
+                                     </div>
+                                 </div>
+                             </div>
+                                     	                
+                         </div>
+                         
+                         <div class="accordion" id="accordion2">
+                              <div class="accordion-group">
+                                  <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 3. Provide Necessary Information and Generate JSON  </a> </div>
+                                  <div id="collapseOne" class="accordion-body collapse">
+                                      <div class="accordion-inner">
+                                          <p>
+                                          <b>3.1 Enter App Detail</b> <br>
+                                          <img src="assets/img/1_app_detail.png">
+                                          <br><br>
+                                          
+                                          <b>3.2 Copy Config File</b> <br>
+                                          <img src="assets/img/2_copy_config_file.png">
+                                          <br><br>
+                                          
+                                          <b>3.3 Add To Gradle</b> <br>
+                                          <img src="assets/img/3_add_to_gradle.png"><br>
+                                          (Note : It is already done so you no need to add at gradle file.)
+                                          <br><br>
+                                           
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                                      	                
+                          </div>
+                           
+                           <div class="accordion" id="accordion2">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 4. Take FCM Key (For Push Notification)  </a> </div>
+                                    <div id="collapseOne" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <p>
+                                            <b>4.1 Assume that you are now already inside at ( https://console.firebase.google.com ) Please go to "Project Setting"</b>
+                                            <br>
+                                             <img src="assets/img/project_setting.png"><br><br>
+                                            <!-- <img src="assets/img/4_click_manage.png"><br><br> -->
+                                            
+                                            <b>4.2 You can see the Setting tabs</b>
+                                            <br>
+                                            <img src="assets/img/setting_tabs.png"><br><br>
+
+                                            <b>4.3 Please copy API Key from Cloud Messaging Tab</b> <br>
+                                            Please go to "Cloud Messaging" tab. If you see "Server key (legacy token)", you need to use that key.
+                                            <br>
+                                            <img src="assets/img/legacy_key.png"><br><br>
+                                            
+                                            
+                                            
+                                           
+                                                    	                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                        	                
+                           </div>
+                           
+                           <div class="accordion" id="accordion2">
+                                <div class="accordion-group">
+                                    <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 5. Setup Server Key at Config.php  </a> </div>
+                                    <div id="collapseOne" class="accordion-body collapse">
+                                        <div class="accordion-inner">
+                                            <p>
+                                            You need to put that key at config\config.php from backend. <br>
+                                            $config['fcm_api_key']    = "------- your key -------";        	                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                        	                
+                           </div> 
+                            
+            	       
+            	            
+                    </div>
+                </div>
+                
+                <hr />
+                
+                
+                
+            </section>
+            <!-- ========================= SECTION: FCM Key >> END ========================= -->
+
+            
+
+
+            <!-- ========================= SECTION: Google Admob Keys >> START ========================= -->
+            <section id="admobkeys">
+                <div class="page-header">
+                    <h1>Google Admob Keys <small>{How to generate Google Admob Keys?}</small></h1>
+                </div>
+            
+               
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Admob</h3>
+                        <p>
+                        Earn more from your mobile apps using Google AdMob. Use in-app advertising to generate revenue, improve user experience, and scale your business.
+                        </p>
+                    </div>
+                    <div class="span9">
+                        
+                        
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Login Firebase Console  </a> </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        You might need to login into <a href="https://www.google.com/admob//">Admob</a> using with your gmail account.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                        
+                        <div class="accordion" id="accordion2">
+                             <div class="accordion-group">
+                                 <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 2. Create Ad units for both banner and interstitial  </a> </div>
+                                 <div id="collapseOne" class="accordion-body collapse">
+                                     <div class="accordion-inner">
+                                         <p>
+                                         
+                                         <img src="assets/img/adunits.png"> 
+                                         
+                                         </p>
+                                     </div>
+                                 </div>
+                             </div>
+                                                        
+                         </div>
+
+                         <div class="accordion" id="accordion2">
+                             <div class="accordion-group">
+                                 <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 3. Put those keys at strings.xml  </a> </div>
+                                 <div id="collapseOne" class="accordion-body collapse">
+                                     <div class="accordion-inner">
+                                         <p>
+                                             <img src="assets/img/admob_keys.jpg"> 
+                                         </p>
+                                     </div>
+                                 </div>
+                             </div>
+                                                        
+                         </div>
+                        
+                            
+                    </div>
+                </div>
+                
+                <hr />
+                
+                
+                
+            </section>
+            <!-- ========================= SECTION: Google Admob Keys >> END ========================= -->
+
+
+            <!-- ========================= SECTION: Firebase Chat Configuration >> START ========================= -->
+            <section id="firebasechat">
+                <div class="page-header">
+                    <h1>Firebase Keys <small>{How to create Project For Firebase Chatting?}</small></h1>
+                </div>
+            
+               
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Firebase Chat</h3>
+                        <p>
+                       Implement a user-friendly chat feature, so that your users can chat with each other.
+                        </p>
+                    </div>
+                    <div class="span9">
+                        
+                        
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Login Firebase Console  </a> </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        You might need to login into <a href="https://console.firebase.google.com">Firebase</a> using with your gmail account.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                                        
+                        </div>
+                        
+                        <div class="accordion" id="accordion2">
+                             <div class="accordion-group">
+                                 <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 2. Enabled Email/Password Authentication  </a> </div>
+                                 <div id="collapseOne" class="accordion-body collapse">
+                                     <div class="accordion-inner">
+                                         
+                                         <p>
+                                             Go to Authorization <br>
+                                             <img src="assets/img/fb_1.png"> 
+                                             
+                                         </p>
+                                         <br>
+                                         
+                                         <p>
+                                             Click Edit and Enable Email/Password. <br>
+                                             <img src="assets/img/fb_2.png"> 
+                                             
+                                         </p>
+                                         <br>
+
+                                         
+                                         <p>
+                                             After that you will see like this ( it showing Enabled ) <br>
+                                             <img src="assets/img/fb_3.png"> 
+                                             
+                                         </p>
+                                         <br>
+
+                                     </div>
+                                 </div>
+                             </div>
+                                                        
+                         </div>
+
+                         <div class="accordion" id="accordion2">
+                             <div class="accordion-group">
+                                 <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 3. Create Database  </a> </div>
+                                 <div id="collapseOne" class="accordion-body collapse">
+                                     <div class="accordion-inner">
+                                         
+                                         <p>
+                                             Click Create Database <br>
+                                             <img src="assets/img/fb_4.png"> 
+                                         </p>
+                                         <br>
+
+                                         <p>
+                                             And Click Next <br>
+                                             <img src="assets/img/fb_5.png"> 
+                                         </p>
+                                         <br>
+
+                                         <p>
+                                             And Click Done. <br>
+                                             <img src="assets/img/fb_6.png"> 
+                                         </p>
+
+                                         <br>
+                                     </div>
+                                 </div>
+                             </div>
+                                                        
+                         </div>
+
+
+                         <div class="accordion" id="accordion2">
+                             <div class="accordion-group">
+                                 <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 4. Override New Rule in Real-time Database  </a> </div>
+                                 <div id="collapseOne" class="accordion-body collapse">
+                                     <div class="accordion-inner">
+                                         <p>
+                                             Go to Database/Rules ( Make Sure you are selected <b>Realtime Database</b> ) and Click Publish <br>
+
+                                             <img src="assets/img/fb_7.png"> 
+                                         </p><br>
+
+ <pre>
+    {
+      /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+      "rules": {
+        ".read": true,
+        ".write": true,
+
+          "timestamp" : {
+            ".indexOn" : ".value"
+          }
+        }
+      
+    }
+ </pre>
+                                         <br>  
+                                         <img src="assets/img/fb_8.png"> 
+
+                                     </div>
+                                 </div>
+                             </div>
+                                                        
+                         </div>
+                        
+                            
+                    </div>
+                </div>
+                
+                <hr />
+                
+                
+                
+            </section>
+            <!-- ========================= SECTION: Firebase Chat Configuration >> END ========================= -->
+
+
+
+                       
+            <!-- ========================= SECTION: Configuration >> START ========================= -->
+            <section id="beconfig">
+                <div class="page-header">
+                    <h1>Backend Configuration <small> {How to change configuration?}</small></h1>
+                </div>
+            
+               
+            
+                <div class="row">
+                    <div class="span3">
+                        <h3>Configuration</h3>
+                        <p>
+                        You have to change some configuration at CodeIgniter.
+                        </p>
+                    </div>
+                    <div class="span9">
+                        <table class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>File Name</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><code>config.php</code></td>
+                                    <td>
+                                    You have to change email config for for sending email like forgot password, the system will use the following email address.(Path : application/config/config.php) <br><br>
+                                    
+                                    $config['sender_email'] = your hosting email address;<br>
+                                    $config['sender_name'] = sender name; <br>
+                                    $config['fcm_api_key'] = "AIzaSyBJ_IiWAXsCoTHweS63lhIfxf1Ec0c9mnUEDC";<br>
+                                    
+                                    <br><br>
+                                    
+                                    
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><code>database.php</code></td>
+                                    <td>
+                                    You have to change database configuration according your environment.(Path : application/config/database.php) <br><br>
+                                    
+                                    $db['default']['hostname'] = database host name;<br>
+                                    $db['default']['username'] = database username;<br>
+                                    $db['default']['password'] = database password;<br>
+                                    $db['default']['database'] = database name;<br>
+                                    
+                                    </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr />
+                
+                
+                
+            </section>
+            <!-- ========================= SECTION: Configuration >> END ========================= -->
+            
+             <!-- ========================= SECTION: Import >> START ========================= -->
+            <section id="import">
+                <div class="page-header">
+                    <h1>Import Sample Database <small>{How to import sample database?}</small></h1>
+                </div>
+                
+                <div class="row">
+                    <div class="span3">
+                        <h3>Import Database</h3>
+                        <p>
+                        	You have to import sample data into your MySQL database. 
+                        </p>
+                    </div>
+    
+                    <div class="span9">
+                        <div class="accordion" id="accordion2">
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Create Database </a> </div>
+                                <div id="collapseOne" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                       Please go to your MySQL DB and create new database so called "admotors" 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 2. Select Script File </a> </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        Go to "Import Tab". Then please click "Browse" button to select sample data sql script. 
+                                        
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-group">
+                                <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 3. Import </a> </div>
+                                <div id="collapseTwo" class="accordion-body collapse">
+                                    <div class="accordion-inner">
+                                        <p>
+                                        You may need to select "sample_data.sql" from "Sample Data" fodler. Finally you click to "Go" button to import data into your database. 
+                                        
+                                        </p>
+                                        <img src="assets/img/importsql.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+    
+                </div>
+                <hr />
+
+            </section>
+            <!-- ========================= SECTION: Import >> END ========================= -->
+			 
+			 <!-- ========================= SECTION: Login >> START ========================= -->
+			 <section id="login">
+			     <div class="page-header">
+			         <h1>Login To Backend <small>{About Login Credential?}</small></h1>
+			     </div>
+			 
+			    
+			 
+			     <div class="row">
+			         <div class="span3">
+			             <h3>Login Credential</h3>
+			             <p>
+			             
+			             After you upload backend source folder(ps-admotors-admin) from "Backend(Source and Sample Data)" Please type : http://yourdomain.com/ps-admotors-admin/
+			             </p>
+			         </div>
+			         <div class="span9">
+			             <table class="table table-bordered table-striped">
+			                 <thead>
+			                     <tr>
+			                         <th>User Role</th>
+			                         <th>Description</th>
+			                     </tr>
+			                 </thead>
+			                 <tbody>
+			                     <tr>
+			                         <td><code>Admin User</code></td>
+			                         <td>
+			                         You can login with admin user into system.
+			                         
+			                         <br><br>
+			                         
+			                         username : admin@ps.com <br>
+			                         password : admin <br>
+			                         
+			                         </td>
+			                     </tr>
+			                     
+			                 </tbody>
+			             </table>
+			         </div>
+			     </div>
+			     
+			     <hr />
+			     
+			     
+			     
+			 </section>
+			 <!-- ========================= SECTION: Login >> END ========================= -->
+			 
+          
+       <!-- ========================= SECTION: CRUD >> START ========================= -->
+        <section id="modulecrud">
+            <div class="page-header">
+                <h1>Backend Data Management <small>{Module Overview and CRUD?}</small></h1>
+            </div>
+            After login successfully to Backend, you may see Dashboard Menu at left side. <br>
+            
+            <div class="row"> 
+            <div class="span6">
+                 <span class="glyphicon glyphicon-arrow-right"></span> Entry <br>
+                 - Categories <br>
+                 - Subcategories <br>
+                 - Items <br> 
+                 - Item Currency <br> 
+                 - Item Price <br> 
+                 - Item Type <br> 
+                 - Item Location  <br> 
+                 - Blog <br> <br>
+
+
+                 <span class="glyphicon glyphicon-arrow-right"></span> Reports <br>
+                 - Most Popular Items <br>
+                 - Most Rating Users <br>
+                 - Contact Us Message <br> <br>
+                 - Item Reports <br> <br>
+
+                 <span class="glyphicon glyphicon-arrow-right"></span> Reports <br>
+                 - Transactions <br>
+                 - Most Popular Items <br> 
+                 - Most Popular Items <br> 
+                 - Most Rated Items <br> <br> 
+
+                
+            </div>
+
+            <div class="span6">
+
+                <span class="glyphicon glyphicon-arrow-right"></span> Users Management <br>
+                 - Registered Users <br> <br> 
+
+                 <span class="glyphicon glyphicon-arrow-right"></span> Miscellaneous <br>
+                 - Export Database <br>
+                 - Push Notification <br> <br>
+
+                  <span class="glyphicon glyphicon-arrow-right"></span> Setting <br>
+                 - App Setting <br>
+                 - About & Setting <br>
+                 - API Keys <br>
+                 - Version <br>
+
+            </div>
+        </div>
+             <br><br>
+             
+             
+             <div class="row">
+                 <div class="span3">
+                     <b>Example</b><br>
+                     <p>
+                        I would like to show you one of example for Item CRUD.
+                     </p>
+                 </div>
+ 
+                 <div class="span9">
+                     <div class="accordion" id="accordion2">
+                         <div class="accordion-group">
+                             <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Listview </a> </div>
+                             <div id="collapseOne" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                     <p>
+                                     When you click "Categories" from menu, you will see Category Listview. You can easily search and filter from on that page. Moreover, you can do publish/unpublish, edit and delete item also.
+                                     </p>
+                                     <img src="assets/img/cats_list.png">
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="accordion-group">
+                             <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo"> 2. Add New </a> </div>
+                             <div id="collapseTwo" class="accordion-body collapse">
+                                 <div class="accordion-inner">
+                                     <p>
+                                     If you want to add new item, please click "+ Add New Item" button. Then the page will redirect to entry form. 
+                                     
+                                     </p>
+                                      <img src="assets/img/cat_entry.png">
+                                 </div>
+                             </div>
+                         </div>
+                         
+                        
+                         
+                     </div>
+                 </div>
+ 
+             </div>
+                           
+            <hr>                
+        </section>
+        <!-- ========================= SECTION: CRUD >> START ========================= --> 
+           
+
+
+          <!-- ========================= SECTION: Start : API KEY >> START ========================= -->
+          <section id="api_key">
+              <div class="page-header">
+                  <h1>API Key <small>{How to update your own API KEY?}</small></h1>
+              </div>
+        
+               <br>
+               <div class="row">
+                   <div class="span3">
+                       <b>API Key</b><br>
+                       <p>
+                        It is security purpose in between your app and backend.
+                       </p>
+                   </div>
+   
+                   <div class="span9">
+                       <div class="accordion" id="accordion2">
+                           <div class="accordion-group">
+                               <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Go to Setting > API Keys </a> </div>
+                               <div id="collapseOne" class="accordion-body collapse">
+                                   <div class="accordion-inner">
+                                       
+                                       <img src="assets/img/api_key_backend.png">
+                                   </div>
+                               </div>
+
+                           </div>
+
+                           <div class="accordion-group">
+                               <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 2. Android Project Setting </a> </div>
+                               <div id="collapseOne" class="accordion-body collapse">
+                                   <div class="accordion-inner">
+                                       <p>
+                                       Please open Config.java then repalce according your generated key from backend.
+                                       </p>
+                                       <img src="assets/img/api_key_app.png">
+                                   </div>
+                               </div>
+                               
+                           </div>
+                           
+                       </div>
+                   </div>
+   
+               </div>
+               
+               
+              <hr>                
+          </section>
+          <!-- ========================= SECTION: End : API Key >> START ========================= -->   
+
+
+          <!-- ========================= SECTION: Send Noti >> START ========================= -->
+          <section id="about">
+              <div class="page-header">
+                  <h1>Sending Push Notification <small>{How to send a push message from Backend?}</small></h1>
+              </div>
+        
+               <br>
+               <div class="row">
+                   <div class="span3">
+                       <b>Analytics</b><br>
+                       <p>
+                        You can send the push notification messages from backend to all your registered devices.
+                       </p>
+                   </div>
+   
+                   <div class="span9">
+                       <div class="accordion" id="accordion2">
+                           <div class="accordion-group">
+                               <div class="accordion-heading"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne"> 1. Miscellaneous > Push Notification </a> </div>
+                               <div id="collapseOne" class="accordion-body collapse">
+                                   <div class="accordion-inner">
+                                       
+                                        You would see the notification list. If you want to send the new notification message, click "+ Push Message"
+
+                                       <img src="assets/img/sendnoti.png">
+                                       
+                                   </div>
+                               </div>
+                           </div>
+                           
+                           
+                       </div>
+                   </div>
+   
+               </div>
+               
+               
+              <hr>                
+          </section>
+          <!-- ========================= SECTION: Send Noti >> START ========================= -->   
+          
+
+        
+        <footer>
+                <a href="http://panacea-soft.com"><p>&copy; Panacea-Soft 2019</p></a>
+            </footer>
+            
+        </div>
+        <!-- ========================= MAIN CONTAINER >> END ========================= -->
+         
+       
+      
+
+        <!-- loading javascripts -->
+		<script src="assets/js/jquery.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        
+        <!-- init javascripts -->
+        <script src="assets/js/init.js"></script>
+         
+    </body>
+    
+</html>

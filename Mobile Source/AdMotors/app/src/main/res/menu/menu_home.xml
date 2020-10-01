@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home_menu"
+        android:icon="@drawable/baseline_home_orange_24"
+        android:title="@string/menu__home" />
+
+    <item
+        android:id="@+id/interest_menu"
+        android:icon="@drawable/ic_category"
+        android:title="@string/menu__interest" />
+
+    <item
+        android:id="@+id/me_menu"
+        android:title=""
+        android:visible="true"
+       />
+
+
+    <item
+        android:id="@+id/message_menu"
+        android:icon="@drawable/mail"
+        android:title="@string/menu__message" />
+
+    <item
+        android:id="@+id/search_menu"
+        android:icon="@drawable/baseline_search_grey_24"
+        android:title="@string/menu__search" />
+
+</menu>

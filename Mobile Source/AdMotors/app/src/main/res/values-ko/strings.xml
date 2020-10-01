@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="history__title">역사</string>
+    <string name="title__activity_user_history_list">UserHistoryListActivity</string>
+
+
+    <string name="favourite__title">즐겨 찾기</string>
+
+
+    <string name="gallery__title">갱도</string>
+    <string name="gallery_img__desc">이미지 설명</string>
+
+
+    <string name="image_default__image">기본 이미지</string>
+
+
+    <string name="app__ok">승인</string>
+    <string name="app__cancel">취소</string>
+    <string name="app__drawer_open">서랍 열기</string>
+    <string name="app__drawer_close">서랍 닫기</string>
+
+
+    <string name="register__user_name">사용자 이름</string>
+    <string name="register__email">이메일</string>
+    <string name="register__password">암호</string>
+    <string name="register__back_to_login">이미 회원이십니까? 로그인</string>
+    <string name="register__register">레지스터</string>
+    <string name="register__check_option">이 개인 정보 보호 및 정책에 동의하십니까?</string>
+
+
+    <string name="forgot_password__title">비밀번호를 잊으 셨나요</string>
+    <string name="forgot_password__email">이메일</string>
+    <string name="forgot_password__back_to_login">이미 회원이십니까? 로그인</string>
+    <string name="forgot_password__save">구하다</string>
+    <string name="forgot_password__send">보내다</string>
+
+
+    <string name="password_change__password">암호</string>
+    <string name="password_change__save">구하다</string>
+    <string name="password_change__confirm_password">비밀번호 확인</string>
+    <string name="password_change__password_change">비밀번호 변경</string>
+
+
+    <string name="login__email">이메일</string>
+    <string name="login__password">암호</string>
+    <string name="login__not_a_member_join_now">여기 새로운? 가입</string>
+    <string name="login__forgot_your_password">비밀번호를 잊으 셨나요 ?</string>
+    <string name="login__login">로그인</string>
+    <string name="login__choice_text">또는</string>
+    <string name="login__with_phone">전화로 로그인했습니다</string>
+    <string name="login__with_google">구글에 로그인했습니다</string>
+
+
+    <string name="contact_us__name">담당자 이름</string>
+    <string name="contact_us__email">이메일 연락처</string>
+    <string name="contact_us__message">연락 메시지</string>
+    <string name="contact_us__phone">연락 전화 번호</string>
+    <string name="contact_us__submit">제출</string>
+
+
+    <string name="notification_setting__on_off">알림 설정 (켜기 / 끄기)</string>
+    <string name="notification_setting__latest_message_from_system">시스템의 최신 메시지</string>
+    <string name="notification__notification">공고!</string>
+    <string name="notification__title">공고</string>
+    <string name="notification_setting__title">알림 설정</string>
+    <string name="notification_detail__title">알림 세부 사항</string>
+    <string name="notification__alert">경보</string>
+
+
+    <string name="language__language_change">%1$s (으)로 변경 하시겠습니까?</string>
+    <string name="language__title">언어</string>
+
+
+    <string name="rating__list">등급 목록</string>
+    <string name="rating__write_review">리뷰를 쓰다</string>
+    <string name="rating__total_count">%1$s고객리뷰</string>
+    <string name="rating__total_value">별5개중%1$s</string>
+    <string name="rating__percent">%1$s %%</string>
+    <string name="rating__title">표제</string>
+    <string name="rating__message">메시지</string>
+    <string name="rating__user_rating">사용자 평가 입력!</string>
+    <string name="rating__your_rating">당신의 순위</string>
+    <string name="rating__five_star">별 5 개</string>
+    <string name="rating__four_star">별 4 개</string>
+    <string name="rating__three_star">별 3 개</string>
+    <string name="rating__two_star">별 2 개</string>
+    <string name="rating__one_star">별 1 개</string>
+
+
+    <string name="dialog__title_m_mun">정렬</string>
+    <string name="popular__m_mun">인기 있는</string>
+    <string name="recent__m_mun">최근</string>
+    <string name="char_asc__m_mun">A-&gt; Z</string>
+    <string name="char_desc__m_mun">Z-&gt; A</string>
+
+
+    <string name="edit_setting__notification_setting">알림 설정</string>
+    <string name="edit_setting__logout">로그 아웃</string>
+    <string name="edit_setting__logout_question">로그 아웃 하시겠습니까?</string>
+    <string name="edit_setting__terms_and_conditions">이용 약관</string>
+    <string name="edit_setting__app_info">앱 정보</string>
+    <string name="edit_setting__title">환경</string>
+
+
+    <string name="message__loading">로드 중…</string>
+    <string name="message__please_wait">기다려주세요…</string>
+    <string name="message__welcome">PS 마켓 플레이스 양식 시작</string>
+    <string name="message__want_to_quit">정말로 끝내고 싶습니까?</string>
+    <string name="message__ok_close">승인</string>
+    <string name="message__cancel_close">취소</string>
+    <string name="message__seller">판매자로부터</string>
+    <string name="message__buyer">구매자로부터</string>
+
+
+    <string name="search__notSet">미 설정</string>
+    <string name="search__by_price">가격 범위</string>
+    <string name="search__lowest_price">최저한의</string>
+    <string name="search__highest_price">최고</string>
+
+
+    <string name="sf__manufacturer">제조업 자</string>
+    <string name="sf__model">모델</string>
+    <string name="sf__transmission">전달</string>
+    <string name="sf__color">색깔</string>
+    <string name="sf__fuelType">연료 종류</string>
+    <string name="sf__buildType">빌드 유형</string>
+    <string name="sf__sellerType">판매자 유형</string>
+    <string name="sf__notSet">미 설정</string>
+    <string name="sf__ByItemType">리스팅 제목</string>
+    <string name="sf__Filter_Button">필터</string>
+    <string name="sf__Search_Button">수색</string>
+    <string name="sf__price_type">가격 유형</string>
+    <string name="sf__item_condition">제품 상태</string>
+    <string name="sf__type">유형</string>
+
+
+    <string name="error_message__login_first">먼저 로그인을 해주세요!</string>
+    <string name="error_message__rating">평가를 위해 완전히 작성하십시오.</string>
+    <string name="error_message__blank_email">이메일을 입력하십시오.</string>
+    <string name="error_message__choose_manufacturer">제조업체 먼저 선택</string>
+    <string name="error_message__blank_contact_message">연락처 메시지를 입력하십시오.</string>
+    <string name="error_message__blank_password">비밀번호를 입력하십시오.</string>
+    <string name="error_message__blank_name">이름을 입력하십시오.</string>
+    <string name="error_message__blank_phone_no">입력에게 전화 번호를 바랍니다.</string>
+    <string name="error_message__password_not_equal">비밀번호가 동일하지 않습니다!</string>
+    <string name="error_message__image_cannot_upload">이미지를 업로드 할 수 없습니다</string>
+    <string name="error_message__item_cannot_upload">상품을 업로드 할 수 없습니다</string>
+    <string name="error_message__already_accept">상품이 이미 판매되었습니다</string>
+    <string name="error_message__to_check_agreement">당신은 개인 정보 보호 정책의 계약을 확인해야합니다.</string>
+
+
+    <string name="Feature_UI_Type__Button">제조업 자</string>
+    <string name="Feature_UI_Tune__Button">필터와 정렬</string>
+    <string name="Feature_UI_Sort__Button">맵으로 필터링</string>
+    <string name="Feature_UI__item_list_no_item_title">데이터 없음</string>
+    <string name="Feature_UI__item_list_no_item_desc">결과가 없습니다! 필터를 조정하십시오.</string>
+    <string name="Feature_UI__search_alert_manufacturer_title">제조업체를 선택</string>
+    <string name="Feature_UI__search_alert_model_title">모델 선택</string>
+    <string name="Feature_UI__search_alert_type_title">품목 유형을 선택하십시오</string>
+    <string name="Feature_UI__search_alert_price_type_title">품목 가격 유형을 선택하십시오</string>
+    <string name="Feature_UI__search_alert_condition_title">품목 조건을 선택하십시오</string>
+    <string name="Feature_UI__search_alert_location_title">품목 위치 옵션을 선택하십시오</string>
+    <string name="Feature_UI__search_alert_currency_title">품목 통화 옵션을 선택하십시오</string>
+    <string name="Feature_UI__search_alert_deal_option_title">품목 거래 옵션 선택</string>
+    <string name="Feature_UI__search_alert_transmission">전송을 선택합니다</string>
+    <string name="Feature_UI__search_alert_color">색상 선택</string>
+    <string name="Feature_UI__search_fuel_type">연료 형태를 선택</string>
+    <string name="Feature_UI__search_build_type">유형 빌드 선택</string>
+    <string name="Feature_UI__search_seller_type">판매자 유형을 선택</string>
+
+
+    <string name="about_us__phone">전화</string>
+    <string name="about_us__facebook">페이스 북</string>
+    <string name="about_us__gplus">구글 플러스</string>
+    <string name="about_us__instagram">인스 타 그램</string>
+    <string name="about_us__youtube">유튜브</string>
+    <string name="about_us__pinterest">Pinterest</string>
+    <string name="about_us__twitter">지저귀다</string>
+    <string name="about_us__visit_website">웹 사이트 방문</string>
+    <string name="about_us__title">앱 정보</string>
+
+
+    <string name="profile__title">윤곽</string>
+    <string name="profile__edit">편집하다</string>
+    <string name="profile__favourites">즐겨 찾기</string>
+    <string name="profile__setting">환경</string>
+    <string name="profile__joined_on">에 가입</string>
+    <string name="profile__see_all">모두보기</string>
+    <string name="profile__verified">확인 됨</string>]
+    <string name="profile__followers">팔로워</string>
+    <string name="profile__following">수행원</string>
+    <string name="profile__listing">리스팅</string>
+    <string name="profile__follow">따르다</string>
+    <string name="profile__unfollow">팔로우 해제</string>
+    <string name="profile__joined">가입-</string>
+    <string name="profile__deactivate">계정 비활성화</string>
+    <string name="profile__confirm_deactivate">이 계정을 비활성화 하시겠습니까?</string>
+
+
+    <string name="edit_profile__title">프로필 편집</string>
+    <string name="edit_profile__user_name">사용자 이름</string>
+    <string name="edit_profile__about_me">나에 대해서</string>
+    <string name="edit_profile__email">이메일</string>
+    <string name="edit_profile__password_change">비밀번호 변경</string>
+    <string name="edit_profile__save">구하다</string>
+    <string name="edit_profile__phone">전화</string>
+    <string name="edit_profile__address">주소</string>
+    <string name="edit_profile__city">시티</string>
+    <string name="verify_email">이메일 확인</string>
+    <string name="verify_phone_code">OTP 코드를 입력</string>
+
+
+    <string name="menu__home">집</string>
+    <string name="menu__profile">윤곽</string>
+    <string name="menu__favourite_items">인기 있는 말</string>
+    <string name="menu__user_history">사용자 이력</string>
+    <string name="menu__logout">로그 아웃</string>
+    <string name="menu__about_app">회사 소개</string>
+    <string name="menu__contact_us">연락하기</string>
+    <string name="menu__language">언어</string>
+    <string name="menu__setting">환경</string>
+    <string name="menu__interest">관심</string>
+    <string name="menu__app_setting">앱</string>
+    <string name="menu__user_info">사용자 정보</string>
+    <string name="menu__search">수색</string>
+    <string name="menu__filter">필터</string>
+    <string name="menu__latest_item">최신 아이템</string>
+    <string name="menu__discount">프로모션 아이템</string>
+    <string name="menu__category">범주</string>
+    <string name="menu__featured_item">최고의 물건</string>
+    <string name="menu__trending_item">인기 상품</string>
+    <string name="menu__home_category_view_All_un">모두보기</string>
+    <string name="menu__collections">컬렉션</string>
+    <string name="menu__map_filter_apply">대다</string>
+    <string name="menu__map_filter_reset">다시 놓기</string>
+    <string name="menu__rate">이 앱을 평가 해주십시오</string>
+    <string name="menu__message">메시지</string>
+    <string name="menu__report_item">보고서 항목</string>
+    <string name="menu__share">몫</string>
+    <string name="menu__privacy_policy">이용 약관</string>
+    <string name="menu__manufacturer">제조업 자</string>
+
+    <string name="item_detail__rating">평가가 없습니다.</string>
+    <string name="item_detail__view_count">조회수%1$s</string>
+    <string name="item_detail__fav_count">좋아하는%1$s</string>
+    <string name="item_detail__read_more">더 읽어보기</string>
+    <string name="item_detail__call">요구</string>
+    <string name="item_detail__statistic">통계량</string>
+    <string name="item_detail__meet_seller">판매자 만나기</string>
+    <string name="item_detail__chat">잡담</string>
+    <string name="item_detail__edit">편집하다</string>
+    <string name="item_detail__sold">판매</string>
+    <string name="item_detail__photo">사진</string>
+    <string name="item_detail__photos">사진</string>
+    <string name="item_detail__mark_sold">판매 된 것으로 표시</string>
+    <string name="item_detail__delete">지우다</string>
+    <string name="item_detail__confirm_delete">이 항목을 삭제 하시겠습니까?</string>
+    <string name="item_detail__confirm_sold_out">이 상품을 매각 하시겠습니까?</string>
+    <string name="item_detail__safety_tip">안전 수칙</string>
+    <string name="item_detail__item_location">상품 위치</string>
+    <string name="item_detail__view_on_map">지도에서보기</string>
+    <string name="item_detail__manufacturers">제조업 자</string>
+    <string name="item_detail__model">모델</string>
+    <string name="item_detail__color">색깔</string>
+    <string name="item_detail__fuel_type">연료 종류</string>
+    <string name="item_detail__steering_position">스티어링 위치</string>
+    <string name="item_detail__numbers_of_owners">소유자의 수</string>
+    <string name="item_detail__trim_name">트림 이름</string>
+    <string name="item_detail__vehicle_id">차량 ID</string>
+    <string name="item_detail__build_type">유형 구축</string>
+    <string name="item_detail__licence_status">라이센스 상태</string>
+    <string name="item_detail__max_passengers">최대 승객</string>
+    <string name="item_detail__no_of_doors">문 없음</string>
+    <string name="item_detail__seller_type">판매자의 유형</string>
+    <string name="item_detail__plate_number">플레이트 없음</string>
+    <string name="item_detail__engine_power">엔진 파워</string>
+    <string name="item_detail__transmission">전달</string>
+    <string name="item_detail__mileage">사용량</string>
+    <string name="item_detail__license_expiration">라이센스 만료</string>
+    <string name="item_detail__year">년</string>
+
+
+
+    <string name="item_entry_detail__description">기술</string>
+    <string name="item_entry_detail__price">가격</string>
+    <string name="item_entry_detail__title">오늘 당신은 무엇을 나열하고 있습니까?</string>
+    <string name="item_entry_detail__desc">밥 사진을 선택하여 물건을 전시하십시오.</string>
+    <string name="item_entry_detail__shop_setting">가게 설정</string>
+    <string name="item_entry_detail__is_shop">Shop입니까?</string>
+    <string name="item_entry_detail__is_shop_desc">(쇼 사용자가 둘 이상을 주문할 수있는 경우)</string>
+    <string name="item_entry_detail__highlight">하이라이트 정보</string>
+    <string name="item_entry_detail__latitude">위도</string>
+    <string name="item_entry_detail__longitude">경도</string>
+    <string name="item_entry_detail__location">위치</string>
+    <string name="item_entry_detail__address">주소</string>
+    <string name="item_entry_detail__submit">제출</string>
+    <string name="item_entry_toolbar">목록 항목</string>
+    <string name="item_entry_sold">판매</string>
+    <string name="item_entry_star">*</string>
+    <string name="item_entry_need_image">하나 이상의 이미지를 선택하십시오</string>
+    <string name="item_entry_need_manufacturer">제조업체 선택</string>
+    <string name="item_entry_need_modle">모델을 선택</string>
+    <string name="item_entry_need_type">유형을 선택하십시오</string>
+    <string name="item_entry_need_list_title">상품 제목 작성</string>
+    <string name="item_entry_need_item_condition">품목 조건을 선택하십시오</string>
+    <string name="item_entry_need_item_plate_number">당신의 품목 판 번호를 기입</string>
+    <string name="item_entry_need_item_engine_power">당신의 품목의 엔진 동력을 기입</string>
+    <string name="item_entry_need_item_year">당신의 품목의 올해 기입</string>
+    <string name="item_entry_need_item_transmission">전송을 선택합니다</string>
+    <string name="item_entry_need_description">상품 설명 작성</string>
+    <string name="item_entry_need_price">가격을 쓰십시오</string>
+    <string name="item_entry_need_currency_symbol">통화 기호를 선택하십시오</string>
+    <string name="item_entry_offer_not_zero">오퍼 가격은 0이 될 수 없습니다</string>
+    <string name="item_entry_accept_confirm">이 가격을 정말로 수락 하시겠습니까?</string>
+    <string name="item_entry_reject_confirm">이 가격을 정말로 거부 하시겠습니까?</string>
+    <string name="item_entry_user_not_exit">이 사용자는 종료하지 않습니다</string>
+    <string name="item_entry_pin_shop">핀 가게 위치</string>
+    <string name="item_entry_camera">카메라</string>
+    <string name="item_entry_gallery">갤러리</string>
+    <string name="item_entry__manufacturer">제조업 자</string>
+    <string name="item_entry__model">모델</string>
+    <string name="item_entry__color">색깔</string>
+    <string name="item_entry__fuel_type">연료 종류</string>
+    <string name="item_entry__build_type">유형 구축</string>
+    <string name="item_entry__seller_type">판매자의 유형</string>
+    <string name="item_entry__transmission">전달</string>
+    <string name="item_entry__plate_number">플레이트 번호</string>
+    <string name="item_entry__engine_power">엔진 파워</string>
+    <string name="item_entry__steering_position">스티어링 위치</string>
+    <string name="item_entry__no_of_owner">소유자의 수</string>
+    <string name="item_entry__trim_name">트림 이름</string>
+    <string name="item_entry__vehicle_id">차량 ID</string>
+    <string name="item_entry__price_unit">가격 단위</string>
+    <string name="item_entry__year">년</string>
+    <string name="item_entry__licence_status">라이센스 상태</string>
+    <string name="item_entry__max_passengers">최대 승객</string>
+    <string name="item_entry__no_of_door">문의 수</string>
+    <string name="item_entry__mileage">사용량</string>
+    <string name="item_entry__license_expiration_date">라이센스 만료 날짜</string>
+    <string name="item_entry__is_licence">라이센스인가?</string>
+
+    <string name="item_from_follower_toolbar">팔로어의 아이템 목록</string>
+
+
+    <string name="item_condition__type">(%1$s)</string>
+
+
+    <string name="map_filter__map_title">지도 필터</string>
+    <string name="map_filter__browsing">둘러보기</string>
+    <string name="map_filter__all">모든</string>
+
+    <string name="map__pick_location">위치 선택</string>
+
+    <string name="no_internet_error">인터넷에 연결되지 않음.</string>
+
+
+    <string name="message_sent">귀하의 메시지가 전송되었습니다.</string>
+
+
+    <string name="update_noti">기다려주세요! 여전히 알림 설정을 업데이트 중입니다.</string>
+
+    <string name="success">성공</string>
+    <string name="confirm">확인</string>
+    <string name="info">정보</string>
+    <string name="error">오류</string>
+    <string name="warning">경고</string>
+    <string name="version_update">버전 업데이트</string>
+    <string name="update">최신 정보</string>
+
+
+    <string name="category__list_title">당신의 관심사는 무엇입니까?</string>
+
+
+    <string name="blog_list__title">블로그 목록</string>
+
+
+    <string name="blog_detail__error_message">이 ID의 블로그가 존재하지 않습니다</string>
+    <string name="blog_detail__title">블로그 세부 사항</string>
+
+
+    <string name="city_menu__title">도시 메뉴</string>
+
+
+    <string name="city__sure_to_exit">이 도시에서 나가시겠습니까?</string>
+
+
+    <string name="item_list_title">아이템리스트</string>
+
+
+    <string name="force_update__button_update"> 최신 정보</string>
+
+
+    <string name="dashboard_keyword">예어</string>
+    <string name="dashboard_blog">블로그</string>
+    <string name="dashboard_title1">AdMotors</string>
+    <string name="dashboard_title2">지역 사회와 연결</string>
+    <string name="dashboard_category_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_recent_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_popular_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+    <string name="dashboard_follow_item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</string>
+
+
+    <string name="selected_city_manufactures">제조업 자</string>
+    <string name="selected_city_recent">최근 업로드 된 자동차</string>
+    <string name="selected_city_popular_item">인기있는 자동차</string>
+    <string name="selected_city_item_follower">당신의 추종자에서 자동차</string>
+    <string name="selected_city_add"> 무료 광고 제출</string>
+
+
+    <string name="location_title">당신의 위치</string>
+    <string name="location_change_later">나중에 변경할 수 있습니다!</string>
+    <string name="location_select">도시를 선택하십시오.</string>
+
+    <string name="setting__clear_cache_confirm">이미지 캐시를 지우시겠습니까?</string>
+    <string name="setting__clear_image_cache">클리어 이미지 캐시</string>
+    <string name="setting__image_cache_size">이미지 캐시 크기</string>
+    <string name="setting__camera">카메라</string>
+    <string name="setting__default_camera">기본 카메라</string>
+    <string name="setting__custom_camera">사용자 정의 카메라</string>
+    <string name="setting__change_gdpr">GDPR 설정 변경</string>
+    <string name="setting__version_no">버전 번호 :</string>
+
+    <string name="chat__mark_as_sold">판매 된 것으로 표시</string>
+    <string name="chat__accept">수락</string>
+    <string name="chat__reject">받지 않다</string>
+    <string name="chat__make_offer_title">이 품목을 제안하십시오</string>
+    <string name="chat__offer">\ n 제공</string>
+    <string name="chat__make_offer_sender">제안을</string>
+    <string name="chat__make_offer_receiver">받은 쿠폰</string>
+    <string name="chat__accept_text">제안 수락</string>
+    <string name="chat__reject_text">제안이 거부 됨</string>
+    <string name="chat__sold">판매</string>
+    <string name="chat__give_review">검토 제공</string>
+    <string name="chat__item_is_sold">판매 된 품목</string>
+    <string name="chat__item_space_error">가격은 비워 둘 수 없습니다</string>
+
+
+    <string name="verify_email__informateion">에 인증 코드가 포함 된 이메일을 받았습니다.</string>
+    <string name="verify_email__enter_code">인증 코드를 입력하십시오</string>
+    <string name="verify_email__change_email">이메일을 바꾸다</string>
+    <string name="verify_email__resent_code">재전송 코드</string>
+    <string name="verify_email__submit">제출</string>
+    <string name="verify_email__title">이메일 확인</string>
+
+
+    <string name="verify_phone__informateion">당신은 단지에 OTP 코드를 포함하는 전화 메시지를받은</string>
+    <string name="verify_phone__back_login">BACK 로그인?</string>
+    <string name="verify_phone__title">전화 확인</string>
+
+
+    <string name="user_follower_list_toolbar_name">추종자 사용자 목록</string>
+    <string name="user_following_list_toolbar_name">다음 사용자 목록</string>
+
+
+    <!-- Generated by Automatic String Resource Translation
+    --><!--          https://asrt.gluege.boerde.de
+-->
+</resources>
